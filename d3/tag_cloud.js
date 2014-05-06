@@ -1,4 +1,4 @@
-d3.json("/tags_all.json", function(tags) {
+d3.json("/d3/tags_all.json", function(tags) {
 var fill = d3.scale.category20();
 var fontSize = fontSize = function(size) {
   if (size > 400) {
