@@ -348,7 +348,7 @@ function getTheData(control) {
         // console.log(data)
         massage.resolve ( dataMassage (control,data));
     }
-    d3.json('/tag_clustering/tag.json', doneCallBack);
+    d3.json('tag.json', doneCallBack);
 
     return massage.promise();
 }
