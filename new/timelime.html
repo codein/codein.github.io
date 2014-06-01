@@ -129,7 +129,7 @@ var data = carrerData()
 
 var margin = {top: 20, right: 50, bottom: 15, left: 80}
   , width = window.innerWidth - margin.left - margin.right
-  , height = 1000 - margin.top - margin.bottom
+  , height = 700 - margin.top - margin.bottom
   , miniHeight = lanes.length * 24 + 50
   , mainHeight = height - miniHeight - 50;
 
@@ -410,9 +410,9 @@ function display () {
     images.enter().append("image")
         .attr("xlink:href", function(d) {return 'img/' + d.image;})
         .attr('x', function(d) { return x1(Math.max(d.start, minExtent)) + 2; })
-        .attr('y', function(d) { return y1(d.lane) + .4 * y1(1) - 20; })
+        .attr('y', function(d) { return y1(d.lane) + .4 * y1(1) - 10 })
         .attr("width","150px")
-        .attr("height","52px")
+        .attr("height","27px")
 
     labels.exit().remove();
     images.exit().remove();
