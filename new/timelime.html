@@ -39,6 +39,7 @@ THE SOFTWARE.
 
 .main text {
     font: 12px sans-serif;
+
 }
 
 .month text {
@@ -55,7 +56,7 @@ THE SOFTWARE.
 }
 
 .miniItem {
-    stroke-width: 6;
+    stroke-width: 15;
 }
 
 .future {
@@ -66,6 +67,47 @@ THE SOFTWARE.
 .past {
     stroke: green;
     fill: lightgreen;
+}
+
+.ux {
+    fill: #8dd3c7;
+    stroke: #8dd3c7;
+    /*stroke: #2c8e7c;*/
+}
+.server-side {
+    fill: #ffffb3;
+    stroke: #ffffb3;
+    /*stroke: #A6963a;*/
+}
+.database {
+    fill: #fb8072;
+    stroke: #fb8072;
+    /*stroke: #a33625;*/
+}
+.library {
+    stroke: #b3de69;
+    fill: #b3de69;
+}
+.language {
+    stroke: #b3de69;
+    fill: #b3de69;
+}
+.tool {
+    fill: #bc80bd;
+    stroke: #bc80bd;
+    /*stroke: #7b2a7b;*/
+}
+.position {
+    stroke: #d9d9d9;
+    fill: #d9d9d9;
+}
+
+.purple {
+}
+
+.black {
+    stroke: #1a1a1a;
+    fill: #bababa;
 }
 
 .brush .extent {
@@ -82,12 +124,13 @@ THE SOFTWARE.
 var data = carrerData()
   , lanes = data.lanes
   , items = data.items
-  , now = new Date();
+  , now = new Date()
+  , yearAgo = new Date(2011, 9, 5);
 
-var margin = {top: 20, right: 15, bottom: 15, left: 60}
-  , width = 960 - margin.left - margin.right
-  , height = 500 - margin.top - margin.bottom
-  , miniHeight = lanes.length * 12 + 50
+var margin = {top: 20, right: 50, bottom: 15, left: 80}
+  , width = window.innerWidth - margin.left - margin.right
+  , height = 1000 - margin.top - margin.bottom
+  , miniHeight = lanes.length * 24 + 50
   , mainHeight = height - miniHeight - 50;
 
 var x = d3.time.scale()
@@ -168,8 +211,8 @@ mini.append('g').selectAll('.laneText')
 var xDateAxis = d3.svg.axis()
     .scale(x)
     .orient('bottom')
-    .ticks(d3.time.months, (x.domain()[1] - x.domain()[0]) > 15552e6 ? 2 : 1)
-    .tickFormat(d3.time.format('%m'))
+    .ticks(d3.time.months, (x.domain()[1] - x.domain()[0]) > 15552e6 ? 4 : 1)
+    .tickFormat(d3.time.format('%b'))
     .tickSize(6, 0, 0);
 
 var x1DateAxis = d3.svg.axis()
@@ -257,25 +300,25 @@ mini.append('rect')
 mini.append("g").selectAll(".miniLabels")
     .data(items)
     .enter().append("text")
-    .text(function(d) {return d.id;})
-    .attr("x", function(d) {return x(d.start);})
-    .attr("y", function(d) {return y2(d.lane + .5);})
+    .text(function(d) {return d.label;})
+    .attr("x", function(d) {return x(d.start) + 17;})
+    .attr("y", function(d) {return y2(d.lane + .5) + 1;})
     .attr("dy", ".5ex");
 
-//mini labels
+//mini icon
 mini.append("g").selectAll(".miniLabels")
     .data(items)
     .enter().append("image")
-    .attr("xlink:href","https://github.com/favicon.ico")
-    .attr("x", function(d) {return x(d.start);})
-    .attr("y", function(d) {return y2(d.lane + .5);})
-    .attr("width","16px")
-    .attr("height","12px");
+    .attr("xlink:href", function(d) {return 'img/' + d.icon;})
+    .attr("x", function(d) {return x(d.start) - 1;})
+    .attr("y", function(d) {return y2(d.lane + .5) - 8;})
+    .attr("width","17px")
+    .attr("height","17px");
 
 // draw the selection area
 var brush = d3.svg.brush()
     .x(x)
-    .extent([d3.time.monday(now),d3.time.saturday.ceil(now)])
+    .extent([d3.time.monday(yearAgo),d3.time.saturday.ceil(now)])
     .on("brush", display);
 
 mini.append('g')
@@ -299,9 +342,13 @@ function display () {
 
     x1.domain([minExtent, maxExtent]);
 
-
-
-    if ((maxExtent - minExtent) > 1468800000) {
+    if ((maxExtent - minExtent) > 42418800000) {
+        x1DateAxis
+            .ticks(d3.time.months, (x.domain()[1] - x.domain()[0]) > 15552e6 ? 4 : 1)
+            .tickFormat(d3.time.format('%b - %Y'))
+        x1MonthAxis.ticks(d3.time.years, 1).tickFormat(d3.time.format('%Y'))
+    }
+    else if ((maxExtent - minExtent) > 1468800000) {
         x1DateAxis.ticks(d3.time.months, 1).tickFormat(d3.time.format('%b - %Y'))
         x1MonthAxis.ticks(d3.time.months, 1).tickFormat(d3.time.format('%b - %Y'))
     }
@@ -319,7 +366,7 @@ function display () {
 
     // shift the today line
     main.select('.main.todayLine')
-        .attr('x1', x1(now) + 0.5)
+        .attr('x1', x1(now) - 0.5)
         .attr('x2', x1(now) + 0.5);
 
     // update the axis
@@ -340,23 +387,35 @@ function display () {
         .attr('y', function(d) { return y1(d.lane) + .1 * y1(1) + 0.5; })
         .attr('width', function(d) { return x1(d.end) - x1(d.start); })
         .attr('height', function(d) { return .8 * y1(1); })
-        .attr('class', function(d) { return 'mainItem ' + d.class; });
+        .attr('class', function(d) { return 'mainItem ' + getClass(lanes, d.lane); });
 
     rects.exit().remove();
 
     // update the item labels
     labels = itemRects.selectAll('text')
         .data(visItems, function (d) { return d.id; })
+        .attr('x', function(d) { return x1(Math.max(d.start, minExtent)) + 152; });
+
+    images = itemRects.selectAll('image')
+        .data(visItems, function (d) { return d.id; })
         .attr('x', function(d) { return x1(Math.max(d.start, minExtent)) + 2; });
 
     labels.enter().append('text')
-        .text(function (d) { return 'Item\n\n\n\n Id: ' + d.id + ' '+d.desc; })
-        .attr('x', function(d) { return x1(Math.max(d.start, minExtent)) + 2; })
+        .text(function (d) { return d.desc; })
+        .attr('x', function(d) { return x1(Math.max(d.start, minExtent)) + 152; })
         .attr('y', function(d) { return y1(d.lane) + .4 * y1(1) + 0.5; })
         .attr('text-anchor', 'start')
         .attr('class', 'itemLabel');
 
+    images.enter().append("image")
+        .attr("xlink:href", function(d) {return 'img/' + d.image;})
+        .attr('x', function(d) { return x1(Math.max(d.start, minExtent)) + 2; })
+        .attr('y', function(d) { return y1(d.lane) + .4 * y1(1) - 20; })
+        .attr("width","150px")
+        .attr("height","52px")
+
     labels.exit().remove();
+    images.exit().remove();
 }
 
 function moveBrush () {
@@ -377,8 +436,9 @@ function getPaths(items) {
     var paths = {}, d, offset = .5 * y2(1) + 0.5, result = [];
     for (var i = 0; i < items.length; i++) {
         d = items[i];
-        if (!paths[d.class]) paths[d.class] = '';
-        paths[d.class] += ['M',x(d.start),(y2(d.lane) + offset),'H',x(d.end)].join(' ');
+        className = getClass(lanes, d.lane);
+        if (!paths[className]) paths[className] = '';
+        paths[className] += ['M',x(d.start),(y2(d.lane) + offset),'H',x(d.end)].join(' ');
     }
 
     for (var className in paths) {
@@ -387,6 +447,10 @@ function getPaths(items) {
 
     return result;
 }
+
+function getClass(lanes, id) {
+  return lanes[id]["class"];
+};
 
 </script>
 </body>
