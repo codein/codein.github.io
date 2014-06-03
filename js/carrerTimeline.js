@@ -271,22 +271,22 @@ function display () {
     // update the item labels
     labels = itemRects.selectAll('text')
         .data(visItems, function (d) { return d.id; })
-        .attr('x', function(d) { return x1(Math.max(d.start, minExtent)) + 152; });
+        .attr('x', function(d) { return x1(d.start) + 152; })
 
     images = itemRects.selectAll('image')
         .data(visItems, function (d) { return d.id; })
-        .attr('x', function(d) { return x1(Math.max(d.start, minExtent)) + 2; });
+        .attr('x', function(d) { return x1(d.start); })
 
     labels.enter().append('text')
         .text(function (d) { return d.desc; })
-        .attr('x', function(d) { return x1(Math.max(d.start, minExtent)) + 152; })
+        .attr('x', function(d) { return x1(d.start) + 152; })
         .attr('y', function(d) { return y1(d.lane) + .4 * y1(1) + 0.5; })
         .attr('text-anchor', 'start')
         .attr('class', 'itemLabel');
 
     images.enter().append("image")
         .attr("xlink:href", function(d) {return 'img/' + d.image;})
-        .attr('x', function(d) { return x1(Math.max(d.start, minExtent)) + 2; })
+        .attr('x', function(d) { return x1(d.start); })
         .attr('y', function(d) { return y1(d.lane) + .4 * y1(1) - 10 })
         .attr("width","150px")
         .attr("height","27px")
