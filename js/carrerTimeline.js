@@ -4,8 +4,17 @@ var data = carrerData()
   , now = new Date()
   , yearAgo = new Date(2011, 9, 5);
 
+
+var innerWidth;
+
+if (window.innerWidth > 900) {
+  innerWidth = window.innerWidth;
+} else {
+  innerWidth = 900;
+}
+
 var margin = {top: 20, right: 50, bottom: 15, left: 90}
-  , width = window.innerWidth - margin.left - margin.right - 100
+  , width = innerWidth - margin.left - margin.right - 100
   , height = 700 - margin.top - margin.bottom
   , miniHeight = lanes.length * 24 + 50
   , mainHeight = height - miniHeight - 50;
