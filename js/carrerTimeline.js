@@ -282,7 +282,11 @@ function display () {
         .data(visItems, function (d) { return d.id; })
         .attr('x', function(d) { return x1(d.start) + 152; })
 
-    images = itemRects.selectAll('image')
+    status = itemRects.selectAll('image.status')
+        .data(visItems, function (d) { return d.id; })
+        .attr('x', function(d) { return x1(d.start) + 150; })
+
+    images = itemRects.selectAll('image.tech-img')
         .data(visItems, function (d) { return d.id; })
         .attr('x', function(d) { return x1(d.start); })
 
@@ -299,6 +303,16 @@ function display () {
         .attr('y', function(d) { return y1(d.lane) + .4 * y1(1) - 10 })
         .attr("width","150px")
         .attr("height","27px")
+        .attr('class', 'tech-img');
+
+    images.enter().append("image")
+        .attr("xlink:href", function(d) {return getStatus(d);})
+        .attr('x', function(d) { return x1(d.start) + 150; })
+        .attr('y', function(d) { return y1(d.lane) + .4 * y1(1) - 10 })
+        .attr("width","27px")
+        .attr("height","27px")
+        .attr('class', 'status');
+
 
     labels.exit().remove();
     images.exit().remove();
@@ -336,4 +350,10 @@ function getPaths(items) {
 
 function getClass(lanes, id) {
   return lanes[id]["class"];
+};
+
+function getStatus(item) {
+  var status, _ref;
+  status = (_ref = item.status) != null ? _ref : 'blank.svg';
+  return "img/" + status;
 };
