@@ -7,10 +7,10 @@ var data = carrerData()
 
 var innerWidth;
 
-if (window.innerWidth > 900) {
+if (window.innerWidth > 1024) {
   innerWidth = window.innerWidth;
 } else {
-  innerWidth = 900;
+  innerWidth = 1024;
 }
 
 var margin = {top: 20, right: 50, bottom: 15, left: 90}
