@@ -15,7 +15,7 @@ Specialties: , CoffeeScript, , Web App/ Services Development, Cloud Computing, B
 Interests | Languages | Tools | Databases |
 :------------: |:------------:| :------------:| :------------:
 **Data Science**, Analytics, Machine learning | **Python**, **SQL** |**git**, **scikit-learn** | **MS SQL**, **mySQL** |
-||**pandas**, d3||
+ | |**pandas**, d3||
 **Software**, Distributed System, Cloud Computing|**Coffeescript**|**Angular**, bootstrap| **MongoDB**, postgreSQL |
 **Health-care**, not for profit|Javascript|**Tableau**, Google Data Studio|redis, RabbitMQ|
 
