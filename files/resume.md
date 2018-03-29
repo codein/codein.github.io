@@ -14,67 +14,66 @@ Specialties: , CoffeeScript, , Web App/ Services Development, Cloud Computing, B
 
 Interests | Languages | Tools | Databases |
 :------------: |:------------:| :------------:| :------------:
-**Data Science**, Analytics, Machine learning | **Python**, **SQL** |**git**, **scikit-learn**,  **pandas**, d3 | **MS SQL**, **mySQL** |
+**Data Science**, Analytics, Machine learning | **Python**, **SQL** |**git**, **scikit-learn** | **MS SQL**, **mySQL** |
+||**pandas**, d3||
 **Software**, Distributed System, Cloud Computing|**Coffeescript**|**Angular**, bootstrap| **MongoDB**, postgreSQL |
-**Health-care**, not for profit|Javascript|Tableau, Google Data Studio|redis, RabbitMQ|
+**Health-care**, not for profit|Javascript|**Tableau**, Google Data Studio|redis, RabbitMQ|
 
 # Experience
 
 ###  Arnot Health
 
-Sr. Integration and Database Analyst
-Dates Employed Apr 2015 – Present · Employment Duration 3 yrs
-Location Elmira, New York Area
+#### Sr. Integration and Database Analyst
+Dates Employed Apr 2015 – Present · 3 yrs · Elmira, New York
 
-Surface information from our systems to advance our health care system, develop and support data-driven decision making at all levels of Arnot Health system.
-Lead the Business Analytics team through multiple projects and providing full engagement of team management.
-Provide coaching and direction to analytics team in regard to best practices/approaches for software development, statistics and machine learning techniques.
-Identifies improvement opportunities in reporting and analytical tools and collaborate with executives to implement the enhancements.
-Communicates findings from exploratory and predictive data analysis broadly to Arnot health leadership.
++ Surface information from our systems to advance our health care system, develop and support data-driven decision making at all levels of Arnot Health system.
++ Lead the Business Analytics team through multiple projects and providing full engagement of team management.
++ Provide coaching and direction to analytics team in regard to best practices/approaches for software development, statistics and machine learning techniques.
++ Identifies improvement opportunities in reporting and analytical tools and collaborate with executives to implement the enhancements.
++ Communicates findings from exploratory and predictive data analysis broadly to Arnot health leadership.
 
 #### 2017
 (python, coffeescript, angular, d3.js, django, redis)
-Currently leading development of our next generation analytics platform capable of assimilating and visualize disparate data.
-Performing market research and present quantitative analyses of healthcare claims and external databases for historical analysis and trend forecasting.
++ Currently leading development of our next generation analytics platform capable of assimilating and visualize disparate data.
++ Performing market research and present quantitative analyses of healthcare claims and external databases for historical analysis and trend forecasting.
 
 #### 2016
 (SQL, Tableau, python, scikit-learn, django)
-Developed readmission prediction models using scikit-learn to assist health care providers in advancing our Population Health Initiatives.
-Developed near real-time actionable notifications for our care-coordination team.
-Created several tableau dashboards to surface key information for decision makers at all levels of the organization.
++ Developed readmission prediction models using scikit-learn to assist health care providers in advancing our Population Health Initiatives.
++ Developed near real-time actionable notifications for our care-coordination team.
++ Created several tableau dashboards to surface key information for decision makers at all levels of the organization.
 
 #### 2015
 Business Analytics (SQL, Tableau, SSIS)
-Lead the business analytics team in developing an in-house EDW.
-Mentor the team to incorporate best practices for software development (version control, testing, automation etc.)
-Architect the data pipelines and underlying process to integrated data from all major business units into EDW.
++ Lead the business analytics team in developing an in-house EDW.
++ Mentor the team to incorporate best practices for software development (version control, testing, automation etc.)
++ Architect the data pipelines and underlying process to integrated data from all major business units into EDW.
 
-#### Media
+#### Media Mentions
 
-##### [Arnot Ogden Medical Center is Reducing Readmissions]
-
+##### Arnot Ogden Medical Center is Reducing Readmissions
 When a patient with four or more admissions is in the ER, a real-time alert activates and the Action Team of emergency department and outpatient case managers, community-based organizations, and physicians is mobilized...[see more](https://www.hanys.org/tripleaim/case-studies/?a=vs&s=Arnot_Ogden_Medical_Center_is_Reducing_Readmissions)
 
 
-##### [Arnot Health Uses Predictive Analytics to Advance Care Coordination]
-
-Care coordination is essential to improving patient satisfaction and healthcare outcomes. It’s at the core of a strategic initiative that Arnot Health implemented to reduce readmissions and frequent emergency department visits at its three hospitals and 52 outpatient clinics across 55 miles...[see more]((https://www.hanys.org/tripleaim/case-studies/?a=vs&s=Arnot_Health_Uses_Predictive_Analytics_to_Advance_Care_Coordination)
+##### Arnot Health Uses Predictive Analytics to Advance Care Coordination
+Care coordination is essential to improving patient satisfaction and healthcare outcomes. It’s at the core of a strategic initiative that Arnot Health implemented to reduce readmissions and frequent emergency department visits at its three hospitals and 52 outpatient clinics across 55 miles...[see more](https://www.hanys.org/tripleaim/case-studies/?a=vs&s=Arnot_Health_Uses_Predictive_Analytics_to_Advance_Care_Coordination)
 
 ---
 
 ### THIRSTIE
 
-Software Consultant
-Dates Employed May 2013 – Present Employment Duration 4 yrs 11 mos
+Software Consultant · May 2013 – Present ·  4 yrs 11 mos
 
 Thirstie is technology company and e-commerce platform for the retail alcohol industry. By partnering with hundreds of licensed retail partners, we deliver products directly to consumers in 10 markets in less than an hour and ship premium alcohol products to consumers in most locations in the US and Canada in less than 3 days. Our enterprise solution, Thirstie Inside, will enable liquor brands to facilitate sales of their products through independent licensed retailers with unmatched efficiency for new consumer experience, providing visibility and transparency into data, consumer insights, analytics, and ROI. Thirstie has been recognized by WSJ, NYT, CNBC, FoxNews, and TechCrunch as the leading alcohol delivery platform in the US and Canada.
 
 ---
 
 ### Navisite - A Time Warner Cable Company
+
 Software Developer
+
 Dates Employed Aug 2011 – Apr 2015 Employment Duration 3 yrs 9 mos
-Location Syracuse, New York Area
+Syracuse, New York Area
 
 #### 2014
 NaviCloud Director (coffeescript, python, nodeJS, Selenium, RabbitMQ, Mongo DB, vmware vCloud Director etc.)
