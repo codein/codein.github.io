@@ -23,9 +23,9 @@ Interests | Languages | Tools | Databases |
 
 ###  Arnot Health
 
-#### Sr. Integration and Database Analyst _Apr 2015 – Present · 3+ years_
+#### Sr. Integration and Database Analyst
 
-Elmira, New York
+Elmira, New York · _Apr 2015 – Present · 3+ years_
 
 + Surface information from our systems to advance our health care system, develop and support data-driven decision making at all levels of Arnot Health system.
 + Lead the Business Analytics team through multiple projects and providing full engagement of team management.
@@ -63,7 +63,9 @@ Care coordination is essential to improving patient satisfaction and healthcare 
 
 ### THIRSTIE
 
-#### Software Consultant _May 2013 – Present · 4+ years_
+#### Software Consultant
+
+New York, New York · _May 2013 – Present · 4+ years_
 
 + R&D for inventory management, business intelligence and software development in general
 
@@ -72,11 +74,10 @@ Thirstie is technology company and e-commerce platform for the retail alcohol in
 ---
 
 ### [Navisite - A Time Warner Cable Company](http://www.navisite.com/)
-Syracuse, New York Area
 
+#### Software Developer
 
-
-#### Software Developer _Aug 2011 – Apr 2015 3 yrs 9 mos_
+Syracuse, New York Area · _Aug 2011 – Apr 2015 · 3+ yrs_
 
 #### 2014
 + NaviCloud Director (coffeescript, python, nodeJS, Selenium, RabbitMQ, Mongo DB, vmware vCloud Director etc.)
@@ -108,10 +109,10 @@ The NaviCloud® platform sets the standard for enterprise-class infrastructure a
 
 ---
 
-### State University of New York _May 2010 – Aug 2011 1+ year_
+### State University of New York
 Research Assistant at United Health Services(UHS)
 
-Binghamton NY
+Binghamton NY · _May 2010 – Aug 2011 · 1+ year_
 
 #### 2011
 
