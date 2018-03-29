@@ -28,6 +28,8 @@ Machine learning, Cloud Computing| **SQL** |**pandas**, d3|**mySQL**|
 
 Elmira, New York · _Apr 2015 – Present · 3+ years_
 
+#### 2018
+
 + Surface information from our systems to advance our health care system, develop and support data-driven decision making at all levels of Arnot Health system.
 + Lead the Business Analytics team through multiple projects and providing full engagement of team management.
 + Provide coaching and direction to analytics team in regard to best practices/approaches for software development, statistics and machine learning techniques.
