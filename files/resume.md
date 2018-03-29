@@ -8,13 +8,13 @@ Specialties: , CoffeeScript, , Web App/ Services Development, Cloud Computing, B
 # Reach Me
 
 [Github](https://github.com/codein) | [LinkedIn](https://www.linkedin.com/in/codein/) | [Email](http://www.google.com/recaptcha/mailhide/d?k=01dg8WySXuCZciuBEHAlAVjw==&amp;c=67S8dcAbfSzh43jc1XFNZ54hq7rN3i4KDsTi2a85Ey0=)
-
-# Interests
+:------------: |:------------:| :------------:|
+---
 
 Interests | Languages | Tools | Databases |
 :------------: |:------------:| :------------:| :------------:
-**Data Science**, Analytics, Machine learning | **Python**, **SQL** | **git**, , **pandas**, AWS | mostly **All SQL** |
-**Software** Distributed System, Cloud Computing|**Coffeescript** |**Angular**, bootstrap| **MongoDB**, postgreSQL
+**Data Science**, Analytics, Machine learning | **Python**, **SQL** | **git**,  **pandas**, AWS | mostly **All SQL** |
+**Software**, Distributed System, Cloud Computing|**Coffeescript** |**Angular**, bootstrap| **MongoDB**, postgreSQL |
 **Health-care** not for profit|Javascript||redis, RabbitMQ|
 
 # Experience
