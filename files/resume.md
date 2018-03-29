@@ -9,16 +9,16 @@ Specialties: , CoffeeScript, , Web App/ Services Development, Cloud Computing, B
 
 [Github](https://github.com/codein) | [LinkedIn](https://www.linkedin.com/in/codein/) | [Email](http://www.google.com/recaptcha/mailhide/d?k=01dg8WySXuCZciuBEHAlAVjw==&amp;c=67S8dcAbfSzh43jc1XFNZ54hq7rN3i4KDsTi2a85Ey0=)
 :------------: |:------------:| :------------:|
----
+
+# Tech Stack
 
 Interests | Languages | Tools | Databases |
 :------------: |:------------:| :------------:| :------------:
-**Data Science**, Analytics, Machine learning | **Python**, **SQL** | **git**,  **pandas**, AWS | mostly **All SQL** |
-**Software**, Distributed System, Cloud Computing|**Coffeescript** |**Angular**, bootstrap| **MongoDB**, postgreSQL |
-**Health-care** not for profit|Javascript||redis, RabbitMQ|
+**Data Science**, Analytics, Machine learning | **Python**, **SQL** |**git**, **scikit-learn**,  **pandas**, d3 | **MS SQL**, **mySQL** |
+**Software**, Distributed System, Cloud Computing|**Coffeescript**|**Angular**, bootstrap| **MongoDB**, postgreSQL |
+**Health-care**, not for profit|Javascript|Tableau, Google Data Studio|redis, RabbitMQ|
 
 # Experience
----
 
 ###  Arnot Health
 
@@ -49,16 +49,16 @@ Lead the business analytics team in developing an in-house EDW.
 Mentor the team to incorporate best practices for software development (version control, testing, automation etc.)
 Architect the data pipelines and underlying process to integrated data from all major business units into EDW.
 
-https://www.hanys.org/tripleaim/case-studies/?a=vs&s=Arnot_Ogden_Medical_Center_is_Reducing_Readmissions
-Arnot Ogden Medical Center is Reducing Readmissions
+#### Media
 
-When a patient with four or more admissions is in the ER, a real-time alert activates and the Action Team of emergency department and outpatient case managers, community-based organizations, and physicians is mobilized.
+##### [Arnot Ogden Medical Center is Reducing Readmissions]
 
-https://www.hanys.org/tripleaim/case-studies/?a=vs&s=Arnot_Health_Uses_Predictive_Analytics_to_Advance_Care_Coordination
+When a patient with four or more admissions is in the ER, a real-time alert activates and the Action Team of emergency department and outpatient case managers, community-based organizations, and physicians is mobilized...[see more](https://www.hanys.org/tripleaim/case-studies/?a=vs&s=Arnot_Ogden_Medical_Center_is_Reducing_Readmissions)
 
-Arnot Health Uses Predictive Analytics to Advance Care Coordination
 
-Care coordination is essential to improving patient satisfaction and healthcare outcomes. It’s at the core of a strategic initiative that Arnot Health implemented to reduce readmissions and frequent emergency department visits at its three hospitals and 52 outpatient clinics across 55 miles.
+##### [Arnot Health Uses Predictive Analytics to Advance Care Coordination]
+
+Care coordination is essential to improving patient satisfaction and healthcare outcomes. It’s at the core of a strategic initiative that Arnot Health implemented to reduce readmissions and frequent emergency department visits at its three hospitals and 52 outpatient clinics across 55 miles...[see more]((https://www.hanys.org/tripleaim/case-studies/?a=vs&s=Arnot_Health_Uses_Predictive_Analytics_to_Advance_Care_Coordination)
 
 ---
 
