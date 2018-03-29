@@ -14,10 +14,11 @@ Specialties: , CoffeeScript, , Web App/ Services Development, Cloud Computing, B
 
 Interests | Languages | Tools | Databases |
 :------------: |:------------:| :------------:| :------------:
-**Data Science**, Analytics | **Python**, **SQL** |**git**, **scikit-learn** | **MS SQL**, **mySQL** |
- Machine learning, Cloud Computing| | |**pandas**, d3||
-**Software**, Distributed System |**Coffeescript**|**Angular**, bootstrap| **MongoDB**, postgreSQL |
-**Health-care**, not for profit|Javascript|**Tableau**, Google Data Studio|redis, RabbitMQ|
+**Data Science**, Analytics | **Python**|**git**, **scikit-learn** | **MS SQL**, |
+Machine learning, Cloud Computing| **SQL** |**pandas**, d3|**mySQL**|
+**Software**, Distributed System |**Coffeescript**|**Angular**, bootstrap| **MongoDB**  |
+**Kaizen**, dev team building |Javascript|postgreSQL|redis|
+**Health-care**, not for profit||**Tableau**, Google Data Studio| RabbitMQ|
 
 # Experience
 
@@ -115,7 +116,6 @@ Research Assistant at United Health Services(UHS)
 Binghamton NY · _May 2010 – Aug 2011 · 1+ year_
 
 #### 2011
-
 + Worked with a clinical team to understand various facets and causes of readmissions, further developed a probabilistic scoring model(LACE tool) from research to project patient's readmission likelihood.
 + UHS was awarded “Siemens 2011 Inspired Healthcare Outcomes Challenge” for LACE tool.
 + Integrated more than 7 Systems into the Enterprise Data Warehouse.
@@ -123,6 +123,8 @@ Binghamton NY · _May 2010 – Aug 2011 · 1+ year_
 
 
 #### 2010
++ Android App development (Android(Client), JSON(web services) & Spring, hibernate, mongoDB)
++ Co-designed and developed our core web services, desktop and mobile app for Clinical Physician Order Entry(CPOE).
 + Designed & developed statistical, data mining models in SQL Server Analysis Services.
 + Build OLAP Cubes in Business Intelligence Development Studio to support UHS in making decisions.
 + Created and maintained Tables/Views, SQL stored procedures/queries/codes and executive dashboards.
