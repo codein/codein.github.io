@@ -24,7 +24,7 @@ Machine learning, Cloud Computing| **SQL** |**pandas**, d3|**mySQL**|
 
 ###  Arnot Health
 
-#### Sr. Integration and Database Analyst
+#### Manager, Business Analytics
 
 Elmira, New York · _Apr 2015 – Present · 3+ years_
 
@@ -33,6 +33,9 @@ Elmira, New York · _Apr 2015 – Present · 3+ years_
 + Provide coaching and direction to analytics team in regard to best practices/approaches for software development, statistics and machine learning techniques.
 + Identifies improvement opportunities in reporting and analytical tools and collaborate with executives to implement the enhancements.
 + Communicates findings from exploratory and predictive data analysis broadly to Arnot health leadership.
+
+
+#### Sr. Integration and Database Analyst, Business Analytics
 
 #### 2017
 (python, coffeescript, angular, d3.js, django, redis)
@@ -76,7 +79,7 @@ Thirstie is technology company and e-commerce platform for the retail alcohol in
 
 ### [Navisite - A Time Warner Cable Company](http://www.navisite.com/)
 
-#### Software Developer
+#### Software Developer, Cloud R&D
 
 Syracuse, New York Area · _Aug 2011 – Apr 2015 · 3+ yrs_
 
