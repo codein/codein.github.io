@@ -139,19 +139,25 @@ United Health Services, , used Siemens  Decision Support Solutions (DSS) to help
 
 # Education
 
-#### Fall 2016
+## Fall 2016
 
 ### Harvard University
 **Big Data in Healthcare Applications**
 CSCI E-87 Grade A
 
-#### Fall 2008
+## Fall 2008
 
 ### State University of New York at Binghamton _2008 - 2011_
 **Master of Science**, Computer Science
 GPA: 3.7
 
-#### Summer 2003
+### Expert Mining - Master project
++ Worked under [Prof. Weiyi Meng](http://www.cs.binghamton.edu/~meng/) for my research on the [Personal Home Page Classifier](http://codein.github.io/new/files/XM-report.pdf).
++ This project was a consolidation of my curiosity in meta search engine and data mining. [Prof. Lei Yu](http://www.cs.binghamton.edu/~lyu/) was my second advisor for my data mining efforts.
++ Defense presentation [link](http://prezi.com/8j1bgppvn1ic/php-classifier/).
++ R&D of [web page classification model](http://codein.github.io/files/XM-report.pdf) with Weka, openNLP, openCV and Lucene.
+
+## Summer 2003
 
 ### Mumbai University - _2003 - 07_
 **Bachelor of Engineering**, Information Technology
