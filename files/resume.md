@@ -14,10 +14,10 @@ Specialties: , CoffeeScript, , Web App/ Services Development, Cloud Computing, B
 
 Interests | Languages | Tools | Databases |
 :------------: |:------------:| :------------:| :------------:
-**Data Science**, Analytics | **Python**|**git**, **scikit-learn** | **MS SQL**, |
+**Data Science**, Analytics | **Python**|**git**, **scikit-learn** | **MS SQL** |
 Machine learning, Cloud Computing| **SQL** |**pandas**, d3|**mySQL**|
 **Software**, Distributed System |**Coffeescript**|**Angular**, bootstrap| **MongoDB**  |
-**Kaizen**, dev team building |Javascript|postgreSQL|redis|
+**Kaizen**, dev team building |Javascript|[tornado](http://www.tornadoweb.org/en/stable/)|**redis**,postgreSQL|
 **Health-care**, not for profit||**Tableau**, Google Data Studio| RabbitMQ|
 
 # Experience
