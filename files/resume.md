@@ -1,16 +1,23 @@
 
 # Robin Varghese
 
-Proven hand-on experience with Agile software development, distributed system, data model design, data mining, web IR, statistical modeling, etc. with a strong ability to grasp new concepts.
+What ever the problem i like to part of the solution.
+I thrive in a environment of uncertainty which requires constant learning.
+I enjoy, empowering others in my knowledge space, working with data and software to surface information.
+Given any problem space, my hope is to be part of the solution.
+My aspiration is to improve health-care delivery by harnessing my skills.
 
-Specialties: , CoffeeScript, , Web App/ Services Development, Cloud Computing, Big Data Problems.
+
+
 
 # Reach Me
 
 [Github](https://github.com/codein) | [LinkedIn](https://www.linkedin.com/in/codein/) | [Email](http://www.google.com/recaptcha/mailhide/d?k=01dg8WySXuCZciuBEHAlAVjw==&amp;c=67S8dcAbfSzh43jc1XFNZ54hq7rN3i4KDsTi2a85Ey0=)
 :------------: |:------------:| :------------:|
 
-# Tech Stack
+# Knowledge space
+
+#### Tech stack
 
 Interests | Languages | Tools | Databases |
 :------------: |:------------:| :------------:| :------------:
@@ -33,9 +40,9 @@ Elmira, New York · _Apr 2015 – Present · 3+ years_
 + Surface information from our systems to advance our health care system, develop and support data-driven decision making at all levels of Arnot Health system.
 + Lead the Business Analytics team through multiple projects and providing full engagement of team management.
 + Provide coaching and direction to analytics team in regard to best practices/approaches for software development, statistics and machine learning techniques.
-+ Identifies improvement opportunities in reporting and analytical tools and collaborate with executives to implement the enhancements.
++ Collaborate with executives to identify business improvement opportunities and drive initiatives.
 + Communicates findings from exploratory and predictive data analysis broadly to Arnot health leadership.
-
++ Perform market research and present quantitative analyses of health-care claim databases.
 
 #### Sr. Integration and Database Analyst, Business Analytics
 
