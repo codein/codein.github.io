@@ -1,10 +1,22 @@
 Robin Varghese
+
 300 Audubon Parkway #6
 Syracuse NY-13224
 (607) 768 5050
-robin.codein@gmail.com
-website codein.github.io
-github repository https://github.com/codein
+
+email: robin.codein@gmail.com
+website: codein.github.io
+github: https://github.com/codein
+linkedIn: https://www.linkedin.com/in/codein/
+resume: https://github.com/codein/codein.github.io/blob/master/files/resume.md
+
+
+What ever the problem i like to part of the solution.
+I thrive in a environment of uncertainty & constant learning.
+
+I enjoy, empowering others in my knowledge space, working with data and software to surface information.
+
+knowledge space: https://github.com/codein/codein.github.io/blob/master/files/resume.md#knowledge-space
 
 EDUCATION
 
@@ -12,6 +24,18 @@ Master of Science, Computer Science - Binghamton University GPA: 3.7 - (Aug 08 -
 Bachelor of Engineering, Information Technology - Mumbai University - (Aug 03 - May 07)
 
 EXPERIENCE
+
+Manager – Business Analytics
+Arnot Health
+(Jan 18 - Present)
+Business Analytics (SQL, Tableau, python, scikit-learn, django, coffeescript, d3.js etc.)                                             
+Lead the Business Analytics team through  projects and providing full engagement of team management.
+Provide coaching and direction to analytics team in regard to best practices/approaches for software development, statistics and machine learning techniques. 
+Surface information from  across our health care system and to support data-driven decision making at all levels of Arnot Health system. 
+Communicates findings from exploratory and predictive data analysis broadly to Arnot Health leadership.
+Perform market research and present quantitative analyses of health-care claim databases.                         More...
+
+
 
 Software Engineer - Cloud Computing R&D -NaviSite - A Time Warner Cable Co., (Aug 11 - Present)
 NaviCloud Director (coffeescript, python, nodeJS, Selenium, RabbitMQ, Mongo DB, vmware vCloud Director etc.)
