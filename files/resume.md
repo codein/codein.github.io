@@ -1,9 +1,9 @@
 
 # Robin Varghese
 
-What ever the problem i like to part of the solution.
+What ever the problem i like to be part of the solution.
 I thrive in a environment of uncertainty which requires constant learning.
-I enjoy, empowering others in my knowledge space, working with data and software to surface information.
+I enjoy empowering others in my [knowledge space](https://github.com/codein/codein.github.io/blob/master/files/resume.md#knowledge-space) and developing software to surface information from data.
 Given any problem space, my hope is to be part of the solution.
 My aspiration is to improve health-care delivery by harnessing my skills.
 
@@ -31,18 +31,18 @@ Machine learning, Cloud Computing| **SQL** |**pandas**, d3|**mySQL**|
 
 ###  Arnot Health
 
-#### Manager, Business Analytics
+#### Manager, Business Analytics - Innovation
 
 Elmira, New York · _Apr 2015 – Present · 3+ years_
 
 #### 2018
-
-+ Surface information from our systems to advance our health care system, develop and support data-driven decision making at all levels of Arnot Health system.
-+ Lead the Business Analytics team through multiple projects and providing full engagement of team management.
+(Hadoop, SQL, Tableau, python, scikit-learn, django, coffeescript, d3.js etc.)
++ Currently leading a team through pilot and deployment phases of an in-house Hadoop data lake.
++ Lead the Business Analytics team through projects and providing full engagement of team management.
 + Provide coaching and direction to analytics team in regard to best practices/approaches for software development, statistics and machine learning techniques.
-+ Collaborate with executives to identify business improvement opportunities and drive initiatives.
-+ Communicates findings from exploratory and predictive data analysis broadly to Arnot health leadership.
-+ Perform market research and present quantitative analyses of health-care claim databases.
++ Surface information from  across our health care system and to support data-driven decision making at all levels of Arnot Health system.
++ Communicates findings from exploratory and predictive data analysis broadly to Arnot Health leadership.
++Perform market research and present quantitative analyses of health-care claim databases.
 
 #### Sr. Integration and Database Analyst, Business Analytics
 
