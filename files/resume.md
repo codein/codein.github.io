@@ -38,9 +38,9 @@ Elmira, New York · _Apr 2015 – Present · 4+ years_
 #### 2019
 (AWS, SQL, Tableau, python, scikit-learn, jupyter, pandas, d3.js etc.)
 + Currently leading the team to develop next generation prescriptive analytics leveraging our data lake to support [chronic disease prevention and management](https://grants.nih.gov/grants/guide/notice-files/NOT-HS-19-001.html).
-+ Guide the team in enhancing our data visualization solutions using jupyter, [bokeh](https://docs.bokeh.org/en/latest/index.html), [HoloViews](http://holoviews.org/) and [PyViz](https://pyviz.org/)
++ Guide the team in enhancing our data visualization solutions using [jupyter](https://jupyter.org/), [bokeh](https://docs.bokeh.org/en/latest/index.html), [HoloViews](http://holoviews.org/) and [PyViz](https://pyviz.org/)
 + Conducted several market research analysis using [Medicare claims dataset](https://www.cms.gov/Research-Statistics-Data-and-Systems/Files-for-Order/LimitedDataSets/StandardAnalyticalFiles) and [NY SPARCS dataset](https://www.health.ny.gov/statistics/sparcs/)
-+ Lead several projects with AWS to ensure HIPAA compliance and well architect-ed environment(ex. Athena, s3, QuickSight, IAM etc.)
++ Lead several projects with AWS to ensure HIPAA compliance and well architect-ed environment(ex. [Athena](https://aws.amazon.com/athena/), [s3](https://aws.amazon.com/s3/), [QuickSight](https://aws.amazon.com/quicksight/), [IAM](https://aws.amazon.com/iam/) etc.)
 + Navigated the department in establishing an AWS environment to offload storage and computation needs.
 
 #### 2018
