@@ -33,11 +33,19 @@ Machine learning, Cloud Computing| **SQL** |**pandas**, d3|**mySQL**|
 
 #### Manager, Business Analytics - Innovation
 
-Elmira, New York · _Apr 2015 – Present · 3+ years_
+Elmira, New York · _Apr 2015 – Present · 4+ years_
+
+#### 2019
+(AWS, SQL, Tableau, python, scikit-learn, jupyter, pandas, d3.js etc.)
++ Currently leading the team to develop next generation prescriptive analytics leveraging our data lake to support [chronic disease prevention and management](https://grants.nih.gov/grants/guide/notice-files/NOT-HS-19-001.html).
++ Guide the team in enhancing our data visualization solutions using jupyter, [bokeh](https://docs.bokeh.org/en/latest/index.html), [HoloViews](http://holoviews.org/) and [PyViz](https://pyviz.org/)
++ Conducted several market research analysis using [Medicare claims dataset](https://www.cms.gov/Research-Statistics-Data-and-Systems/Files-for-Order/LimitedDataSets/StandardAnalyticalFiles) and [NY SPARCS dataset](https://www.health.ny.gov/statistics/sparcs/)
++ Lead several projects with AWS to ensure HIPAA compliance and well architect-ed environment(ex. Athena, s3, QuickSight, IAM etc.)
++ Navigated the department in establishing an AWS environment to offload storage and computation needs.
 
 #### 2018
 (Hadoop, SQL, Tableau, python, scikit-learn, django, coffeescript, d3.js etc.)
-+ Currently leading a team through pilot and deployment phases of an in-house Hadoop data lake.
++ Lead the team through pilot and deployment phases of an in-house Hadoop data lake.
 + Lead the Business Analytics team through projects and providing full engagement of team management.
 + Provide coaching and direction to analytics team in regard to best practices/approaches for software development, statistics and machine learning techniques.
 + Surface information from  across our health care system and to support data-driven decision making at all levels of Arnot Health system.
