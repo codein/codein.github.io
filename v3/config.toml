@@ -1,0 +1,47 @@
+baseURL = "http://codein.github.io/"
+languageCode = "en-us"
+title = "Robin Varghese"
+theme = "hugo_resume"
+PygmentsCodeFences = true
+PygmentsCodeFencesGuessSyntax = true
+PygmentsStyle = "monokai"
+enableGitInfo = false
+
+[params]
+address = "Upstate, NY"
+email = "robin.codein@gmail.com"
+favicon = "/favicon.ico"
+firstName = "Robin"
+lastName = "Varghese"
+phone = "1-607-768-5050"
+profileImage = "img/profilePic.png"
+showEducation = true
+showExperience = true
+showOpenSource = true
+showProjects = true
+showPublications = true
+showQr = true
+showSkills = true
+
+[params.google]
+
+[params.google.analytics]
+trackerID = "XX-123446-01"
+
+[[params.handles]]
+link = "https://www.linkedin.com/in/codein/"
+name = "LinkedIn"
+
+[[params.handles]]
+link = "https://github.com/codein/"
+name = "GitHub"
+
+[[params.handles]]
+link = "https://public.tableau.com/profile/codein5631#!/"
+name = "Tableau"
+
+[outputs]
+home = ["HTML", "JSON"]
+
+[taxonomies]
+tag = "tags"
