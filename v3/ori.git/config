@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[submodule "themes/ananke"]
+	url = https://github.com/budparr/gohugo-theme-ananke.git
+	active = true
+[submodule "themes/hugo_resume"]
+	url = https://github.com/eddiewebb/hugo-resume.git
+	active = true
