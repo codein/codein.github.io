@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Robin Varghese</title>
@@ -6,62 +6,44 @@
     <description>Recent content in Tags on Robin Varghese</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Jan 2020 17:09:26 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jan 2020 16:49:15 +0000</lastBuildDate>
     
 	<atom:link href="http://codein.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Docker</title>
-      <link>http://codein.github.io/tags/docker/</link>
-      <pubDate>Tue, 07 Jan 2020 17:09:26 +0000</pubDate>
+      <title></title>
+      <link>http://codein.github.io/tags/</link>
+      <pubDate>Tue, 07 Jan 2020 16:49:15 +0000</pubDate>
       
-      <guid>http://codein.github.io/tags/docker/</guid>
+      <guid>http://codein.github.io/tags/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Java</title>
-      <link>http://codein.github.io/tags/java/</link>
-      <pubDate>Tue, 07 Jan 2020 17:09:26 +0000</pubDate>
+      <title>Agile</title>
+      <link>http://codein.github.io/tags/agile/</link>
+      <pubDate>Tue, 08 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://codein.github.io/tags/java/</guid>
+      <guid>http://codein.github.io/tags/agile/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>JavaScript</title>
-      <link>http://codein.github.io/tags/javascript/</link>
-      <pubDate>Tue, 07 Jan 2020 17:09:26 +0000</pubDate>
+      <title>Apache</title>
+      <link>http://codein.github.io/tags/apache/</link>
+      <pubDate>Thu, 01 Jan 2009 14:09:10 +0000</pubDate>
       
-      <guid>http://codein.github.io/tags/javascript/</guid>
+      <guid>http://codein.github.io/tags/apache/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>JSON</title>
-      <link>http://codein.github.io/tags/json/</link>
-      <pubDate>Tue, 07 Jan 2020 17:09:26 +0000</pubDate>
+      <title>Atlassian Developer Ecosystem</title>
+      <link>http://codein.github.io/tags/atlassian-developer-ecosystem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://codein.github.io/tags/json/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>node.js</title>
-      <link>http://codein.github.io/tags/node.js/</link>
-      <pubDate>Tue, 07 Jan 2020 17:09:26 +0000</pubDate>
-      
-      <guid>http://codein.github.io/tags/node.js/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>REST APIs</title>
-      <link>http://codein.github.io/tags/rest-apis/</link>
-      <pubDate>Tue, 07 Jan 2020 17:09:26 +0000</pubDate>
-      
-      <guid>http://codein.github.io/tags/rest-apis/</guid>
+      <guid>http://codein.github.io/tags/atlassian-developer-ecosystem/</guid>
       <description></description>
     </item>
     
@@ -75,7 +57,34 @@
     </item>
     
     <item>
-      <title>BOSH</title>
+      <title>Bamboo</title>
+      <link>http://codein.github.io/tags/bamboo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://codein.github.io/tags/bamboo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bash/Shell</title>
+      <link>http://codein.github.io/tags/bash/shell/</link>
+      <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
+      
+      <guid>http://codein.github.io/tags/bash/shell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bitbucket</title>
+      <link>http://codein.github.io/tags/bitbucket/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://codein.github.io/tags/bitbucket/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bosh</title>
       <link>http://codein.github.io/tags/bosh/</link>
       <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
       
@@ -84,38 +93,20 @@
     </item>
     
     <item>
-      <title>DevOps</title>
-      <link>http://codein.github.io/tags/devops/</link>
-      <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
-      
-      <guid>http://codein.github.io/tags/devops/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>monit</title>
-      <link>http://codein.github.io/tags/monit/</link>
-      <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
-      
-      <guid>http://codein.github.io/tags/monit/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>http://codein.github.io/tags/python/</link>
-      <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
-      
-      <guid>http://codein.github.io/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>agile</title>
-      <link>http://codein.github.io/tags/agile/</link>
+      <title>Ci/Cd Pipelines</title>
+      <link>http://codein.github.io/tags/ci/cd-pipelines/</link>
       <pubDate>Tue, 08 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://codein.github.io/tags/agile/</guid>
+      <guid>http://codein.github.io/tags/ci/cd-pipelines/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Confluence</title>
+      <link>http://codein.github.io/tags/confluence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://codein.github.io/tags/confluence/</guid>
       <description></description>
     </item>
     
@@ -147,106 +138,43 @@
     </item>
     
     <item>
-      <title>apache</title>
-      <link>http://codein.github.io/tags/apache/</link>
-      <pubDate>Thu, 01 Jan 2009 14:09:10 +0000</pubDate>
+      <title>Devops</title>
+      <link>http://codein.github.io/tags/devops/</link>
+      <pubDate>Tue, 08 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://codein.github.io/tags/apache/</guid>
+      <guid>http://codein.github.io/tags/devops/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>redirect</title>
-      <link>http://codein.github.io/tags/redirect/</link>
-      <pubDate>Thu, 01 Jan 2009 14:09:10 +0000</pubDate>
+      <title>Docker</title>
+      <link>http://codein.github.io/tags/docker/</link>
+      <pubDate>Tue, 07 Jan 2020 17:09:26 +0000</pubDate>
       
-      <guid>http://codein.github.io/tags/redirect/</guid>
+      <guid>http://codein.github.io/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>rewrite</title>
-      <link>http://codein.github.io/tags/rewrite/</link>
-      <pubDate>Thu, 01 Jan 2009 14:09:10 +0000</pubDate>
+      <title>Java</title>
+      <link>http://codein.github.io/tags/java/</link>
+      <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
       
-      <guid>http://codein.github.io/tags/rewrite/</guid>
+      <guid>http://codein.github.io/tags/java/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>ssl</title>
-      <link>http://codein.github.io/tags/ssl/</link>
-      <pubDate>Thu, 01 Jan 2009 14:09:10 +0000</pubDate>
+      <title>Javascript</title>
+      <link>http://codein.github.io/tags/javascript/</link>
+      <pubDate>Tue, 07 Jan 2020 17:09:26 +0000</pubDate>
       
-      <guid>http://codein.github.io/tags/ssl/</guid>
+      <guid>http://codein.github.io/tags/javascript/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>web development</title>
-      <link>http://codein.github.io/tags/web-development/</link>
-      <pubDate>Thu, 01 Jan 2009 14:09:10 +0000</pubDate>
-      
-      <guid>http://codein.github.io/tags/web-development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Atlassian Developer Ecosystem</title>
-      <link>http://codein.github.io/tags/atlassian-developer-ecosystem/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://codein.github.io/tags/atlassian-developer-ecosystem/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bamboo</title>
-      <link>http://codein.github.io/tags/bamboo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://codein.github.io/tags/bamboo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>bash/shell</title>
-      <link>http://codein.github.io/tags/bash/shell/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://codein.github.io/tags/bash/shell/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bitbucket</title>
-      <link>http://codein.github.io/tags/bitbucket/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://codein.github.io/tags/bitbucket/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CI/CD pipelines</title>
-      <link>http://codein.github.io/tags/ci/cd-pipelines/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://codein.github.io/tags/ci/cd-pipelines/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Confluence</title>
-      <link>http://codein.github.io/tags/confluence/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://codein.github.io/tags/confluence/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>JIRA</title>
+      <title>Jira</title>
       <link>http://codein.github.io/tags/jira/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -255,11 +183,20 @@
     </item>
     
     <item>
-      <title>jQuery</title>
+      <title>Jquery</title>
       <link>http://codein.github.io/tags/jquery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://codein.github.io/tags/jquery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Json</title>
+      <link>http://codein.github.io/tags/json/</link>
+      <pubDate>Tue, 07 Jan 2020 17:09:26 +0000</pubDate>
+      
+      <guid>http://codein.github.io/tags/json/</guid>
       <description></description>
     </item>
     
@@ -273,6 +210,60 @@
     </item>
     
     <item>
+      <title>Monit</title>
+      <link>http://codein.github.io/tags/monit/</link>
+      <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
+      
+      <guid>http://codein.github.io/tags/monit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Node.js</title>
+      <link>http://codein.github.io/tags/node.js/</link>
+      <pubDate>Tue, 07 Jan 2020 17:09:26 +0000</pubDate>
+      
+      <guid>http://codein.github.io/tags/node.js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://codein.github.io/tags/python/</link>
+      <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
+      
+      <guid>http://codein.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Redirect</title>
+      <link>http://codein.github.io/tags/redirect/</link>
+      <pubDate>Thu, 01 Jan 2009 14:09:10 +0000</pubDate>
+      
+      <guid>http://codein.github.io/tags/redirect/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rest Apis</title>
+      <link>http://codein.github.io/tags/rest-apis/</link>
+      <pubDate>Tue, 07 Jan 2020 17:09:26 +0000</pubDate>
+      
+      <guid>http://codein.github.io/tags/rest-apis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rewrite</title>
+      <link>http://codein.github.io/tags/rewrite/</link>
+      <pubDate>Thu, 01 Jan 2009 14:09:10 +0000</pubDate>
+      
+      <guid>http://codein.github.io/tags/rewrite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Spring</title>
       <link>http://codein.github.io/tags/spring/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -282,9 +273,27 @@
     </item>
     
     <item>
-      <title>xml/xslt</title>
+      <title>Ssl</title>
+      <link>http://codein.github.io/tags/ssl/</link>
+      <pubDate>Thu, 01 Jan 2009 14:09:10 +0000</pubDate>
+      
+      <guid>http://codein.github.io/tags/ssl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Development</title>
+      <link>http://codein.github.io/tags/web-development/</link>
+      <pubDate>Thu, 01 Jan 2009 14:09:10 +0000</pubDate>
+      
+      <guid>http://codein.github.io/tags/web-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xml/Xslt</title>
       <link>http://codein.github.io/tags/xml/xslt/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
       
       <guid>http://codein.github.io/tags/xml/xslt/</guid>
       <description></description>

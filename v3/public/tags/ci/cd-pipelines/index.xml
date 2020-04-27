@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>CI/CD pipelines on Robin Varghese</title>
+    <title>Ci/Cd Pipelines on Robin Varghese</title>
     <link>http://codein.github.io/tags/ci/cd-pipelines/</link>
-    <description>Recent content in CI/CD pipelines on Robin Varghese</description>
+    <description>Recent content in Ci/Cd Pipelines on Robin Varghese</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 08 Nov 2016 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://codein.github.io/tags/ci/cd-pipelines/index.xml" rel="self" type="application/rss+xml" />
     
