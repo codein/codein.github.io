@@ -9,4 +9,11 @@ outputs:
 - rss
 - json
 ---
-Proven Software Platform Engineer with experience leveraging agile, DevOps, and CI/CD to manage large scale distributed platforms both on prem and in public cloud.
+I'm one part [</>](https://github.com/codein/)coder , one part 🔍analyst  and a hell lot of ❓curiosity.
+
+Whatever the problem i like to be part of the solution.
+
+I thrive in an environment of uncertainty & constant learning.
+
+I enjoy empowering others in my [knowledge space](https://github.com/codein/codein.github.io/blob/master/files/resume.md#knowledge-space) and developing software to surface information from data.
+

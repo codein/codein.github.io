@@ -1,32 +1,39 @@
 [
   {
       "grouping":"Architecture",
-      "skills":[ "IP Networking","DNS","Firewalls","Load Balancing","Microservices","RESTful APIs","SaaS/PaaS/IaaS"]
+      "skills":[ "Data Warehouse","Data Lake","Distributed Computing","RESTful APIs","SaaS/PaaS/IaaS"]
   },{
-      "grouping":"Languages, Operating Systems & Tools",
-      "skills":[ "Java","Python","git","subversion","linux","bash","php","jquery","javascript"]
-  },
-  {
+      "grouping":"Operating Systems",
+      "skills":[ "Ubuntu","Windows"]
+  },{
+      "grouping":"Languages",
+      "skills":[ "Python", "SQL", "bash", "coffeescript", "javascript"]
+  },{
+      "grouping":"Tools",
+      "skills":[ "pandas", "scikit-learn", "django", "plotly.js", "d3.js", "AWS boto3"]
+  },{
       "grouping":"Platform Development & Administration",
-      "skills":[ "Atlassian","Bamboo","Bitbucket","NGINX","MySQL","Wordpress"]
-  },
-  {
+      "skills":[ "Jupyter", "git", "Tableau", "gitlab","github"]
+  },{
       "grouping":"Data Management",
       "skills":[
         {"name":"Microsoft SQL Server","icon":"msql_server"},
-        {"name":"Oracle","icon":"database"},
+        {"name":"AWS Athena","icon":"database"},
         "MongoDB",
-        {"name":"Apache Spark"}
+        {"name":"AWS s3"},
+        {"name":"Distributed File System"},
+        "RabbitMQ",
+        "redis"
       ]
   },
   {
     "grouping":"Containers & Cloud",
       "skills":[
-          {"name":"BOSH","link":"https://bosh.io"},
-          {"name":"Docker","link":"https://docker.com"},
+          {"name":"vmware vCloud Director","link":"https://www.vmware.com/products/cloud-director.html"},
           {"name":"AWS","link":"https://aws.amazon.com"},
-          {"name":"Google Cloud","link":"https://cloud.google.com"},
-          {"name":"Linux","link":"https://bosh.io"}
+          {"name":"Oracle VM VirtualBox","link":"https://www.virtualbox.org/"},
+          {"name":"Docker","link":"https://docker.com"},
+          {"name":"Google Cloud","link":"https://cloud.google.com"}
       ]
   }
 ]
