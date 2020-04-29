@@ -15,5 +15,5 @@ Whatever the problem i like to be part of the solution.
 
 I thrive in an environment of uncertainty & constant learning.
 
-I enjoy empowering others in my [knowledge space](https://github.com/codein/codein.github.io/blob/master/files/resume.md#knowledge-space) and developing software to surface information from data.
+I enjoy empowering others in my [knowledge space](blog/resume/#knowledge-space) and developing software to surface information from data.
 
