@@ -1,15 +1,16 @@
 [
     {
-        "school":"[Rochester Institute of Technology](https://rit.edu)",
-        "degree":"Bachelor of Science",
-        "major":"Management Information Systems",
-        "notes":"Beta Gamma Signma, High Honors",
-        "range":"2006 - 2008"
+        "school":"[Harvard University](https://www.extension.harvard.edu/)",
+        "degree":"Big Data in Healthcare Applications",
+        "major":"Health Data Science",
+        "notes":"Course",
+        "range":"2016"
     },
     {
-        "school":"Clinton Community College",
-        "degree":"Associate of Applied Science",
-        "major":"Computer Information Systems",
-        "range":"2004 - 2006"
+        "school":"[Binghamton University](https://www.binghamton.edu/)",
+        "degree":"Master of Science",
+        "major":"Computer Science",
+        "notes":"GPA: 3.7",
+        "range":"Aug 2008 - May 2011"
     }
 ]

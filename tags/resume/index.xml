@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>resume on Robin Varghese</title>
+    <link>http://codein.github.io/tags/resume/</link>
+    <description>Recent content in resume on Robin Varghese</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jan 2020 14:09:10 +0000</lastBuildDate>
+    
+	<atom:link href="http://codein.github.io/tags/resume/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Resume</title>
+      <link>http://codein.github.io/blog/resume/</link>
+      <pubDate>Wed, 01 Jan 2020 14:09:10 +0000</pubDate>
+      
+      <guid>http://codein.github.io/blog/resume/</guid>
+      <description>Robin Varghese What ever the problem i like to be part of the solution. I thrive in a environment of uncertainty which requires constant learning. I enjoy empowering others in my knowledge space and developing software to surface information from data. Given any problem space, my hope is to be part of the solution. My aspiration is to improve health-care delivery by harnessing my skills.
+Reach Me    Github LinkedIn Email Say Hello     .</description>
+    </item>
+    
+  </channel>
+</rss>

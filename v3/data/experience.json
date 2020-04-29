@@ -1,20 +1,32 @@
 [
     {
-        "role":"Boss man",
-        "company":"Current Company LTD",
-        "summary":"Led in development of fast paced software teams.\n- list\n- of\n- things",
-        "range":"February 2016 - Present"
+        "role":"Manager, Business Analytics - Innovation",
+        "company":"[Arnot Health Inc.](https://www.arnothealth.org/)",
+        "summary":"* Lead the Business Analytics team through projects and providing full engagement of team management [more...](blog/resume/#2019)",
+        "range":"Jan 2018 - Present"
     },
     {
-        "role":"Developer",
-        "company":"Current Company LTD",
-        "summary":"Expedited the synergies of collaborative agile tooling.",
-        "range":"March 2014 - February 2016"
+        "role":"Sr. Analyst – Business Analytics",
+        "company":"[Arnot Health Inc.](https://www.arnothealth.org/)",
+        "summary":"Lead development of our next generation analytics platform to analyze and visualize disparate data sources [more...](blog/resume/#2018)",
+        "range":"Apr 2015 – Jan 2018"
     },
     {
-        "role":"Developer",
-        "company":"Previous Company Inc.",
-        "summary":"Implemented continuous devops pipelines automationing",
-        "range":"February 2013 - March 2014"
+        "role":"Software Consultant",
+        "company":"[Thirstie](https://thirstie.com/)",
+        "summary":"R&D for inventory management, business intelligence and software development in general [more...](blog/resume/#thirstie)",
+        "range":"Aug 2013 – Present"
+    },
+    {
+        "role":"Software Engineer - Cloud Computing R&D",
+        "company":"[NaviSite - A Time Warner Cable Co.](https://www.navisite.com/)",
+        "summary":"R&D on several core components caching layer, search capabilities, continuous integration etc [more...](blog/resume/#2014)",
+        "range":"Aug 2011 – Apr 2015"
+    },
+    {
+        "role":"Research Assistant",
+        "company":"[United Health Services](https://www.nyuhs.org/)",
+        "summary":"Worked with a clinical team to understand various facets of readmissions, further developed a classification model UHS was awarded “[Siemens 2011 Inspired Healthcare Outcomes Challenge](http://www.evaluategroup.com/Universal/View.aspx?type=Story&id=311705)” for this work [more...](blog/resume/#2011)",
+        "range":"Aug 2011 – Apr 2015"
     }
 ]
