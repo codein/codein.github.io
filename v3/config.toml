@@ -27,7 +27,7 @@ showSkills = true
 [params.google]
 
 [params.google.analytics]
-trackerID = "XX-123446-01"
+trackerID = "UA-51356721-1"
 
 [[params.handles]]
 link = "https://www.linkedin.com/in/codein/"
