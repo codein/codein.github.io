@@ -20,7 +20,7 @@ sitemap:
 # Robin Varghese
 
 What ever the problem i like to be part of the solution.
-I thrive in a environment of uncertainty which requires constant learning.
+I thrive in an environment of uncertainty which requires constant learning.
 I enjoy empowering others in my [knowledge space](https://github.com/codein/codein.github.io/blob/master/files/resume.md#knowledge-space) and developing software to surface information from data.
 Given any problem space, my hope is to be part of the solution.
 My aspiration is to improve health-care delivery by harnessing my skills.

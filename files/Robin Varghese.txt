@@ -1,85 +1,62 @@
+
 Robin Varghese
 
-300 Audubon Parkway #6
-Syracuse NY-13224
-(607) 768 5050
+NY 14845
 
 email: robin.codein@gmail.com
 website: codein.github.io
 github: https://github.com/codein
 linkedIn: https://www.linkedin.com/in/codein/
 resume: https://github.com/codein/codein.github.io/blob/master/files/resume.md
+phone: (607) 768 5050
 
 
-What ever the problem i like to part of the solution.
-I thrive in a environment of uncertainty & constant learning.
+Whatever the problem i like to be part of the solution. I thrive in an environment of uncertainty & constant learning.
+I enjoy empowering others in my knowledge space and developing software to surface information from data.
 
-I enjoy, empowering others in my knowledge space, working with data and software to surface information.
+## EXPERIENCE
+Manager, Business Analytics - Innovation - Arnot Health - (Jan 18 - Present)
+2019 (AWS, SQL, Tableau, python, scikit-learn, jupyter, pandas, d3.js etc.)
+* Currently leading the team to develop next generation prescriptive analytics leveraging our data lake to support chronic disease prevention and management
+* Guide the team in enhancing our data visualization solutions using jupyter, bokeh, HoloViews & PyViz
+* Conducted several market research analysis using Medicare claims dataset and NY SPARCS dataset
+* Lead several projects with AWS to ensure well architected HIPAA compliance environment (ex. Athena, s3, QuickSight, IAM etc.)
 
-knowledge space: https://github.com/codein/codein.github.io/blob/master/files/resume.md#knowledge-space
+2018 (Hadoop, SQL, Tableau, python, scikit-learn, django, coffeescript, d3.js etc.)
+* Lead the team through pilot and deployment phases of an in-house Hadoop data lake.
+* Provide coaching and direction to analytics team in regard to best practices for software development, data science and machine learning techniques.
+* Communicate findings from exploratory and predictive data analysis to Arnot Health leadership.
 
-EDUCATION
+Sr. Analyst – Business Analytics - Arnot Health - (Apr 15 – Jan 18)
+2017 (python, coffeescript, angular, d3.js, django, redis)
+* Lead development of our next generation analytics platform to analyze and visualize disparate data sources.
+2016 (SQL, Tableau, python, scikit-learn, django)
+* Developed readmission prediction models using scikit-learn to advance our Population Health Initiatives.
+* Developed near real-time actionable notifications for our care-coordination team.
+* Created several dashboards to surface key information from  across our health care system and to support data-driven decision making at all levels of Arnot Health system.
+2015 (SQL, Tableau, SSIS)
+* Lead the Business Analytics team in developing an in-house EDW and predictive analytics solutions.
+* Mentor the team to incorporate best practices for software development (version control, automation etc.)
+* Architect data pipelines and underlying process to integrated data from all business units into EDW.
 
-Master of Science, Computer Science - Binghamton University GPA: 3.7 - (Aug 08 - May 11)
-Bachelor of Engineering, Information Technology - Mumbai University - (Aug 03 - May 07)
+Software Consultant - Thirstie - (Aug 13 – Present)
+* R&D for inventory management, business intelligence and software development.
 
-EXPERIENCE
+Software Engineer - Cloud Computing R&D - NaviSite - A Time Warner Cable Co., (Aug 11 – Apr 15)
+2014 (coffeescript, python, nodeJS, Selenium, RabbitMQ, Mongo DB, vmware vCloud Director etc.)
+* R&D on several core components caching layer, search capabilities, continuous integration etc.
+2013 Distributed system development(clojure, python, mongoDB, HAProxy, aleph, netty, RabbitMQ)
+* R&D of a near realtime, scalable & fault tolerant architecture to process syslog event stream.
+2011-12 Cloud Services Platform IaaS (Linux Apache MySQL Python, git, javascript, Java, vmware vSphere etc.)
+* R&D on new services (ex. virtualization, 2 factor auth, automated customer provisioning etc.)
 
-Manager – Business Analytics
-Arnot Health
-(Jan 18 - Present)
-Business Analytics (SQL, Tableau, python, scikit-learn, django, coffeescript, d3.js etc.)                                             
-Lead the Business Analytics team through  projects and providing full engagement of team management.
-Provide coaching and direction to analytics team in regard to best practices/approaches for software development, statistics and machine learning techniques. 
-Surface information from  across our health care system and to support data-driven decision making at all levels of Arnot Health system. 
-Communicates findings from exploratory and predictive data analysis broadly to Arnot Health leadership.
-Perform market research and present quantitative analyses of health-care claim databases.                         More...
-
-
-
-Software Engineer - Cloud Computing R&D -NaviSite - A Time Warner Cable Co., (Aug 11 - Present)
-NaviCloud Director (coffeescript, python, nodeJS, Selenium, RabbitMQ, Mongo DB, vmware vCloud Director etc.)
-* Currently sprinting in our flagship(Infrastructure As A Service) product development scrum team.
-* Designed and developed a caching layer to significantly reduce initial app load times, using node.js worker.
-* Implemented a search mechanism so that users could quickly narrow down to cloud assets (vm, networking, data-center etc)
-* Researched and developed an initial suite of full stack automated tests with Selenium to suit our product.
-* Designed and implemented a Continuous Integration and full automated deployment framework.
-* API server development in Python on a Tornado Web server framework with a mongoDB datastore.
-* Web app development using coffeescript, twitter bootstrap, spineJS as our MVC framework, grunt js as our build tool.
-* Developed ansible scripts to automate frequent prod and dev tasks (ex. stock deployment, app stack updates etc.)
-
-Near realtime stream processing and analytics(clojure, python, mongoDB, HAProxy, aleph, netty, RabbitMQ)
-* Developed a syslog event stream processing system to comply with SAS70 audit requirements.
-* Harnessed features of load-balancers to achieve scalable and fault tolerant architecture.
-* Developed a scalable layer to receive data stream in clojure using netty framework to push data to queue.
-* Utilized RabbitMQ message queue to streamline events into distributed storm processing nodes.
-* Orchestrated mongoDB clusters to map reduce and deliver near real time reports via webnoir API server.
-* Developed automated fabric scripts to deploy, monitor and control nodes/layers in the application stack.
-
-Cloud Services Platform IaaS (Linux Apache MySQL Python, git, javascript, Java, vmware vSphere etc.)
-* Researched and incorporated various features into our application (ex. 2 factor auth, automation scripts for customer provisioning, NetScaler loadbalancers, Nginx reverse proxying etc.)
-* Designed and developed a module to collect info for a new customer's virtual infrastructure provisioning.
-* Researched and developed several POCs, in-order to investigate new technologies for our virtualization platform.
-* Resolved production concerns with appropriate solutions promptly in DevOps team.
-
-Software Developer - THIRSTIE.com - TailfinVentures - (May 13 - Present)
-* Admin portal (django, coffescript, angularJS) API(tornado, python, django, SQLAlchemy, MySQL, RabbitMQ etc.)
-* Developed a single page web app to complement django's admin portal for back-office work flows and management.
-* Report integration and capturing key financial performance metrics.
-* Implemented all cart management API endpoints as tornado handlers.
-* Designed and developed an email notification engine to deliver alerts to customers about order processing.
-
-Information Analyst - Binghamton, NY - United Health Services(UHS) -( Aug 10 - Aug 11)
-* Worked with a clinical team to understand various facets and causes of readmissions, further developed a probabilistic scoring model(LACE tool) from research to project patient's readmission likelihood.
-* UHS was awarded “Siemens 2011 Inspired Healthcare Outcomes Challenge” for LACE tool.
-* Designed, developed and maintained executive dashboards, statistical models, OLAP cubes and  other analytics tools.
-
-Software Intern - Binghamton, NY - Katalytik Inc. - (Sep 09 - June 11)
-* Android App development (Android(Client), JSON(web services) & Spring, hibernate, mongoDB)
-* Co-designed and developed our core web services.
-* Led the team to migrate from a RDMS data store to a NoSQL solution, using mongoDB
-* Developed desktop and mobile app for Clinical Physician Order Entry(CPOE).
+Research Assistant - Binghamton, NY - United Health Services(UHS) ( May 10 – Aug 11)
+* Worked with a clinical team to understand various facets of readmissions, further developed a classification model UHS was awarded “Siemens 2011 Inspired Healthcare Outcomes Challenge” for this work
 
 Expert Mining - Master project - Research Binghamton University - (May 09 - May 11)
-* Researched and developed a web page classification model with Weka, openNLP, openCV and Lucene.
+* R&D work on a web page classification model with Weka, openNLP, openCV and Lucene
+
+## EDUCATION
+Big Data in Healthcare Applications - Harvard University - Fall 2016
+Master of Science, Computer Science - Binghamton University GPA: 3.7 - (Aug 08 - May 11)
 
