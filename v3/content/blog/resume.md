@@ -19,7 +19,7 @@ sitemap:
 
 # Robin Varghese
 
-What ever the problem i like to be part of the solution.
+What ever the problem, I like to be part of the solution.
 I thrive in an environment of uncertainty which requires constant learning.
 I enjoy empowering others in my [knowledge space](https://github.com/codein/codein.github.io/blob/master/files/resume.md#knowledge-space) and developing software to surface information from data.
 Given any problem space, my hope is to be part of the solution.
@@ -52,10 +52,15 @@ Machine learning, Cloud Computing| **SQL** |**pandas**, d3|**mySQL**|
 #### Manager, Business Analytics - Innovation
 
 Elmira, New York · _Apr 2015 – Present · 5+ years_
+#### 2020
+(SQL, python, jupyter, pandas, plotly, scikit-learn etc.)
++ Performed rigorous analyses on large, complex data sets for strategic initiatives( marketing, grant proposals etc.)
++ Provided strategic insights, hypotheses, and conclusions based upon findings to leaders at all levels.
++ Developed an analytics team which excels at problem-framing, problem solving and can change direction quickly.
 
 #### 2019
 (AWS, SQL, Tableau, python, scikit-learn, jupyter, pandas, d3.js etc.)
-+ Currently leading the team to develop next generation prescriptive analytics leveraging our data lake to support [chronic disease prevention and management](https://grants.nih.gov/grants/guide/notice-files/NOT-HS-19-001.html).
++ Lead the team developing our next generation prescriptive analytics leveraging our data lake to support [chronic disease prevention and management](https://grants.nih.gov/grants/guide/notice-files/NOT-HS-19-001.html).
 + Guide the team in enhancing our data visualization solutions using [jupyter](https://jupyter.org/), [bokeh](https://docs.bokeh.org/en/latest/index.html), [HoloViews](http://holoviews.org/) and [PyViz](https://pyviz.org/)
 + Conducted several market research analysis using [Medicare claims dataset](https://www.cms.gov/Research-Statistics-Data-and-Systems/Files-for-Order/LimitedDataSets/StandardAnalyticalFiles) and [NY SPARCS dataset](https://www.health.ny.gov/statistics/sparcs/)
 + Lead several projects with AWS to ensure HIPAA compliance and well architect-ed environment(ex. [Athena](https://aws.amazon.com/athena/), [s3](https://aws.amazon.com/s3/), [QuickSight](https://aws.amazon.com/quicksight/), [IAM](https://aws.amazon.com/iam/) etc.)
@@ -74,7 +79,7 @@ Elmira, New York · _Apr 2015 – Present · 5+ years_
 
 #### 2017
 (python, coffeescript, angular, d3.js, django, redis)
-+ Currently leading development of our next generation analytics platform capable of assimilating and visualize disparate data.
++ Lead development of our next generation analytics platform capable of assimilating and visualize disparate data.
 + Performing market research and present quantitative analyses of healthcare claims and external databases for historical analysis and trend forecasting.
 
 #### 2016
