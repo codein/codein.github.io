@@ -15,6 +15,12 @@
   </url>
   
   <url>
+    <loc>http://codein.github.io/blog/top-5-tools-analytics-uses/</loc>
+    <lastmod>2020-11-05T14:09:10+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>http://codein.github.io/blog/</loc>
     <lastmod>2020-01-07T15:00:28+00:00</lastmod>
     <priority>0.5</priority>
@@ -56,6 +62,21 @@
   </url>
   
   <url>
+    <loc>http://codein.github.io/tags/analytics/</loc>
+    <lastmod>2020-11-05T14:09:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://codein.github.io/tags/</loc>
+    <lastmod>2020-11-05T14:09:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://codein.github.io/tags/talk/</loc>
+    <lastmod>2020-11-05T14:09:10+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://codein.github.io/tags/docker/</loc>
     <lastmod>2020-01-07T17:09:26+00:00</lastmod>
   </url>
@@ -88,11 +109,6 @@
   
   <url>
     <loc>http://codein.github.io/tags/rest-apis/</loc>
-    <lastmod>2020-01-07T17:09:26+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://codein.github.io/tags/</loc>
     <lastmod>2020-01-07T17:09:26+00:00</lastmod>
   </url>
   

@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Robin Varghese</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Jan 2020 17:09:26 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2020 14:09:10 +0000</lastBuildDate>
     
 	<atom:link href="http://codein.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>analytics</title>
+      <link>http://codein.github.io/tags/analytics/</link>
+      <pubDate>Thu, 05 Nov 2020 14:09:10 +0000</pubDate>
+      
+      <guid>http://codein.github.io/tags/analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>talk</title>
+      <link>http://codein.github.io/tags/talk/</link>
+      <pubDate>Thu, 05 Nov 2020 14:09:10 +0000</pubDate>
+      
+      <guid>http://codein.github.io/tags/talk/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Docker</title>

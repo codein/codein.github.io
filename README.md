@@ -10,4 +10,23 @@ codein.github.io
 * cd v3
 * hugo server
 * hugo
-* cp public to root dir
+
+
+## Publishing steps
+* regenerate files
+```
+cd v3
+hugo
+```
+
+* copy file to root dir
+```
+cd codein.github.io
+cp -r v3/public/* .
+
+```
+
+* test
+```
+python -m SimpleHTTPServer 8000
+```
