@@ -6,7 +6,7 @@ tags: [resume]
 pubtype: "Talk"
 featured: true
 description: "My resume"
-image: "/img/workspace.webp"
+image: "/img/resume-snippet.png"
 link: "https://github.com/codein/codein.github.io/blob/master/files/resume.md"
 fact: "My resume full version"
 weight: 11
