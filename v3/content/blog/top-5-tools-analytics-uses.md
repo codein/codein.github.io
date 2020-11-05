@@ -1,5 +1,5 @@
 ---
-title: "Analytics Commons"
+title: "Analytics Commons Talk"
 draft: false
 date: Thu, 05 Nov 2020 14:09:10 +0000
 draft: false
@@ -16,10 +16,8 @@ sitemap:
   weight: 300
 ---
 
-# Analytics Commons Talk
 
-
-This talk looked at few tools that our department relies heavily on. This talk was part of our IS department's commons session to give employees the chance to share their skills with examples to set and follow.
+I gave this talk to give an overview of few tools that our department relies heavily on. This talk was part of our IS department's commons session to give employees the chance to share their skills with examples to set and follow.
 
 
 ## Top 5 tools Analytics uses
@@ -270,7 +268,7 @@ A Jupyter notebook is a document that supports mixing executable code, equations
 ### Analytics Application
 
 We use this primarily when we need to attach a narrative with our analysis.
-Refer to attached file `jupyter_notebook_demo.html`
+Refer to attached file [jupyter_notebook_demo.html](/jupyter_notebooks/jupyter_notebook_demo.html)
 
 
 ### 4.c

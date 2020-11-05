@@ -27,25 +27,27 @@ My aspiration is to improve health-care delivery by harnessing my skills.
 
 
 
-# Reach Me
+### Reach Me
 
 [Github](https://github.com/codein) | [LinkedIn](https://www.linkedin.com/in/codein/) | [Email](mailto:robin-remove-.codein@gmail.com) | [Say Hello](https://forms.gle/u8b69Eo9Zubai1zm7)|
 :------------: |:------------:| :------------:|  :------------: |
 .|.|.|.|
 
-# Knowledge space
+### Knowledge space
 
 #### Tech stack
 
-Interests | Languages | Tools | Databases |
-:------------: |:------------:| :------------:| :------------:
-**Data Science**, Analytics | **Python**|**git**, **scikit-learn** | **MS SQL** |
-Machine learning, Cloud Computing| **SQL** |**pandas**, d3|**mySQL**|
-**Software**, Distributed System |**Coffeescript**|**Angular**, bootstrap| **MongoDB**  |
-**Kaizen**, dev team building |Javascript|[tornado](http://www.tornadoweb.org/en/stable/), django|**redis**,postgreSQL|
-**Health-care**, not for profit||**Tableau**, Google Data Studio| RabbitMQ|
+  |  |  |  |  |
+:------------:|:------------:| :------------:| :------------: | :------------: |
+ Interests | Languages | Tools | Databases | Platforms |
+ **Data Science**, Analytics | **Python** |**Jupyter** plotly | **MS SQL server** | Amazon Web Services
+Project Management, | **SQL** |**git**, **scikit-learn** | **AWS** Athena DynamoDB | **Tableau**
+Machine learning, Cloud Computing | |**pandas**, d3|**mySQL**| Google Data Studio
+**Software**, Distributed System |Coffeescript|**Angular**, bootstrap| **MongoDB**  |
+**Kaizen**, dev team building |Javascript|[tornado](http://www.tornadoweb.org/en/stable/), django|**redis**|
+**Health-care**, not for profit| HTML | RabbitMQ| postgreSQL |
 
-# Experience
+### Experience
 
 ###  Arnot Health
 

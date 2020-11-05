@@ -21,6 +21,12 @@
   </url>
   
   <url>
+    <loc>http://codein.github.io/blog/hello-world-jupyter/</loc>
+    <lastmod>2020-10-05T14:09:10+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>http://codein.github.io/blog/</loc>
     <lastmod>2020-01-07T15:00:28+00:00</lastmod>
     <priority>0.5</priority>
@@ -74,6 +80,11 @@
   <url>
     <loc>http://codein.github.io/tags/talk/</loc>
     <lastmod>2020-11-05T14:09:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://codein.github.io/tags/jupyter/</loc>
+    <lastmod>2020-10-05T14:09:10+00:00</lastmod>
   </url>
   
   <url>
