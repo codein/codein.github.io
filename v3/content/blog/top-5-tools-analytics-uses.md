@@ -27,7 +27,7 @@ I gave this talk to give an overview of few tools that our department relies hea
 
 We are hoping to give an insight into 5 tools that we rely heavily to make our life easy in Analytics department.
 
-In this document we cover below 5 tools
+I have covered 5 tools in this document
 * 1 - [SQL](https://en.wikipedia.org/wiki/SQL)
 * 2 - [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
 * 3 - [git](https://en.wikipedia.org/wiki/Git)
@@ -74,7 +74,7 @@ I highly recommend taking one of these online course
 * [Welcome to SQL](https://www.khanacademy.org/computing/computer-programming/sql/sql-basics/v/welcome-to-sql) course at Khan Academy
 
 ### 1.d
-### Application ideas - Where can i use it?
+### Application ideas - Where can I use it?
 
 * Make a database for a excel file that you track some data in.
 * Connect to a database you have access to via a SQL editor(i.e. [SSMS](https://en.wikipedia.org/wiki/SQL_Server_Management_Studio) or [dbeaver](https://dbeaver.com/)).
@@ -127,7 +127,7 @@ We use python programming language in a several ways
 
 This generic integration agent integrates data into our data warehouse from variety of data sources( ex. sql server, csv, txt, excel files etc). It also de-dupes data it is integrating.
 
-For ex. this is how we integrate AMS credentials file to ensure we have the latest information on Arnot Health Providers.
+For e.g. this is how we integrate AMS credentials file to ensure we have the latest information on Arnot Health Providers.
 ```python
     'job_key':{
         'extract_home': '~/Projects/flat_files_folder',
@@ -144,7 +144,7 @@ For ex. this is how we integrate AMS credentials file to ensure we have the late
 
 ##### Job engine
 
-We trigger automated python jobs through our job engine and when we fire them job engine is programmer to tag them with basic diagnostic details(ex. time, host name, job_id etc).
+We trigger automated python jobs through our job engine. Job engine is programmed to tag each triggered job with basic diagnostic details(ex. time, host name, job_id etc).
 Every job also has few diagnostic tags(ex. '#critical #weekly #job #awhitt') These tags are used by job monitor later to notify of errors or delays.
 Finally all job logs along with diagnostic details are pushed to a database.
 
@@ -186,7 +186,7 @@ https://wiki.python.org/moin/BeginnersGuide/NonProgrammers
 ### 3.a
 ### Introduction
 
-Git is a wonderful tool for source control. Git is the most popular version control system. If you have been programming for less than a decade, it’s likely that you haven’t used any other method of version control. The git workflow of a software team defines how that team collaborates, builds, and ships software.
+Git is a wonderful tool for source control. Git is the most popular version control system. If you have been programming for less than a decade, it’s highly likely that you haven’t used any other method of version control. The git workflow dictates how a software team collaborates, builds, and ships software.
 
 We use a Community Edition of [gitlab](https://about.gitlab.com/install/?version=ce) as our Centralized Version control System(CVS) and wiki for maintaining our documents.
 
@@ -238,7 +238,7 @@ git push
 ### 3.d
 ### Application ideas - Where can i use it?
 
-* version controlling any document you author individually with other individuals.
+* version controlling any document you author individually or with teammates.
 * maintain documents to ensure up to date changes are incorporated
 * Team management. Refer attached file `Team Management Project ex. python data visualization (#1167) · Issues · AHA-dev-team _ br1ck · GitLab.pdf`
 

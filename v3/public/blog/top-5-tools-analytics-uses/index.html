@@ -116,7 +116,7 @@
 <h2 id="top-5-tools-analytics-uses">Top 5 tools Analytics uses</h2>
 <h3 id="introduction">Introduction</h3>
 <p>We are hoping to give an insight into 5 tools that we rely heavily to make our life easy in Analytics department.</p>
-<p>In this document we cover below 5 tools</p>
+<p>I have covered 5 tools in this document</p>
 <ul>
 <li>1 - <a href="https://en.wikipedia.org/wiki/SQL">SQL</a></li>
 <li>2 - <a href="https://en.wikipedia.org/wiki/Python_(programming_language)">Python</a></li>
@@ -168,7 +168,7 @@
 <li><a href="https://www.khanacademy.org/computing/computer-programming/sql/sql-basics/v/welcome-to-sql">Welcome to SQL</a> course at Khan Academy</li>
 </ul>
 <h3 id="1d">1.d</h3>
-<h3 id="application-ideas---where-can-i-use-it">Application ideas - Where can i use it?</h3>
+<h3 id="application-ideas---where-can-i-use-it">Application ideas - Where can I use it?</h3>
 <ul>
 <li>Make a database for a excel file that you track some data in.</li>
 <li>Connect to a database you have access to via a SQL editor(i.e. <a href="https://en.wikipedia.org/wiki/SQL_Server_Management_Studio">SSMS</a> or <a href="https://dbeaver.com/">dbeaver</a>).</li>
@@ -212,7 +212,7 @@
 <p>We use python programming language in a several ways</p>
 <h5 id="data-integration-agent">Data Integration Agent</h5>
 <p>This generic integration agent integrates data into our data warehouse from variety of data sources( ex. sql server, csv, txt, excel files etc). It also de-dupes data it is integrating.</p>
-<p>For ex. this is how we integrate AMS credentials file to ensure we have the latest information on Arnot Health Providers.</p>
+<p>For e.g. this is how we integrate AMS credentials file to ensure we have the latest information on Arnot Health Providers.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">    <span style="color:#e6db74">&#39;job_key&#39;</span>:{
         <span style="color:#e6db74">&#39;extract_home&#39;</span>: <span style="color:#e6db74">&#39;~/Projects/flat_files_folder&#39;</span>,
         <span style="color:#e6db74">&#39;extract_filename_part&#39;</span>: <span style="color:#e6db74">&#39;CREDENTIALING STATUS REPORT&#39;</span>,
@@ -225,7 +225,7 @@
         <span style="color:#e6db74">&#39;frequency&#39;</span>: <span style="color:#e6db74">&#39;weekly&#39;</span>,
     },
 </code></pre></div><h5 id="job-engine">Job engine</h5>
-<p>We trigger automated python jobs through our job engine and when we fire them job engine is programmer to tag them with basic diagnostic details(ex. time, host name, job_id etc).
+<p>We trigger automated python jobs through our job engine. Job engine is programmed to tag each triggered job with basic diagnostic details(ex. time, host name, job_id etc).
 Every job also has few diagnostic tags(ex. &lsquo;#critical #weekly #job #awhitt&rsquo;) These tags are used by job monitor later to notify of errors or delays.
 Finally all job logs along with diagnostic details are pushed to a database.</p>
 <h5 id="job-monitoring">Job monitoring</h5>
@@ -258,7 +258,7 @@ Finally all job logs along with diagnostic details are pushed to a database.</p>
 <h3 id="git--cvs--wiki">git – CVS – wiki</h3>
 <h3 id="3a">3.a</h3>
 <h3 id="introduction-3">Introduction</h3>
-<p>Git is a wonderful tool for source control. Git is the most popular version control system. If you have been programming for less than a decade, it’s likely that you haven’t used any other method of version control. The git workflow of a software team defines how that team collaborates, builds, and ships software.</p>
+<p>Git is a wonderful tool for source control. Git is the most popular version control system. If you have been programming for less than a decade, it’s highly likely that you haven’t used any other method of version control. The git workflow dictates how a software team collaborates, builds, and ships software.</p>
 <p>We use a Community Edition of <a href="https://about.gitlab.com/install/?version=ce">gitlab</a> as our Centralized Version control System(CVS) and wiki for maintaining our documents.</p>
 <p>We also use gitlab to manage our teams&rsquo; tasks and projects.</p>
 <h3 id="3b">3.b</h3>
@@ -289,7 +289,7 @@ git push
 <h3 id="3d">3.d</h3>
 <h3 id="application-ideas---where-can-i-use-it-2">Application ideas - Where can i use it?</h3>
 <ul>
-<li>version controlling any document you author individually with other individuals.</li>
+<li>version controlling any document you author individually or with teammates.</li>
 <li>maintain documents to ensure up to date changes are incorporated</li>
 <li>Team management. Refer attached file <code>Team Management Project ex. python data visualization (#1167) · Issues · AHA-dev-team _ br1ck · GitLab.pdf</code></li>
 </ul>
