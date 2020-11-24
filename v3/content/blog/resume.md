@@ -56,13 +56,18 @@ Machine learning, Cloud Computing | |**pandas**, d3|**mySQL**| Google Data Studi
 Elmira, New York · _Apr 2015 – Present · 5+ years_
 #### 2020
 (SQL, python, jupyter, pandas, plotly, scikit-learn etc.)
++ Serving as the Principal Software Developer in Information Services(IS) department.
 + Performed rigorous analyses on large, complex data sets for strategic initiatives( marketing, grant proposals etc.)
 + Provided strategic insights, hypotheses, and conclusions based upon findings to leaders at all levels.
 + Developed an analytics team which excels at problem-framing, problem solving and can change direction quickly.
++ Designed and implemented patterns of best practices for scalable, CI/CD automated, highly performant data platforms and other relevant tech stacks.
++ Developed an enterprise wide application, to self-screen for COVID symptoms. Application platform was designed to be generously scalable and fully serverless harnessing AWS services(lambda functions, dynamodb, simple email service, etc.)
++ Worked on several projects roadmaps and serving as a trusted committer for code for inner sourcing efforts with other development teams.
 
 #### 2019
 (AWS, SQL, Tableau, python, scikit-learn, jupyter, pandas, d3.js etc.)
 + Lead the team developing our next generation prescriptive analytics leveraging our data lake to support [chronic disease prevention and management](https://grants.nih.gov/grants/guide/notice-files/NOT-HS-19-001.html).
++ Automated and maintain business visualizations/dashboards/KPIs.
 + Guide the team in enhancing our data visualization solutions using [jupyter](https://jupyter.org/), [bokeh](https://docs.bokeh.org/en/latest/index.html), [HoloViews](http://holoviews.org/) and [PyViz](https://pyviz.org/)
 + Conducted several market research analysis using [Medicare claims dataset](https://www.cms.gov/Research-Statistics-Data-and-Systems/Files-for-Order/LimitedDataSets/StandardAnalyticalFiles) and [NY SPARCS dataset](https://www.health.ny.gov/statistics/sparcs/)
 + Lead several projects with AWS to ensure HIPAA compliance and well architect-ed environment(ex. [Athena](https://aws.amazon.com/athena/), [s3](https://aws.amazon.com/s3/), [QuickSight](https://aws.amazon.com/quicksight/), [IAM](https://aws.amazon.com/iam/) etc.)
@@ -72,6 +77,7 @@ Elmira, New York · _Apr 2015 – Present · 5+ years_
 (Hadoop, SQL, Tableau, python, scikit-learn, django, coffeescript, d3.js etc.)
 + Lead the team through pilot and deployment phases of an in-house Hadoop data lake.
 + Lead the Business Analytics team through projects and providing full engagement of team management.
++ Mentoring senior and junior developers, helped them prioritize their work, gave them actionable feedback and made sure they grow.
 + Provide coaching and direction to analytics team in regard to best practices/approaches for software development, statistics and machine learning techniques.
 + Surface information from  across our health care system and to support data-driven decision making at all levels of Arnot Health system.
 + Communicates findings from exploratory and predictive data analysis broadly to Arnot Health leadership.
@@ -82,19 +88,31 @@ Elmira, New York · _Apr 2015 – Present · 5+ years_
 #### 2017
 (python, coffeescript, angular, d3.js, django, redis)
 + Lead development of our next generation analytics platform capable of assimilating and visualize disparate data.
++ Managed data as an enterprise asset, reducing time to find the right data/report and ensure data is trustworthy.
++ Architected and developed a scalable analytics platform, which helps end users to locate, collaborate and share trustworthy insights in a timely fashion.
 + Performing market research and present quantitative analyses of healthcare claims and external databases for historical analysis and trend forecasting.
++ Researched and delivered Proof Of Concept(POC) implementations that explain key technologies.
++ Transitioned Pilot/POC applications to DevOps team for ongoing development and lifecycle management.
++ Analyzed and implemented intelligent caching to reduce application load times and run time for data jobs.
 
 #### 2016
 (SQL, Tableau, python, scikit-learn, django)
 + Developed readmission prediction models using scikit-learn to assist health care providers in advancing our Population Health Initiatives.
 + Developed near real-time actionable notifications for our care-coordination team.
 + Created several tableau dashboards to surface key information for decision makers at all levels of the organization.
++ Work with fellow developers using agile development practices, and continually improving development methods with the goal of automating the build, integration, deployment and monitoring of jobs and Machine Learning(ML) pipelines.
++ Designed and implemented generic parallelized data integration tools to handle ETL jobs.
++ Deployed ML tools and encouraged their adoption across the company.
 
 #### 2015
 Business Analytics (SQL, Tableau, SSIS)
 + Lead the business analytics team in developing an in-house EDW.
 + Mentor the team to incorporate best practices for software development (version control, testing, automation etc.)
 + Architect the data pipelines and underlying process to integrated data from all major business units into EDW.
++ Improved EDW architecture and performance.
++ Work with data source domain experts, who understand the value potential for their data, collaborate to harvest, land and prepare that data at scale.
++ Leveraged my technical expertise to architect and implement solutions to critical business analytics problems.(e.x. Orthopedic Serviceline dashboard)
+
 
 #### Media Mentions
 
