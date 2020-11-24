@@ -55,7 +55,7 @@ Machine learning, Cloud Computing | |**pandas**, d3|**mySQL**| Google Data Studi
 
 Elmira, New York · _Apr 2015 – Present · 5+ years_
 #### 2020
-(SQL, python, jupyter, pandas, plotly, scikit-learn etc.)
+(AWS, SQL, python, jupyter, pandas, plotly, scikit-learn etc.)
 + Serving as the Principal Software Developer in Information Services(IS) department.
 + Performed rigorous analyses on large, complex data sets for strategic initiatives( marketing, grant proposals etc.)
 + Provided strategic insights, hypotheses, and conclusions based upon findings to leaders at all levels.
