@@ -57,12 +57,12 @@ Elmira, New York · _Apr 2015 – Present · 5+ years_
 #### 2020
 (AWS, SQL, python, jupyter, pandas, plotly, scikit-learn etc.)
 + Serving as the Principal Software Developer in Information Services(IS) department.
-+ Performed rigorous analyses on large, complex data sets for strategic initiatives( marketing, grant proposals etc.)
-+ Provided strategic insights, hypotheses, and conclusions based upon findings to leaders at all levels.
++ Performed rigorous analyses on large, complex data sets for strategic initiatives(marketing, grant proposals etc.)
++ Provided strategic insights, hypotheses, and conclusions based upon findings to leaders at all levels using ipython notebooks, sql, pandas and plotly.
 + Developed an analytics team which excels at problem-framing, problem solving and can change direction quickly.
 + Designed and implemented patterns of best practices for scalable, CI/CD automated, highly performant data platforms and other relevant tech stacks.
 + Developed an enterprise wide application, to self-screen for COVID symptoms. Application platform was designed to be generously scalable and fully serverless harnessing AWS services(lambda functions, dynamodb, simple email service, etc.)
-+ Worked on several projects roadmaps and serving as a trusted committer for code for inner sourcing efforts with other development teams.
++ Worked on several projects roadmaps and serving as a trusted committer for code for internal development.
 
 #### 2019
 (AWS, SQL, Tableau, python, scikit-learn, jupyter, pandas, d3.js etc.)
@@ -72,6 +72,9 @@ Elmira, New York · _Apr 2015 – Present · 5+ years_
 + Conducted several market research analysis using [Medicare claims dataset](https://www.cms.gov/Research-Statistics-Data-and-Systems/Files-for-Order/LimitedDataSets/StandardAnalyticalFiles) and [NY SPARCS dataset](https://www.health.ny.gov/statistics/sparcs/)
 + Lead several projects with AWS to ensure HIPAA compliance and well architect-ed environment(ex. [Athena](https://aws.amazon.com/athena/), [s3](https://aws.amazon.com/s3/), [QuickSight](https://aws.amazon.com/quicksight/), [IAM](https://aws.amazon.com/iam/) etc.)
 + Navigated the department in establishing an AWS environment to offload storage and computation needs.
++ Developed a generic event logger to capture events of interests from any place in our entire tech stack.
++ Developed data pipelines to inject GBs of data daily from legacy systems into EDW.
++ Developed scripts to aggregate and benchmark physicians on over 150 KPIs for Ongoing Physician Practice Evaluation.
 
 #### 2018
 (Hadoop, SQL, Tableau, python, scikit-learn, django, coffeescript, d3.js etc.)
@@ -82,6 +85,8 @@ Elmira, New York · _Apr 2015 – Present · 5+ years_
 + Surface information from  across our health care system and to support data-driven decision making at all levels of Arnot Health system.
 + Communicates findings from exploratory and predictive data analysis broadly to Arnot Health leadership.
 +Perform market research and present quantitative analyses of health-care claim databases.
++ Developed over 100 dashboards using tableau
++ Build and deployed numerous production servers using pip, virtualenv and other package managers.
 
 #### Sr. Integration and Database Analyst, Business Analytics
 
@@ -93,21 +98,31 @@ Elmira, New York · _Apr 2015 – Present · 5+ years_
 + Performing market research and present quantitative analyses of healthcare claims and external databases for historical analysis and trend forecasting.
 + Researched and delivered Proof Of Concept(POC) implementations that explain key technologies.
 + Transitioned Pilot/POC applications to DevOps team for ongoing development and lifecycle management.
++ Developed over 20 applications to collect data via django webforms.
++ Developed automated UI tests and UI automation jobs using Selenium.
++ Developed ML algorithms to project KPIs(ex. revenue, volumes)
++ Developed a unified API to pull KPIs for various enterprise entities(ex. facility, serviceline, clinic, provider etc.) using python tornado web server.
 + Analyzed and implemented intelligent caching to reduce application load times and run time for data jobs.
++ Developed an web application to pull data from above API to render dashboards and other data visualizations using angular.js, coffeescript, d3.js and other javascript libraries.
++ Configured and maintain nginx servers to act as SSL endpoint, load balancer and serve web applications.
++ Configured and apply linux command line tools to maintain prod servers using tmux, cron, systemd, bash etc.
++ Developed and implemented authentication module to access control of API endpoints using django.
 
 #### 2016
 (SQL, Tableau, python, scikit-learn, django)
-+ Developed readmission prediction models using scikit-learn to assist health care providers in advancing our Population Health Initiatives.
-+ Developed near real-time actionable notifications for our care-coordination team.
++ Developed applications to assist health care providers in advancing our Population Health Initiatives.
++ Built and deployed machine learning models to predict patient readmissions using scikit-learn, pandas, numpy etc.
++ Developed near real-time actionable notifications to our care-coordination team.
 + Created several tableau dashboards to surface key information for decision makers at all levels of the organization.
 + Work with fellow developers using agile development practices, and continually improving development methods with the goal of automating the build, integration, deployment and monitoring of jobs and Machine Learning(ML) pipelines.
 + Designed and implemented generic parallelized data integration tools to handle ETL jobs.
 + Deployed ML tools and encouraged their adoption across the company.
++ Integrated and maintained over 85 data pipelines from EMR systems, external data sources, flat files etc.
 
 #### 2015
 Business Analytics (SQL, Tableau, SSIS)
 + Lead the business analytics team in developing an in-house EDW.
-+ Mentor the team to incorporate best practices for software development (version control, testing, automation etc.)
++ Mentor the team to incorporate best practices for software development (GIT version control, testing, automation etc.)
 + Architect the data pipelines and underlying process to integrated data from all major business units into EDW.
 + Improved EDW architecture and performance.
 + Work with data source domain experts, who understand the value potential for their data, collaborate to harvest, land and prepare that data at scale.
