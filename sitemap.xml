@@ -15,6 +15,12 @@
   </url>
   
   <url>
+    <loc>http://codein.github.io/blog/intro-to-sql/</loc>
+    <lastmod>2020-11-28T14:09:10+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>http://codein.github.io/blog/sql-upsert-loader/</loc>
     <lastmod>2020-11-28T14:09:10+00:00</lastmod>
     <priority>0.8</priority>
@@ -71,6 +77,16 @@
     <loc>http://codein.github.io/projects/contributions/schema-org/</loc>
     <lastmod>2020-01-07T17:08:21+00:00</lastmod>
     <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://codein.github.io/tags/class/</loc>
+    <lastmod>2020-11-28T14:09:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://codein.github.io/tags/demo/</loc>
+    <lastmod>2020-11-28T14:09:10+00:00</lastmod>
   </url>
   
   <url>
