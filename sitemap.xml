@@ -15,6 +15,12 @@
   </url>
   
   <url>
+    <loc>http://codein.github.io/blog/sql-upsert-loader/</loc>
+    <lastmod>2020-11-28T14:09:10+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>http://codein.github.io/blog/top-5-tools-analytics-uses/</loc>
     <lastmod>2020-11-05T14:09:10+00:00</lastmod>
     <priority>0.8</priority>
@@ -68,23 +74,38 @@
   </url>
   
   <url>
-    <loc>http://codein.github.io/tags/analytics/</loc>
-    <lastmod>2020-11-05T14:09:10+00:00</lastmod>
+    <loc>http://codein.github.io/tags/etl/</loc>
+    <lastmod>2020-11-28T14:09:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://codein.github.io/tags/integration/</loc>
+    <lastmod>2020-11-28T14:09:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://codein.github.io/tags/jupyter/</loc>
+    <lastmod>2020-11-28T14:09:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://codein.github.io/tags/sql/</loc>
+    <lastmod>2020-11-28T14:09:10+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://codein.github.io/tags/</loc>
+    <lastmod>2020-11-28T14:09:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://codein.github.io/tags/analytics/</loc>
     <lastmod>2020-11-05T14:09:10+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://codein.github.io/tags/talk/</loc>
     <lastmod>2020-11-05T14:09:10+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://codein.github.io/tags/jupyter/</loc>
-    <lastmod>2020-10-05T14:09:10+00:00</lastmod>
   </url>
   
   <url>

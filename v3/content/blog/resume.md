@@ -84,7 +84,7 @@ Elmira, New York · _Apr 2015 – Present · 5+ years_
 + Provide coaching and direction to analytics team in regard to best practices/approaches for software development, statistics and machine learning techniques.
 + Surface information from  across our health care system and to support data-driven decision making at all levels of Arnot Health system.
 + Communicates findings from exploratory and predictive data analysis broadly to Arnot Health leadership.
-+Perform market research and present quantitative analyses of health-care claim databases.
++ Perform market research and present quantitative analyses of health-care claim databases.
 + Developed over 100 dashboards using tableau
 + Build and deployed numerous production servers using pip, virtualenv and other package managers.
 

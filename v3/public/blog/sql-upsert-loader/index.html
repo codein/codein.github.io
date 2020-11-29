@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Robin Varghese | Blogs</title>
-  <meta property="og:title" content="Robin Varghese | Blogs" />
+  <title>Robin Varghese | SQL upsert loader</title>
+  <meta property="og:title" content="Robin Varghese | SQL upsert loader" />
   <meta property="og:image" content="http://codein.github.io/img/profilePic.png" />
-  <meta name="description" content="Not applicable">
-  <meta property="og:description" content="Not applicable" />
+  <meta name="description" content="A quick demo of jupyter notebook.">
+  <meta property="og:description" content="A quick demo of jupyter notebook." />
   <meta name="author" content="Robin Varghese">
   
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -86,13 +86,20 @@
 
 
 
+
+
 <li class="breadcrumb-item">
   <a href="http://codein.github.io/">Home</a>
 </li>
 
 
-<li class="breadcrumb-item active">
+<li class="breadcrumb-item">
   <a href="http://codein.github.io/blog/">Blogs</a>
+</li>
+
+
+<li class="breadcrumb-item active">
+  <a href="http://codein.github.io/blog/sql-upsert-loader/">SQL upsert loader</a>
 </li>
 
   </ol>
@@ -101,24 +108,29 @@
 
 
 
-<section class="resume-section p-3 p-lg-5 d-flex flex-column">
-  <div class="my-auto" id="projects-content">
-    <h1 id="blogs">Blogs</h1>
-    <p><!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-</p>
+<section class="resume-section p-3 p-lg-5 d-flex d-column">
+  <div class="my-auto">
+    <h2 class="mb-0"><span class="text-primary">SQL upsert loader</span></h2>
+    <span class="text-primary">November 28, 2020</span>
+    <h2 id="overview-of-sql-upsert-loader">Overview of SQL upsert loader</h2>
+<ul>
+<li>
+<p><a href="/jupyter_notebooks/sqlite_upsert_loader_overview.html">jupyter notebook link</a></p>
+</li>
+<li>
+<p><a href="https://github.com/codein/poc/blob/master/sql_loader/sql_loader.py">source code</a></p>
+</li>
+</ul>
+<p>I hope to present a Proof Of Concept version of a multiprocessed data loader that I use extensively in my data integration pipelines.</p>
+<p>Couple of problems that it is attempting to address are</p>
+<ol>
+<li>Ability to operate on any update flat file associated with a SQL table, with minor configuration.</li>
+<li>Ability to perform upsert operations on datasets without a primary key column. Although a combination key has to be identified using multiple columns to dedup the records.</li>
+</ol>
+<p>Use the link above to view the example in a jupyter notebook.</p>
+
     
-        
-<div class="resume-item d-flex flex-column flex-md-row mb-5">
-  <div class="publication-content mr-auto">
-    <h3 class="mb-0"><a href="http://codein.github.io/blog/sql-upsert-loader/">SQL upsert loader</a></h3>
-    <div>Overview of SQL upsert loader   jupyter notebook link
-  source code
-  I hope to present a Proof Of Concept version of a multiprocessed data loader that I use extensively in my data integration pipelines.
-Couple of problems that it is attempting to address are
- Ability to operate on any update flat file associated with a SQL table, with minor configuration. Ability to perform upsert operations on datasets without a primary key column.</div>
-    <p><ul class="tags">
+    <ul class="tags">
     
       <li><a class="tag" href="/tags/jupyter">jupyter</a></li>
     
@@ -129,81 +141,7 @@ Couple of problems that it is attempting to address are
       <li><a class="tag" href="/tags/integration">integration</a></li>
     
 </ul>
-</p>
-  </div>
-  <div class="resume-date text-md-right">
-    <span class="text-primary">November 28, 2020</span>
-    <img src="/img/SQL_upsert_loader_notebook.png" style="max-width:250px;padding:5px;"/>
-  </div>
-</div>
 
-    
-        
-<div class="resume-item d-flex flex-column flex-md-row mb-5">
-  <div class="publication-content mr-auto">
-    <h3 class="mb-0"><a href="http://codein.github.io/blog/top-5-tools-analytics-uses/">Analytics Commons Talk</a></h3>
-    <div>I gave this talk to give an overview of few tools that our department relies heavily on. This talk was part of our IS department&rsquo;s commons session to give employees the chance to share their skills with examples to set and follow.
-Top 5 tools Analytics uses Introduction We are hoping to give an insight into 5 tools that we rely heavily to make our life easy in Analytics department.</div>
-    <p><ul class="tags">
-    
-      <li><a class="tag" href="/tags/analytics">analytics</a></li>
-    
-      <li><a class="tag" href="/tags/talk">talk</a></li>
-    
-</ul>
-</p>
-  </div>
-  <div class="resume-date text-md-right">
-    <span class="text-primary">November 5, 2020</span>
-    <img src="/img/workspace.webp" style="max-width:250px;padding:5px;"/>
-  </div>
-</div>
-
-    
-        
-<div class="resume-item d-flex flex-column flex-md-row mb-5">
-  <div class="publication-content mr-auto">
-    <h3 class="mb-0"><a href="http://codein.github.io/blog/hello-world-jupyter/">Jupyter - Hello world</a></h3>
-    <div>4 Jupyter jupyter notebook demo link
-4.a Introduction Project Jupyter is three things: a collection of standards, a community, and a set of software tools. Jupyter Notebook, one part of Jupyter, is software that creates a Jupyter notebook.
-A Jupyter notebook is a document that supports mixing executable code, equations, visualizations, and narrative text. Specifically, Jupyter notebooks allow the user to bring together data, code, and prose, to tell an interactive, computational story.</div>
-    <p><ul class="tags">
-    
-      <li><a class="tag" href="/tags/jupyter">jupyter</a></li>
-    
-      <li><a class="tag" href="/tags/talk">talk</a></li>
-    
-</ul>
-</p>
-  </div>
-  <div class="resume-date text-md-right">
-    <span class="text-primary">October 5, 2020</span>
-    <img src="/img/jupyter_notebook_demo.png" style="max-width:250px;padding:5px;"/>
-  </div>
-</div>
-
-    
-        
-<div class="resume-item d-flex flex-column flex-md-row mb-5">
-  <div class="publication-content mr-auto">
-    <h3 class="mb-0"><a href="http://codein.github.io/blog/resume/">Resume</a></h3>
-    <div>Robin Varghese What ever the problem, I like to be part of the solution. I thrive in an environment of uncertainty which requires constant learning. I enjoy empowering others in my knowledge space and developing software to surface information from data. Given any problem space, my hope is to be part of the solution. My aspiration is to improve health-care delivery by harnessing my skills.
-Reach Me    Github LinkedIn Email Say Hello     .</div>
-    <p><ul class="tags">
-    
-      <li><a class="tag" href="/tags/resume">resume</a></li>
-    
-</ul>
-</p>
-  </div>
-  <div class="resume-date text-md-right">
-    <span class="text-primary">January 1, 2020</span>
-    <img src="/img/resume-snippet.png" style="max-width:250px;padding:5px;"/>
-  </div>
-</div>
-
-    
-    
   </div>
 </section>
 

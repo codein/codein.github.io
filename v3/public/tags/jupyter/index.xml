@@ -6,10 +6,23 @@
     <description>Recent content in jupyter on Robin Varghese</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Oct 2020 14:09:10 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2020 14:09:10 +0000</lastBuildDate>
     
 	<atom:link href="http://codein.github.io/tags/jupyter/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SQL upsert loader</title>
+      <link>http://codein.github.io/blog/sql-upsert-loader/</link>
+      <pubDate>Sat, 28 Nov 2020 14:09:10 +0000</pubDate>
+      
+      <guid>http://codein.github.io/blog/sql-upsert-loader/</guid>
+      <description>Overview of SQL upsert loader   jupyter notebook link
+  source code
+  I hope to present a Proof Of Concept version of a multiprocessed data loader that I use extensively in my data integration pipelines.
+Couple of problems that it is attempting to address are
+ Ability to operate on any update flat file associated with a SQL table, with minor configuration. Ability to perform upsert operations on datasets without a primary key column.</description>
+    </item>
     
     <item>
       <title>Jupyter - Hello world</title>
