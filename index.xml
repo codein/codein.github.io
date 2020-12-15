@@ -12,6 +12,27 @@
     
     
     <item>
+      <title>Single-threaded vs Multi-threading vs Multi-processing in Python</title>
+      <link>http://codein.github.io/blog/why-multi-process/</link>
+      <pubDate>Tue, 15 Dec 2020 14:09:10 +0000</pubDate>
+      
+      <guid>http://codein.github.io/blog/why-multi-process/</guid>
+      <description>Single-threaded vs Multi-threading vs Multi-processing in Python  jupyter notebook link  We will try to run a few simulated processes to understand the performance difference between Single-threaded, Multi-threading and Multi-processing in Python.
+We will learn about GIL - Alternative Python interpreters - by counting to 255 million and downloading few webpages
+import concurrent.futures import requests import threading import time import math import random from multiprocessing import Pool # Reference and Credits # https://realpython.</description>
+    </item>
+    
+    <item>
+      <title>USPS API Proof of Concept</title>
+      <link>http://codein.github.io/blog/usps-api-proof-of-concept/</link>
+      <pubDate>Tue, 15 Dec 2020 14:09:10 +0000</pubDate>
+      
+      <guid>http://codein.github.io/blog/usps-api-proof-of-concept/</guid>
+      <description>USPS API Proof of Concept  jupyter notebook link  I was hoping to demostrate how one can pull tracking information from USPS API endpoint for a given tracking ID.
+Acknowledgements  all documentation was available on this webpage https://www.usps.com/business/web-tools-apis/track-and-confirm-api.htm#_Toc41911504  </description>
+    </item>
+    
+    <item>
       <title>Intro to SQL with 5000 movies</title>
       <link>http://codein.github.io/blog/intro-to-sql/</link>
       <pubDate>Sat, 28 Nov 2020 14:09:10 +0000</pubDate>

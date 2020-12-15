@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>multiprocessing on Robin Varghese</title>
+    <link>http://codein.github.io/tags/multiprocessing/</link>
+    <description>Recent content in multiprocessing on Robin Varghese</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Dec 2020 14:09:10 +0000</lastBuildDate>
+    
+	<atom:link href="http://codein.github.io/tags/multiprocessing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Single-threaded vs Multi-threading vs Multi-processing in Python</title>
+      <link>http://codein.github.io/blog/why-multi-process/</link>
+      <pubDate>Tue, 15 Dec 2020 14:09:10 +0000</pubDate>
+      
+      <guid>http://codein.github.io/blog/why-multi-process/</guid>
+      <description>Single-threaded vs Multi-threading vs Multi-processing in Python  jupyter notebook link  We will try to run a few simulated processes to understand the performance difference between Single-threaded, Multi-threading and Multi-processing in Python.
+We will learn about GIL - Alternative Python interpreters - by counting to 255 million and downloading few webpages
+import concurrent.futures import requests import threading import time import math import random from multiprocessing import Pool # Reference and Credits # https://realpython.</description>
+    </item>
+    
+  </channel>
+</rss>

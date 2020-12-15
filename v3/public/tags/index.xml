@@ -6,10 +6,91 @@
     <description>Recent content in Tags on Robin Varghese</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Nov 2020 14:09:10 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Dec 2020 14:09:10 +0000</lastBuildDate>
     
 	<atom:link href="http://codein.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>API</title>
+      <link>http://codein.github.io/tags/api/</link>
+      <pubDate>Tue, 15 Dec 2020 14:09:10 +0000</pubDate>
+      
+      <guid>http://codein.github.io/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>demo</title>
+      <link>http://codein.github.io/tags/demo/</link>
+      <pubDate>Tue, 15 Dec 2020 14:09:10 +0000</pubDate>
+      
+      <guid>http://codein.github.io/tags/demo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GIL</title>
+      <link>http://codein.github.io/tags/gil/</link>
+      <pubDate>Tue, 15 Dec 2020 14:09:10 +0000</pubDate>
+      
+      <guid>http://codein.github.io/tags/gil/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jupyter</title>
+      <link>http://codein.github.io/tags/jupyter/</link>
+      <pubDate>Tue, 15 Dec 2020 14:09:10 +0000</pubDate>
+      
+      <guid>http://codein.github.io/tags/jupyter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>multiprocessing</title>
+      <link>http://codein.github.io/tags/multiprocessing/</link>
+      <pubDate>Tue, 15 Dec 2020 14:09:10 +0000</pubDate>
+      
+      <guid>http://codein.github.io/tags/multiprocessing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>simulation</title>
+      <link>http://codein.github.io/tags/simulation/</link>
+      <pubDate>Tue, 15 Dec 2020 14:09:10 +0000</pubDate>
+      
+      <guid>http://codein.github.io/tags/simulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>threading</title>
+      <link>http://codein.github.io/tags/threading/</link>
+      <pubDate>Tue, 15 Dec 2020 14:09:10 +0000</pubDate>
+      
+      <guid>http://codein.github.io/tags/threading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>USPS</title>
+      <link>http://codein.github.io/tags/usps/</link>
+      <pubDate>Tue, 15 Dec 2020 14:09:10 +0000</pubDate>
+      
+      <guid>http://codein.github.io/tags/usps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>XML</title>
+      <link>http://codein.github.io/tags/xml/</link>
+      <pubDate>Tue, 15 Dec 2020 14:09:10 +0000</pubDate>
+      
+      <guid>http://codein.github.io/tags/xml/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>class</title>
@@ -17,15 +98,6 @@
       <pubDate>Sat, 28 Nov 2020 14:09:10 +0000</pubDate>
       
       <guid>http://codein.github.io/tags/class/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>demo</title>
-      <link>http://codein.github.io/tags/demo/</link>
-      <pubDate>Sat, 28 Nov 2020 14:09:10 +0000</pubDate>
-      
-      <guid>http://codein.github.io/tags/demo/</guid>
       <description></description>
     </item>
     
@@ -44,15 +116,6 @@
       <pubDate>Sat, 28 Nov 2020 14:09:10 +0000</pubDate>
       
       <guid>http://codein.github.io/tags/integration/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>jupyter</title>
-      <link>http://codein.github.io/tags/jupyter/</link>
-      <pubDate>Sat, 28 Nov 2020 14:09:10 +0000</pubDate>
-      
-      <guid>http://codein.github.io/tags/jupyter/</guid>
       <description></description>
     </item>
     

@@ -15,6 +15,18 @@
   </url>
   
   <url>
+    <loc>http://codein.github.io/blog/why-multi-process/</loc>
+    <lastmod>2020-12-15T14:09:10+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://codein.github.io/blog/usps-api-proof-of-concept/</loc>
+    <lastmod>2020-12-15T14:09:10+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>http://codein.github.io/blog/intro-to-sql/</loc>
     <lastmod>2020-11-28T14:09:10+00:00</lastmod>
     <priority>0.8</priority>
@@ -80,12 +92,57 @@
   </url>
   
   <url>
-    <loc>http://codein.github.io/tags/class/</loc>
-    <lastmod>2020-11-28T14:09:10+00:00</lastmod>
+    <loc>http://codein.github.io/tags/api/</loc>
+    <lastmod>2020-12-15T14:09:10+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://codein.github.io/tags/demo/</loc>
+    <lastmod>2020-12-15T14:09:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://codein.github.io/tags/gil/</loc>
+    <lastmod>2020-12-15T14:09:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://codein.github.io/tags/jupyter/</loc>
+    <lastmod>2020-12-15T14:09:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://codein.github.io/tags/multiprocessing/</loc>
+    <lastmod>2020-12-15T14:09:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://codein.github.io/tags/simulation/</loc>
+    <lastmod>2020-12-15T14:09:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://codein.github.io/tags/</loc>
+    <lastmod>2020-12-15T14:09:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://codein.github.io/tags/threading/</loc>
+    <lastmod>2020-12-15T14:09:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://codein.github.io/tags/usps/</loc>
+    <lastmod>2020-12-15T14:09:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://codein.github.io/tags/xml/</loc>
+    <lastmod>2020-12-15T14:09:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://codein.github.io/tags/class/</loc>
     <lastmod>2020-11-28T14:09:10+00:00</lastmod>
   </url>
   
@@ -100,17 +157,7 @@
   </url>
   
   <url>
-    <loc>http://codein.github.io/tags/jupyter/</loc>
-    <lastmod>2020-11-28T14:09:10+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://codein.github.io/tags/sql/</loc>
-    <lastmod>2020-11-28T14:09:10+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://codein.github.io/tags/</loc>
     <lastmod>2020-11-28T14:09:10+00:00</lastmod>
   </url>
   
