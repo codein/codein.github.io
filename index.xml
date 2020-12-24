@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>Resume</title>
+      <link>http://codein.github.io/blog/resume/</link>
+      <pubDate>Thu, 24 Dec 2020 14:09:10 +0000</pubDate>
+      
+      <guid>http://codein.github.io/blog/resume/</guid>
+      <description>Robin Varghese What ever the problem, I like to be part of the solution. I thrive in an environment of uncertainty which requires constant learning. I enjoy empowering others in my knowledge space and developing software to surface information from data. Given any problem space, my hope is to be part of the solution. My aspiration is to improve health-care delivery by harnessing my skills.
+Reach Me    Github LinkedIn Email Say Hello     .</description>
+    </item>
+    
+    <item>
       <title>Single-threaded vs Multi-threading vs Multi-processing in Python</title>
       <link>http://codein.github.io/blog/why-multi-process/</link>
       <pubDate>Tue, 15 Dec 2020 14:09:10 +0000</pubDate>
@@ -77,13 +87,12 @@ A Jupyter notebook is a document that supports mixing executable code, equations
     </item>
     
     <item>
-      <title>Resume</title>
-      <link>http://codein.github.io/blog/resume/</link>
-      <pubDate>Wed, 01 Jan 2020 14:09:10 +0000</pubDate>
+      <title>Maestro Job Engine Architecture</title>
+      <link>http://codein.github.io/blog/maestro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://codein.github.io/blog/resume/</guid>
-      <description>Robin Varghese What ever the problem, I like to be part of the solution. I thrive in an environment of uncertainty which requires constant learning. I enjoy empowering others in my knowledge space and developing software to surface information from data. Given any problem space, my hope is to be part of the solution. My aspiration is to improve health-care delivery by harnessing my skills.
-Reach Me    Github LinkedIn Email Say Hello     .</description>
+      <guid>http://codein.github.io/blog/maestro/</guid>
+      <description>Maestro Job Engine Architecture +---------------------------------------------------------------------------------------------------------------------------------------------------------------+ | | | | | Maestro Job Engine Architecture | | | | | | | | +---------------------------+ | | | | | | | execute 1 | | | | | | | +---------------------------+ | | | | +---------------------------+ +------+----------+--------+--------------------------------------+-------------+ | | | | push logs to Database | date | job_name | status | tags | debug_data | | | | logging 2 | +---------------------&amp;gt; +-------------------------------------------------------------------------------+ | | | | | | | | | | | | +---------------------------+ | | | | #frequency #type #priority #author | | | | | | | | examples | | | | +---------------------------+ | | | | #daily #etl #critical #robin | | | | | | analyze logs | | | | #weekly #test #minor #bart | | | | | monitoring 3 | &amp;lt;---------------------+ | | | | #hourly #API #monitoring #dev #paul | | | | | | | | | | | | | | +----------+----------------+ +------+----------+--------+--------------------------------------+-------------+ | | | | | | | | | | | | notification | | | | | v | | +----------+----------------+ | | | | | | | Errors | | | | critical: 0 | | | | minor: 1 | | | | warning: 12 | | | | test: 1 | | | | dev: 5 | | | | success: 150 | | | | | | | +---------------------------+ | | | | | | | +---------------------------------------------------------------------------------------------------------------------------------------------------------------+ </description>
     </item>
     
     <item>
@@ -130,6 +139,16 @@ Reach Me    Github LinkedIn Email Say Hello     .</description>
       
       <guid>http://codein.github.io/projects/creations/bosh-agents/</guid>
       <description>BOSH (Bosh Outer SHell) &amp;ldquo;&amp;hellip;is an open source tool for release engineering, deployment, lifecycle management, and monitoring of distributed systems.&amp;rdquo; And it&amp;rsquo;s amazingly powerful. This examples uses BOSH to provision an Alassian vendor app running on JDK along with the support Postgres database and agents to support it. The releases manages the health of services and will automatically provision, start/stop processes across the various services.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://codein.github.io/blog/ha/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://codein.github.io/blog/ha/</guid>
+      <description>ha (刃, edge) - the tempered cutting edge of a katana.
+Scorecard metrics measurement OLAP cube sits Scorecard critical performance information on a single screen so users can monitor results in a glance.</description>
     </item>
     
     <item>

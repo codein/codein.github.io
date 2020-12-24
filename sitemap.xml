@@ -15,6 +15,12 @@
   </url>
   
   <url>
+    <loc>http://codein.github.io/blog/resume/</loc>
+    <lastmod>2020-12-24T14:09:10+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>http://codein.github.io/blog/why-multi-process/</loc>
     <lastmod>2020-12-15T14:09:10+00:00</lastmod>
     <priority>0.8</priority>
@@ -57,8 +63,7 @@
   </url>
   
   <url>
-    <loc>http://codein.github.io/blog/resume/</loc>
-    <lastmod>2020-01-01T14:09:10+00:00</lastmod>
+    <loc>http://codein.github.io/blog/maestro/</loc>
     <priority>0.8</priority>
   </url>
   
@@ -92,6 +97,16 @@
   </url>
   
   <url>
+    <loc>http://codein.github.io/tags/resume/</loc>
+    <lastmod>2020-12-24T14:09:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://codein.github.io/tags/</loc>
+    <lastmod>2020-12-24T14:09:10+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://codein.github.io/tags/api/</loc>
     <lastmod>2020-12-15T14:09:10+00:00</lastmod>
   </url>
@@ -118,11 +133,6 @@
   
   <url>
     <loc>http://codein.github.io/tags/simulation/</loc>
-    <lastmod>2020-12-15T14:09:10+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://codein.github.io/tags/</loc>
     <lastmod>2020-12-15T14:09:10+00:00</lastmod>
   </url>
   
@@ -208,11 +218,6 @@
   </url>
   
   <url>
-    <loc>http://codein.github.io/tags/resume/</loc>
-    <lastmod>2020-01-01T14:09:10+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://codein.github.io/tags/atlassian-ecosystem/</loc>
     <lastmod>2018-02-11T12:41:05-05:00</lastmod>
   </url>
@@ -269,6 +274,10 @@
   </url>
   
   <url>
+    <loc>http://codein.github.io/blog/ha/</loc>
+  </url>
+  
+  <url>
     <loc>http://codein.github.io/tags/atlassian-developer-ecosystem/</loc>
   </url>
   
@@ -305,11 +314,19 @@
   </url>
   
   <url>
+    <loc>http://codein.github.io/tags/job-engine/</loc>
+  </url>
+  
+  <url>
     <loc>http://codein.github.io/tags/jquery/</loc>
   </url>
   
   <url>
     <loc>http://codein.github.io/tags/maven/</loc>
+  </url>
+  
+  <url>
+    <loc>http://codein.github.io/tags/monitoring/</loc>
   </url>
   
   <url>

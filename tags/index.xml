@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Robin Varghese</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Dec 2020 14:09:10 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Dec 2020 14:09:10 +0000</lastBuildDate>
     
 	<atom:link href="http://codein.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>resume</title>
+      <link>http://codein.github.io/tags/resume/</link>
+      <pubDate>Thu, 24 Dec 2020 14:09:10 +0000</pubDate>
+      
+      <guid>http://codein.github.io/tags/resume/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>API</title>
@@ -201,15 +210,6 @@
     </item>
     
     <item>
-      <title>resume</title>
-      <link>http://codein.github.io/tags/resume/</link>
-      <pubDate>Wed, 01 Jan 2020 14:09:10 +0000</pubDate>
-      
-      <guid>http://codein.github.io/tags/resume/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Atlassian Ecosystem</title>
       <link>http://codein.github.io/tags/atlassian-ecosystem/</link>
       <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
@@ -354,6 +354,15 @@
     </item>
     
     <item>
+      <title>job engine</title>
+      <link>http://codein.github.io/tags/job-engine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://codein.github.io/tags/job-engine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>jQuery</title>
       <link>http://codein.github.io/tags/jquery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -368,6 +377,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://codein.github.io/tags/maven/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>monitoring</title>
+      <link>http://codein.github.io/tags/monitoring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://codein.github.io/tags/monitoring/</guid>
       <description></description>
     </item>
     
