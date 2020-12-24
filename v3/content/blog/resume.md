@@ -1,6 +1,6 @@
 ---
 title: 'Resume'
-date: Wed, 01 Jan 2020 14:09:10 +0000
+date: Wed, 24 Dec 2020 14:09:10 +0000
 draft: false
 tags: [resume]
 pubtype: "Talk"
@@ -144,9 +144,14 @@ Care coordination is essential to improving patient satisfaction and healthcare 
 
 #### Software Consultant
 
-New York, New York · _May 2013 – Present · 4+ years_
+New York, New York · _May 2013 – Present · 7+ years_
 
++ One of the early employees at this 7+ year old startup.
++ Developed and Deployed payment gateways to process credit card transactions using Braintree.
++ Developed tools and automation scripts to onboard new licensed retail partners and sync their inventory.
++ Developed and deployed package tracking with Glympse.
 + R&D for inventory management, business intelligence and software development in general
+
 
 Thirstie is technology company and e-commerce platform for the retail alcohol industry. By partnering with hundreds of licensed retail partners, we deliver products directly to consumers in 10 markets in less than an hour and ship premium alcohol products to consumers in most locations in the US and Canada in less than 3 days. Our enterprise solution, Thirstie Inside, will enable liquor brands to facilitate sales of their products through independent licensed retailers with unmatched efficiency for new consumer experience, providing visibility and transparency into data, consumer insights, analytics, and ROI. Thirstie has been recognized by WSJ, NYT, CNBC, FoxNews, and TechCrunch as the leading alcohol delivery platform in the US and Canada.
 
