@@ -1,6 +1,6 @@
 ---
 title: 'Resume'
-date: Wed, 24 Dec 2020 14:09:10 +0000
+date: Fri, 8 Jan 2021 14:09:10 +0000
 draft: false
 tags: [resume]
 pubtype: "Talk"
@@ -19,12 +19,11 @@ sitemap:
 
 # Robin Varghese
 
-What ever the problem, I like to be part of the solution.
-I thrive in an environment of uncertainty which requires constant learning.
-I enjoy empowering others in my [knowledge space](https://github.com/codein/codein.github.io/blob/master/files/resume.md#knowledge-space) and developing software to surface information from data.
-Given any problem space, my hope is to be part of the solution.
-My aspiration is to improve health-care delivery by harnessing my skills.
+Whatever the problem, I want to be part of the solution.
+I enjoy developing software and empowering others in my [knowledge space](https://github.com/codein/codein.github.io/blob/master/files/resume.md#knowledge-space).
+I bring 10+ years of Full-Stack Developer experience and 5+ years of Leadership experience.
 
+I thrive in an environment of uncertainty which requires constant learning.
 
 
 ### Reach Me
@@ -48,6 +47,11 @@ Machine learning, Cloud Computing | |**pandas**, d3|**mySQL**| Google Data Studi
 **Health-care**, not for profit| HTML | RabbitMQ| postgreSQL |
 
 ### Experience
+
+* 10+ years of experience developing software, data analytics and solving business problems with technology.
+
+* 5+ years of leadership experience focused on driving innovation, building and mentoring development teams.
+
 
 ###  Arnot Health
 
@@ -146,14 +150,10 @@ Care coordination is essential to improving patient satisfaction and healthcare 
 
 New York, New York · _May 2013 – Present · 7+ years_
 
-+ One of the early employees at this 7+ year old startup.
-+ Developed and Deployed payment gateways to process credit card transactions using Braintree.
-+ Developed tools and automation scripts to onboard new licensed retail partners and sync their inventory.
-+ Developed and deployed package tracking with Glympse.
-+ R&D for inventory management, business intelligence and software development in general
-
-
-Thirstie is technology company and e-commerce platform for the retail alcohol industry. By partnering with hundreds of licensed retail partners, we deliver products directly to consumers in 10 markets in less than an hour and ship premium alcohol products to consumers in most locations in the US and Canada in less than 3 days. Our enterprise solution, Thirstie Inside, will enable liquor brands to facilitate sales of their products through independent licensed retailers with unmatched efficiency for new consumer experience, providing visibility and transparency into data, consumer insights, analytics, and ROI. Thirstie has been recognized by WSJ, NYT, CNBC, FoxNews, and TechCrunch as the leading alcohol delivery platform in the US and Canada.
++ Employee #5 in this 7+ year old start-up.
++ Deployed several core services to process credit card transactions [Braintree](https://www.braintreepayments.com/), package tracking with [Glympse](https://glympse.com/).
++ Developed tools and automation scripts to onboard new licensed retail partners and sync their inventories.
++ R&D for inventory management, business intelligence and software development in general.
 
 ---
 
