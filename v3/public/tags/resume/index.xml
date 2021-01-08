@@ -6,7 +6,6 @@
     <description>Recent content in resume on Robin Varghese</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Dec 2020 14:09:10 +0000</lastBuildDate>
     
 	<atom:link href="http://codein.github.io/tags/resume/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,11 +13,12 @@
     <item>
       <title>Resume</title>
       <link>http://codein.github.io/blog/resume/</link>
-      <pubDate>Thu, 24 Dec 2020 14:09:10 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://codein.github.io/blog/resume/</guid>
-      <description>Robin Varghese What ever the problem, I like to be part of the solution. I thrive in an environment of uncertainty which requires constant learning. I enjoy empowering others in my knowledge space and developing software to surface information from data. Given any problem space, my hope is to be part of the solution. My aspiration is to improve health-care delivery by harnessing my skills.
-Reach Me    Github LinkedIn Email Say Hello     .</description>
+      <description>Robin Varghese Whatever the problem, I want to be part of the solution. I enjoy developing software and empowering others in my knowledge space. I bring 10+ years of Full-Stack Developer experience and 5+ years of Leadership experience.
+I thrive in an environment of uncertainty which requires constant learning.
+Reach Me    Github LinkedIn Email Say Hello     . . . .    Knowledge space Tech stack             Interests Languages Tools Databases Platforms   Data Science, Analytics Python Jupyter plotly MS SQL server Amazon Web Services   Project Management, SQL git, scikit-learn AWS Athena DynamoDB Tableau   Machine learning, Cloud Computing  pandas, d3 mySQL Google Data Studio   Software, Distributed System Coffeescript Angular, bootstrap MongoDB    Kaizen, dev team building Javascript tornado, django redis    Health-care, not for profit HTML RabbitMQ postgreSQL     Experience   10+ years of experience developing software, data analytics and solving business problems with technology.</description>
     </item>
     
   </channel>
