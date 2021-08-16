@@ -15,6 +15,12 @@
   </url>
   
   <url>
+    <loc>http://codein.github.io/blog/resume/</loc>
+    <lastmod>2020-12-25T14:09:10+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>http://codein.github.io/blog/why-multi-process/</loc>
     <lastmod>2020-12-15T14:09:10+00:00</lastmod>
     <priority>0.8</priority>
@@ -62,11 +68,6 @@
   </url>
   
   <url>
-    <loc>http://codein.github.io/blog/resume/</loc>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
     <loc>http://codein.github.io/projects/contributions/</loc>
     <lastmod>2020-01-07T16:49:15+00:00</lastmod>
     <priority>0.5</priority>
@@ -96,6 +97,16 @@
   </url>
   
   <url>
+    <loc>http://codein.github.io/tags/resume/</loc>
+    <lastmod>2020-12-25T14:09:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://codein.github.io/tags/</loc>
+    <lastmod>2020-12-25T14:09:10+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://codein.github.io/tags/api/</loc>
     <lastmod>2020-12-15T14:09:10+00:00</lastmod>
   </url>
@@ -122,11 +133,6 @@
   
   <url>
     <loc>http://codein.github.io/tags/simulation/</loc>
-    <lastmod>2020-12-15T14:09:10+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://codein.github.io/tags/</loc>
     <lastmod>2020-12-15T14:09:10+00:00</lastmod>
   </url>
   
@@ -321,10 +327,6 @@
   
   <url>
     <loc>http://codein.github.io/tags/monitoring/</loc>
-  </url>
-  
-  <url>
-    <loc>http://codein.github.io/tags/resume/</loc>
   </url>
   
   <url>

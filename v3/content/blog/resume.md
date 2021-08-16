@@ -1,6 +1,6 @@
 ---
 title: 'Resume'
-date: Fri, 8 Jan 2021 14:09:10 +0000
+date: Fri, 25 Dec 2020 14:09:10 +0000
 draft: false
 tags: [resume]
 pubtype: "Talk"

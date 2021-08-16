@@ -38,6 +38,10 @@ link = "https://github.com/codein/"
 name = "GitHub"
 
 [[params.handles]]
+link = "https://www.hackerrank.com/codein_robin"
+name = "HackerRank"
+
+[[params.handles]]
 link = "https://public.tableau.com/profile/codein5631#!/"
 name = "Tableau"
 
