@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Robin Varghese</title>
-    <link>http://codein.github.io/</link>
+    <link>https://codein.github.io/</link>
     <description>Recent content in Home on Robin Varghese</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 10 Feb 2018 18:56:13 -0500</lastBuildDate>
     
-	<atom:link href="http://codein.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://codein.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Resume</title>
-      <link>http://codein.github.io/blog/resume/</link>
+      <link>https://codein.github.io/blog/resume/</link>
       <pubDate>Fri, 25 Dec 2020 14:09:10 +0000</pubDate>
       
-      <guid>http://codein.github.io/blog/resume/</guid>
+      <guid>https://codein.github.io/blog/resume/</guid>
       <description>Robin Varghese Whatever the problem, I want to be part of the solution. I enjoy developing software and empowering others in my knowledge space. I bring 10+ years of Full-Stack Developer experience and 5+ years of Leadership experience.
 I thrive in an environment of uncertainty which requires constant learning.
 Reach Me    Github LinkedIn Email Say Hello     . . . .    Knowledge space Tech stack             Interests Languages Tools Databases Platforms   Data Science, Analytics Python Jupyter plotly MS SQL server Amazon Web Services   Project Management, SQL git, scikit-learn AWS Athena DynamoDB Tableau   Machine learning, Cloud Computing  pandas, d3 mySQL Google Data Studio   Software, Distributed System Coffeescript Angular, bootstrap MongoDB    Kaizen, dev team building Javascript tornado, django redis    Health-care, not for profit HTML RabbitMQ postgreSQL     Experience   10+ years of experience developing software, data analytics and solving business problems with technology.</description>
@@ -24,10 +24,10 @@ Reach Me    Github LinkedIn Email Say Hello     . . . .    Knowledge space Tech 
     
     <item>
       <title>Single-threaded vs Multi-threading vs Multi-processing in Python</title>
-      <link>http://codein.github.io/blog/why-multi-process/</link>
+      <link>https://codein.github.io/blog/why-multi-process/</link>
       <pubDate>Tue, 15 Dec 2020 14:09:10 +0000</pubDate>
       
-      <guid>http://codein.github.io/blog/why-multi-process/</guid>
+      <guid>https://codein.github.io/blog/why-multi-process/</guid>
       <description>Single-threaded vs Multi-threading vs Multi-processing in Python  jupyter notebook link  We will try to run a few simulated processes to understand the performance difference between Single-threaded, Multi-threading and Multi-processing in Python.
 We will learn about GIL - Alternative Python interpreters - by counting to 255 million and downloading few webpages
 import concurrent.futures import requests import threading import time import math import random from multiprocessing import Pool # Reference and Credits # https://realpython.</description>
@@ -35,30 +35,30 @@ import concurrent.futures import requests import threading import time import ma
     
     <item>
       <title>USPS API Proof of Concept</title>
-      <link>http://codein.github.io/blog/usps-api-proof-of-concept/</link>
+      <link>https://codein.github.io/blog/usps-api-proof-of-concept/</link>
       <pubDate>Tue, 15 Dec 2020 14:09:10 +0000</pubDate>
       
-      <guid>http://codein.github.io/blog/usps-api-proof-of-concept/</guid>
+      <guid>https://codein.github.io/blog/usps-api-proof-of-concept/</guid>
       <description>USPS API Proof of Concept  jupyter notebook link  I was hoping to demostrate how one can pull tracking information from USPS API endpoint for a given tracking ID.
 Acknowledgements  all documentation was available on this webpage https://www.usps.com/business/web-tools-apis/track-and-confirm-api.htm#_Toc41911504  </description>
     </item>
     
     <item>
       <title>Intro to SQL with 5000 movies</title>
-      <link>http://codein.github.io/blog/intro-to-sql/</link>
+      <link>https://codein.github.io/blog/intro-to-sql/</link>
       <pubDate>Sat, 28 Nov 2020 14:09:10 +0000</pubDate>
       
-      <guid>http://codein.github.io/blog/intro-to-sql/</guid>
+      <guid>https://codein.github.io/blog/intro-to-sql/</guid>
       <description>Intro to SQL with 5000 movies  jupyter notebook link  This notebook is a part of a talk i have been giving to introduce people to SQL. Only pre-requisite to attend this talk is some general curiosity.
 Acknowledgements This dataset was generated from The Movie Database API. This product uses the TMDb API but is not endorsed or certified by TMDb. We used the dataset published on kaggle that includes 5000 movies</description>
     </item>
     
     <item>
       <title>SQL upsert loader</title>
-      <link>http://codein.github.io/blog/sql-upsert-loader/</link>
+      <link>https://codein.github.io/blog/sql-upsert-loader/</link>
       <pubDate>Sat, 28 Nov 2020 14:09:10 +0000</pubDate>
       
-      <guid>http://codein.github.io/blog/sql-upsert-loader/</guid>
+      <guid>https://codein.github.io/blog/sql-upsert-loader/</guid>
       <description>Overview of SQL upsert loader   jupyter notebook link
   source code
   I hope to present a Proof Of Concept version of a multiprocessed data loader that I use extensively in my data integration pipelines.
@@ -68,20 +68,20 @@ Couple of problems that it is attempting to address are
     
     <item>
       <title>Analytics Commons Talk</title>
-      <link>http://codein.github.io/blog/top-5-tools-analytics-uses/</link>
+      <link>https://codein.github.io/blog/top-5-tools-analytics-uses/</link>
       <pubDate>Thu, 05 Nov 2020 14:09:10 +0000</pubDate>
       
-      <guid>http://codein.github.io/blog/top-5-tools-analytics-uses/</guid>
+      <guid>https://codein.github.io/blog/top-5-tools-analytics-uses/</guid>
       <description>I gave this talk to give an overview of few tools that our department relies heavily on. This talk was part of our IS department&amp;rsquo;s commons session to give employees the chance to share their skills with examples to set and follow.
 Top 5 tools Analytics uses Introduction We are hoping to give an insight into 5 tools that we rely heavily to make our life easy in Analytics department.</description>
     </item>
     
     <item>
       <title>Jupyter - Hello world</title>
-      <link>http://codein.github.io/blog/hello-world-jupyter/</link>
+      <link>https://codein.github.io/blog/hello-world-jupyter/</link>
       <pubDate>Mon, 05 Oct 2020 14:09:10 +0000</pubDate>
       
-      <guid>http://codein.github.io/blog/hello-world-jupyter/</guid>
+      <guid>https://codein.github.io/blog/hello-world-jupyter/</guid>
       <description>4 Jupyter jupyter notebook demo link
 4.a Introduction Project Jupyter is three things: a collection of standards, a community, and a set of software tools. Jupyter Notebook, one part of Jupyter, is software that creates a Jupyter notebook.
 A Jupyter notebook is a document that supports mixing executable code, equations, visualizations, and narrative text. Specifically, Jupyter notebooks allow the user to bring together data, code, and prose, to tell an interactive, computational story.</description>
@@ -89,93 +89,93 @@ A Jupyter notebook is a document that supports mixing executable code, equations
     
     <item>
       <title>Maestro Job Engine Architecture</title>
-      <link>http://codein.github.io/blog/maestro/</link>
+      <link>https://codein.github.io/blog/maestro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://codein.github.io/blog/maestro/</guid>
+      <guid>https://codein.github.io/blog/maestro/</guid>
       <description>Maestro Job Engine Architecture +---------------------------------------------------------------------------------------------------------------------------------------------------------------+ | | | | | Maestro Job Engine Architecture | | | | | | | | +---------------------------+ | | | | | | | execute 1 | | | | | | | +---------------------------+ | | | | +---------------------------+ +------+----------+--------+--------------------------------------+-------------+ | | | | push logs to Database | date | job_name | status | tags | debug_data | | | | logging 2 | +---------------------&amp;gt; +-------------------------------------------------------------------------------+ | | | | | | | | | | | | +---------------------------+ | | | | #frequency #type #priority #author | | | | | | | | examples | | | | +---------------------------+ | | | | #daily #etl #critical #robin | | | | | | analyze logs | | | | #weekly #test #minor #bart | | | | | monitoring 3 | &amp;lt;---------------------+ | | | | #hourly #API #monitoring #dev #paul | | | | | | | | | | | | | | +----------+----------------+ +------+----------+--------+--------------------------------------+-------------+ | | | | | | | | | | | | notification | | | | | v | | +----------+----------------+ | | | | | | | Errors | | | | critical: 0 | | | | minor: 1 | | | | warning: 12 | | | | test: 1 | | | | dev: 5 | | | | success: 150 | | | | | | | +---------------------------+ | | | | | | | +---------------------------------------------------------------------------------------------------------------------------------------------------------------+ </description>
     </item>
     
     <item>
       <title>Atlassian Deployment Triggers</title>
-      <link>http://codein.github.io/projects/contributions/deploy-triggers/</link>
+      <link>https://codein.github.io/projects/contributions/deploy-triggers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://codein.github.io/projects/contributions/deploy-triggers/</guid>
+      <guid>https://codein.github.io/projects/contributions/deploy-triggers/</guid>
       <description>Addressed pretty significant page load performance issue founde in larger deployments. Eliminates uses of intensive backend query, replacing it with an asynchronous API call against a lucene index. This change reduces page load from from 2+ minutes to nearly instant, with an incredibly responsive UI.</description>
     </item>
     
     <item>
       <title>Organically DevOps: Building Quality and Security into the Software Supply Chain at Liberty Mutual</title>
-      <link>http://codein.github.io/publications/alldaydevops/</link>
+      <link>https://codein.github.io/publications/alldaydevops/</link>
       <pubDate>Tue, 08 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://codein.github.io/publications/alldaydevops/</guid>
+      <guid>https://codein.github.io/publications/alldaydevops/</guid>
       <description>This talk looked at Liberty Mutual’s transformation to Continuous Integration, Continuous Delivery, and DevOps. For a large, heavily regulated industry, this task can not only be daunting, but viewed by many as impossible. Often, organizations try to reduce the friction through micro-fixes, but Eddie’s team asked how to change the culture to reduce the friction and concluded with the following final points:
  Don’t mandate DevOps. Give employees the chance to master their discipline with examples to set and follow.</description>
     </item>
     
     <item>
       <title>Added Docker Build Status Badge to shields.io</title>
-      <link>http://codein.github.io/projects/contributions/shields-docker/</link>
+      <link>https://codein.github.io/projects/contributions/shields-docker/</link>
       <pubDate>Tue, 07 Jan 2020 17:09:26 +0000</pubDate>
       
-      <guid>http://codein.github.io/projects/contributions/shields-docker/</guid>
+      <guid>https://codein.github.io/projects/contributions/shields-docker/</guid>
       <description>Shields.io is a massive library of badges that can be inserted into project README&amp;rsquo;s or websites displaying various statuses (code coverage, health, version, etc). Support for docker was missing the current build health, and was a pretty trivial addition.</description>
     </item>
     
     <item>
       <title>Schema.org Structured Data documentation fixes</title>
-      <link>http://codein.github.io/projects/contributions/schema-org/</link>
+      <link>https://codein.github.io/projects/contributions/schema-org/</link>
       <pubDate>Tue, 07 Jan 2020 17:08:21 +0000</pubDate>
       
-      <guid>http://codein.github.io/projects/contributions/schema-org/</guid>
+      <guid>https://codein.github.io/projects/contributions/schema-org/</guid>
       <description>While adding Structured Data to a client&amp;rsquo;s website I found some example JSON that was invalid. Simple contribution to cleanup the user documentation providing syntactically valid JSON documents.</description>
     </item>
     
     <item>
       <title>BOSH release for Bamboo &amp; Remote Agents</title>
-      <link>http://codein.github.io/projects/creations/bosh-agents/</link>
+      <link>https://codein.github.io/projects/creations/bosh-agents/</link>
       <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
       
-      <guid>http://codein.github.io/projects/creations/bosh-agents/</guid>
+      <guid>https://codein.github.io/projects/creations/bosh-agents/</guid>
       <description>BOSH (Bosh Outer SHell) &amp;ldquo;&amp;hellip;is an open source tool for release engineering, deployment, lifecycle management, and monitoring of distributed systems.&amp;rdquo; And it&amp;rsquo;s amazingly powerful. This examples uses BOSH to provision an Alassian vendor app running on JDK along with the support Postgres database and agents to support it. The releases manages the health of services and will automatically provision, start/stop processes across the various services.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://codein.github.io/blog/ha/</link>
+      <link>https://codein.github.io/blog/ha/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://codein.github.io/blog/ha/</guid>
+      <guid>https://codein.github.io/blog/ha/</guid>
       <description>ha (刃, edge) - the tempered cutting edge of a katana.
 Scorecard metrics measurement OLAP cube sits Scorecard critical performance information on a single screen so users can monitor results in a glance.</description>
     </item>
     
     <item>
       <title>Atlassian Marketplace Plugins</title>
-      <link>http://codein.github.io/projects/creations/marketplace/</link>
+      <link>https://codein.github.io/projects/creations/marketplace/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://codein.github.io/projects/creations/marketplace/</guid>
+      <guid>https://codein.github.io/projects/creations/marketplace/</guid>
       <description>Multiple plugins used by thousands of teams that provide enhanced functionality of Atlassian’s core products (primarily JIRA and Bamboo) to enrich CI/CD capabilities, DevOps automation, or productivity. Functionality spans user interface, web services and persistence.</description>
     </item>
     
     <item>
       <title>Docker image for Bitbucket CI/CD Pipelines  &#34;shipit&#34;</title>
-      <link>http://codein.github.io/projects/creations/docker-marketplace/</link>
+      <link>https://codein.github.io/projects/creations/docker-marketplace/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://codein.github.io/projects/creations/docker-marketplace/</guid>
+      <guid>https://codein.github.io/projects/creations/docker-marketplace/</guid>
       <description>Provides required dependencies and additional utilities to simplify and codify the process of building, testing and delivering Atlassian plugins all the way to the live marketplace.Executes integration/AUT level tests against all stated compatible versions for the productUploads generated artifact to Atlassian marketplaceProvides corresponding metadata indicating version, release notes, and compatibility</description>
     </item>
     
     <item>
       <title>Search Results</title>
-      <link>http://codein.github.io/search/</link>
+      <link>https://codein.github.io/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://codein.github.io/search/</guid>
+      <guid>https://codein.github.io/search/</guid>
       <description>This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.

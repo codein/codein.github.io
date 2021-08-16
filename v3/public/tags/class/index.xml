@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>class on Robin Varghese</title>
-    <link>http://codein.github.io/tags/class/</link>
+    <link>https://codein.github.io/tags/class/</link>
     <description>Recent content in class on Robin Varghese</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 28 Nov 2020 14:09:10 +0000</lastBuildDate>
     
-	<atom:link href="http://codein.github.io/tags/class/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://codein.github.io/tags/class/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Intro to SQL with 5000 movies</title>
-      <link>http://codein.github.io/blog/intro-to-sql/</link>
+      <link>https://codein.github.io/blog/intro-to-sql/</link>
       <pubDate>Sat, 28 Nov 2020 14:09:10 +0000</pubDate>
       
-      <guid>http://codein.github.io/blog/intro-to-sql/</guid>
+      <guid>https://codein.github.io/blog/intro-to-sql/</guid>
       <description>Intro to SQL with 5000 movies  jupyter notebook link  This notebook is a part of a talk i have been giving to introduce people to SQL. Only pre-requisite to attend this talk is some general curiosity.
 Acknowledgements This dataset was generated from The Movie Database API. This product uses the TMDb API but is not endorsed or certified by TMDb. We used the dataset published on kaggle that includes 5000 movies</description>
     </item>

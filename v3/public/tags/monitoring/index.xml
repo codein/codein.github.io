@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>monitoring on Robin Varghese</title>
-    <link>http://codein.github.io/tags/monitoring/</link>
+    <link>https://codein.github.io/tags/monitoring/</link>
     <description>Recent content in monitoring on Robin Varghese</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://codein.github.io/tags/monitoring/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://codein.github.io/tags/monitoring/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Maestro Job Engine Architecture</title>
-      <link>http://codein.github.io/blog/maestro/</link>
+      <link>https://codein.github.io/blog/maestro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://codein.github.io/blog/maestro/</guid>
+      <guid>https://codein.github.io/blog/maestro/</guid>
       <description>Maestro Job Engine Architecture +---------------------------------------------------------------------------------------------------------------------------------------------------------------+ | | | | | Maestro Job Engine Architecture | | | | | | | | +---------------------------+ | | | | | | | execute 1 | | | | | | | +---------------------------+ | | | | +---------------------------+ +------+----------+--------+--------------------------------------+-------------+ | | | | push logs to Database | date | job_name | status | tags | debug_data | | | | logging 2 | +---------------------&amp;gt; +-------------------------------------------------------------------------------+ | | | | | | | | | | | | +---------------------------+ | | | | #frequency #type #priority #author | | | | | | | | examples | | | | +---------------------------+ | | | | #daily #etl #critical #robin | | | | | | analyze logs | | | | #weekly #test #minor #bart | | | | | monitoring 3 | &amp;lt;---------------------+ | | | | #hourly #API #monitoring #dev #paul | | | | | | | | | | | | | | +----------+----------------+ +------+----------+--------+--------------------------------------+-------------+ | | | | | | | | | | | | notification | | | | | v | | +----------+----------------+ | | | | | | | Errors | | | | critical: 0 | | | | minor: 1 | | | | warning: 12 | | | | test: 1 | | | | dev: 5 | | | | success: 150 | | | | | | | +---------------------------+ | | | | | | | +---------------------------------------------------------------------------------------------------------------------------------------------------------------+ </description>
     </item>
     

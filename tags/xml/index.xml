@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>XML on Robin Varghese</title>
-    <link>http://codein.github.io/tags/xml/</link>
+    <link>https://codein.github.io/tags/xml/</link>
     <description>Recent content in XML on Robin Varghese</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 15 Dec 2020 14:09:10 +0000</lastBuildDate>
     
-	<atom:link href="http://codein.github.io/tags/xml/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://codein.github.io/tags/xml/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>USPS API Proof of Concept</title>
-      <link>http://codein.github.io/blog/usps-api-proof-of-concept/</link>
+      <link>https://codein.github.io/blog/usps-api-proof-of-concept/</link>
       <pubDate>Tue, 15 Dec 2020 14:09:10 +0000</pubDate>
       
-      <guid>http://codein.github.io/blog/usps-api-proof-of-concept/</guid>
+      <guid>https://codein.github.io/blog/usps-api-proof-of-concept/</guid>
       <description>USPS API Proof of Concept  jupyter notebook link  I was hoping to demostrate how one can pull tracking information from USPS API endpoint for a given tracking ID.
 Acknowledgements  all documentation was available on this webpage https://www.usps.com/business/web-tools-apis/track-and-confirm-api.htm#_Toc41911504  </description>
     </item>
     
     <item>
       <title>BOSH release for Bamboo &amp; Remote Agents</title>
-      <link>http://codein.github.io/projects/creations/bosh-agents/</link>
+      <link>https://codein.github.io/projects/creations/bosh-agents/</link>
       <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
       
-      <guid>http://codein.github.io/projects/creations/bosh-agents/</guid>
+      <guid>https://codein.github.io/projects/creations/bosh-agents/</guid>
       <description>BOSH (Bosh Outer SHell) &amp;ldquo;&amp;hellip;is an open source tool for release engineering, deployment, lifecycle management, and monitoring of distributed systems.&amp;rdquo; And it&amp;rsquo;s amazingly powerful. This examples uses BOSH to provision an Alassian vendor app running on JDK along with the support Postgres database and agents to support it. The releases manages the health of services and will automatically provision, start/stop processes across the various services.</description>
     </item>
     

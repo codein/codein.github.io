@@ -1,4 +1,4 @@
-baseURL = "http://codein.github.io/"
+baseURL = "https://codein.github.io/"
 languageCode = "en-us"
 title = "Robin Varghese"
 theme = "hugo_resume"
