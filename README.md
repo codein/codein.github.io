@@ -28,5 +28,7 @@ cp -r v3/public/* .
 
 * test
 ```
+cd v3
+cd public
 python -m SimpleHTTPServer 8000
 ```
