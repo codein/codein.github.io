@@ -56,9 +56,12 @@ Dev team building |Javascript|[tornado](http://www.tornadoweb.org/en/stable/), |
 
 #### Senior Software Engineer I
 Washington D.C · _Mar 2021 – Present · 2+ years_
+
 #### 2023
 (GCP, docker, python, django, BigQuery, jupyter, airflow)
-+ From scratch architected and shipped large services(dev airflow and jupyter docker containers, version control repos, CI/CD pipelines, Custom airflow DAG operators, qa/prod [Google composer](https://cloud.google.com/composer)airflow instances, mentored and trained team members) required to bootstrap our data engineering infrastructure.
++ From scratch architected and shipped large services(dev airflow and jupyter docker containers, version control repos, CI/CD pipelines, Custom airflow DAG operators, qa/prod [Google composer](https://cloud.google.com/composer)airflow instances) required to bootstrap our data engineering infrastructure.
++ Consolidated data from over 10+ data sources into our enterprise datalake via airflow DAGs.
++ Developed prototypes to establish company best patterns of pipelines in and out of the datalake. Alos mentored and trained team members to develop data using these patterns
 + Recognized as a prolific contributor to core and side projects.
 + Consistently able to act as a force multiplier, by reducing complexity, guiding technical discussions to reach consensus and aligning the team around Objective and Key Results.
 
@@ -67,6 +70,7 @@ Washington D.C · _Mar 2021 – Present · 2+ years_
 (GCP, python, django, BigQuery, React.js, jupyter, airflow)
 + Trusted mentor and collaborator who fosters a culture of innovation and continuous learning ex. load testing, cloudflare automation, tech show and tell and reducing complexity.
 + Identified and solved important problems on cross-cutting technical features ex. [Trackers](https://www.wastedive.com/news/zero-waste-cities-us-goal-tracker/635401/), Newsletter churn analysis, gitlab CI/CD pipeline stats etc.
++ Inculcated a test driven development culture for internal data pipelines, products and platforms.
 + Researched, Proposed and Delivered new technologies ex.enterprise datalake, Recommendation Engine, Airflow, [Design Component System](https://divedesignsystem.com/) etc.
 + Launched new publications [cstoredive.com](https://www.cstoredive.com/), [proformative.com](https://www.proformative.com/) etc . Also created comprehensive documentation to streamline launch process.
 + Authored several internal guidance documents to capture POCs, incidents and getting started guides.
@@ -77,6 +81,8 @@ Washington D.C · _Mar 2021 – Present · 2+ years_
 + Developed a system to visualize and trend website performance using lighthouse, pandas and plotly.
 + Optimized website performance based on Google Core Web Vitals and lighthouse recommendations.
 + Built search capabilities using django haystack and websolr. Performed indexing analysis.
++ Provided thorough and thoughtful code reviews for other engineers.
++ Collaborated with our scrum teams to design solutions for stakeholder feature requests.
 
 ###  Arnot Health
 

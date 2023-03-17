@@ -18,6 +18,8 @@ sitemap:
 # Single-threaded vs Multi-threading vs Multi-processing in Python
 * [jupyter notebook link](/jupyter_notebooks/why-multi-process.html)
 
+
+
 We will try to run a few simulated processes to understand the performance difference between Single-threaded, Multi-threading and Multi-processing in Python.
 
 We will learn about GIL - Alternative Python interpreters - by counting to 255 million and downloading few webpages
@@ -190,3 +192,10 @@ def run_simulated_work_load():
     return runtimes
 
 ```
+
+
+
+<div style="position: relative; padding-bottom: 360%; height: 0; overflow: hidden;">
+  <iframe src="/jupyter_notebooks/why-multi-process.html" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="Level up on Functional Programming by Rebuilding LINQ with Cameron Presley"></iframe>
+</div>
+
