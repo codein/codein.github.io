@@ -50,3 +50,6 @@ home = ["HTML", "JSON"]
 
 [taxonomies]
 tag = "tags"
+
+[markup.goldmark.renderer]
+unsafe = true

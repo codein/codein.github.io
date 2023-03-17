@@ -12,6 +12,17 @@
     
     
     <item>
+      <title>Resume</title>
+      <link>https://codein.github.io/blog/resume/</link>
+      <pubDate>Thu, 16 Mar 2023 14:09:10 +0000</pubDate>
+      
+      <guid>https://codein.github.io/blog/resume/</guid>
+      <description>Robin Varghese Whatever the problem, I want to be part of the solution. I enjoy developing software and empowering others in my knowledge space. I bring 10+ years of Full-Stack Developer experience and 5+ years of Leadership experience.
+I thrive in an environment of uncertainty which requires constant learning.
+Reach Me    Github LinkedIn Email Say Hello     . . . .    Knowledge space Tech stack             Interests Languages Tools Databases Platforms   Full-stack Development Python Jupyter BigQuery Google Cloud Platform   Data Science, Analytics SQL django AWS Athena docker   Machine learning  pandas plotly mySQL Airflow   Generative AI  React.</description>
+    </item>
+    
+    <item>
       <title>i love adirondacks</title>
       <link>https://codein.github.io/blog/i-love-adirondacks/</link>
       <pubDate>Thu, 26 Aug 2021 14:09:10 +0000</pubDate>
@@ -21,17 +32,6 @@
 Places Whiteface Veterans&amp;rsquo; Memorial Highway website - wikipedia
  youtube  Driving up to the top of the Whiteface along the Veterans’ Memorial Highway—New York’s fifth-highest peak at 4,867’—isn’t your typical automotive experience.
 Whiteface Memorial Hwy, Wilmington, NY 12997 C42F+X3 Wilmington, New York</description>
-    </item>
-    
-    <item>
-      <title>Resume</title>
-      <link>https://codein.github.io/blog/resume/</link>
-      <pubDate>Fri, 25 Dec 2020 14:09:10 +0000</pubDate>
-      
-      <guid>https://codein.github.io/blog/resume/</guid>
-      <description>Robin Varghese Whatever the problem, I want to be part of the solution. I enjoy developing software and empowering others in my knowledge space. I bring 10+ years of Full-Stack Developer experience and 5+ years of Leadership experience.
-I thrive in an environment of uncertainty which requires constant learning.
-Reach Me    Github LinkedIn Email Say Hello     . . . .    Knowledge space Tech stack             Interests Languages Tools Databases Platforms   Data Science, Analytics Python Jupyter plotly MS SQL server Amazon Web Services   Project Management, SQL git, scikit-learn AWS Athena DynamoDB Tableau   Machine learning, Cloud Computing  pandas, d3 mySQL Google Data Studio   Software, Distributed System Coffeescript Angular, bootstrap MongoDB    Kaizen, dev team building Javascript tornado, django redis    Health-care, not for profit HTML RabbitMQ postgreSQL     Experience   10+ years of experience developing software, data analytics and solving business problems with technology.</description>
     </item>
     
     <item>
