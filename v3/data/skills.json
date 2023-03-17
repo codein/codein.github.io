@@ -1,7 +1,7 @@
 [
   {
       "grouping":"Architecture",
-      "skills":[ "Data Warehouse","Data Lake","Distributed Computing","RESTful APIs","SaaS/PaaS/IaaS"]
+      "skills":[ "CMS","Data Lake","Distributed Computing","RESTful APIs","SaaS/PaaS/IaaS"]
   },{
       "grouping":"Operating Systems",
       "skills":[ "Ubuntu","Windows"]

@@ -1,6 +1,6 @@
 ---
 title: 'Resume'
-date: Fri, 25 Dec 2020 14:09:10 +0000
+date: Wed, 16 Mar 2023 14:09:10 +0000
 draft: false
 tags: [resume]
 pubtype: "Talk"
@@ -39,25 +39,50 @@ I thrive in an environment of uncertainty which requires constant learning.
   |  |  |  |  |
 :------------:|:------------:| :------------:| :------------: | :------------: |
  Interests | Languages | Tools | Databases | Platforms |
- **Data Science**, Analytics | **Python** |**Jupyter** plotly | **MS SQL server** | Amazon Web Services
-Project Management, | **SQL** |**git**, **scikit-learn** | **AWS** Athena DynamoDB | **Tableau**
-Machine learning, Cloud Computing | |**pandas**, d3|**mySQL**| Google Data Studio
-**Software**, Distributed System |Coffeescript|**Angular**, bootstrap| **MongoDB**  |
-**Kaizen**, dev team building |Javascript|[tornado](http://www.tornadoweb.org/en/stable/), django|**redis**|
-**Health-care**, not for profit| HTML | RabbitMQ| postgreSQL |
+**Full-stack Development** | **Python** |**Jupyter** | **BigQuery** | **Google Cloud Platform**
+**Data Science**, Analytics | **SQL** | **django** | **AWS** Athena | **docker**
+Machine learning |  |**pandas** plotly |**mySQL**| Airflow
+Generative AI ||**React.js**, bootstrap| MongoDB  | Amazon Web Services
+Dev team building |Javascript|[tornado](http://www.tornadoweb.org/en/stable/), |redis|
+|| HTML | scikit-learn | postgreSQL |
 
 ### Experience
 
-* 10+ years of experience developing software, data analytics and solving business problems with technology.
+* 15+ years of professional experience developing software, data analytics and solving business problems with technology.
 
-* 5+ years of leadership experience focused on driving innovation, building and mentoring development teams.
+* 8+ years of leadership experience focused on driving innovation, building and mentoring development teams.
 
+###  Industry Dive
+
+#### Senior Software Engineer I
+Washington D.C · _Mar 2021 – Present · 2+ years_
+#### 2023
+(GCP, docker, python, django, BigQuery, jupyter, airflow)
++ From scratch architected and shipped large services(dev airflow and jupyter docker containers, version control repos, CI/CD pipelines, Custom airflow DAG operators, qa/prod [Google composer](https://cloud.google.com/composer)airflow instances, mentored and trained team members) required to bootstrap our data engineering infrastructure.
++ Recognized as a prolific contributor to core and side projects.
++ Consistently able to act as a force multiplier, by reducing complexity, guiding technical discussions to reach consensus and aligning the team around Objective and Key Results.
+
+
+#### 2022
+(GCP, python, django, BigQuery, React.js, jupyter, airflow)
++ Trusted mentor and collaborator who fosters a culture of innovation and continuous learning ex. load testing, cloudflare automation, tech show and tell and reducing complexity.
++ Identified and solved important problems on cross-cutting technical features ex. [Trackers](https://www.wastedive.com/news/zero-waste-cities-us-goal-tracker/635401/), Newsletter churn analysis, gitlab CI/CD pipeline stats etc.
++ Researched, Proposed and Delivered new technologies ex.enterprise datalake, Recommendation Engine, Airflow, [Design Component System](https://divedesignsystem.com/) etc.
++ Launched new publications [cstoredive.com](https://www.cstoredive.com/), [proformative.com](https://www.proformative.com/) etc . Also created comprehensive documentation to streamline launch process.
++ Authored several internal guidance documents to capture POCs, incidents and getting started guides.
+
+#### 2021
+(GCP, docker, python, django, cloudflare)
++ Facilitated smooth initiative deployments for high impact rollouts(ex. [Rocket Loader](https://developers.cloudflare.com/fundamentals/speed/rocket-loader), [Proformative.com](https://www.proformative.com/)) using feature flags and [RACI matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix#Role_distinction).
++ Developed a system to visualize and trend website performance using lighthouse, pandas and plotly.
++ Optimized website performance based on Google Core Web Vitals and lighthouse recommendations.
++ Built search capabilities using django haystack and websolr. Performed indexing analysis.
 
 ###  Arnot Health
 
 #### Manager, Business Analytics - Innovation
 
-Elmira, New York · _Apr 2015 – Present · 5+ years_
+Elmira, New York · _Apr 2015 – Mar 2021 · 6 years_
 #### 2020
 (AWS, SQL, python, jupyter, pandas, plotly, scikit-learn etc.)
 + Serving as the Principal Software Developer in Information Services(IS) department.
