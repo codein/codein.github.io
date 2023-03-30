@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Robin Varghese | Setup Cloudflare Tunnels to your home server</title>
+  <meta property="og:title" content="Robin Varghese | Setup Cloudflare Tunnels to your home server" />
+  <meta property="og:image" content="https://codein.github.io/img/profilePic.png" />
+  <meta name="description" content="A quick start guide to setup Cloudflare Tunnels to your home server">
+  <meta property="og:description" content="A quick start guide to setup Cloudflare Tunnels to your home server" />
+  <meta name="author" content="Robin Varghese">
+  
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css"></noscript>
+  
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900&display=swap"></noscript>
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap"></noscript>
+  <link rel="preload" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"></noscript>
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css"></noscript>
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css"></noscript>
+  
+  <link rel="preload" href="https://codein.github.io/css/resume.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://codein.github.io/css/resume.css"></noscript>
+  <link rel="preload" href="https://codein.github.io/css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://codein.github.io/css/tweaks.css"></noscript>
+  <link rel="preload" href="https://codein.github.io/css/resume-override.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://codein.github.io/css/resume-override.css"></noscript>
+  <meta name="generator" content="Hugo 0.69.2" />
+  
+   
+  
+</head>
+<body id="page-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+  <a class="navbar-brand js-scroll-trigger" href="#page-top">
+    <span class="d-block d-lg-none">Robin Varghese</span>
+    <span class="d-none d-lg-block">
+      <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/img/profilePic.png" alt="">
+    </span>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="/#about">About</a>
+      </li>
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#skills">Skills</a>
+          </li>
+      
+      
+      
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#experience">Experience</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#education">Education</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#blog">Blog</a>
+          </li>
+      
+    </ul>
+  </div>
+</nav>
+
+  <div class="container-fluid p-0">
+    
+<nav aria-label="breadcrumb">
+  <ol  class="breadcrumb">
+    
+
+
+
+
+
+<li class="breadcrumb-item">
+  <a href="https://codein.github.io/">Home</a>
+</li>
+
+
+<li class="breadcrumb-item">
+  <a href="https://codein.github.io/blog/">Blogs</a>
+</li>
+
+
+<li class="breadcrumb-item active">
+  <a href="https://codein.github.io/blog/cloudflare-tunnels/">Setup Cloudflare Tunnels to your home server</a>
+</li>
+
+  </ol>
+</nav>
+
+
+
+
+<section class="resume-section p-3 p-lg-5 d-flex d-column">
+  <div class="my-auto">
+    <h2 class="mb-0"><span class="text-primary">Setup Cloudflare Tunnels to your home server</span></h2>
+    <span class="text-primary">March 30, 2023</span>
+    <h1 id="setup-cloudflare-tunnels-to-your-home-serve">Setup Cloudflare Tunnels to your home serve</h1>
+<p>Everything you need to know to get securely connect to your locally hosted application over the internet in under 30 mins.</p>
+<p><img src="/img/cloudflare_tunnel/cloudflare_tunnel.svg" alt=""></p>
+<p>At the high level, I&rsquo;m running a SimpleHTTPServer locally, that i want to access over the internet from <a href="https://home.mydomainname.com">https://home.mydomainname.com</a></p>
+<p>Secondly, I&rsquo;ll lock down the access to this URL to whitelisted email addresses.</p>
+<ul>
+<li><a href="#setup-cloudflare-tunnels-to-your-home-serve">Setup Cloudflare Tunnels to your home serve</a>
+<ul>
+<li><a href="#prerequisites">Prerequisites</a></li>
+<li><a href="#local">Local</a></li>
+<li><a href="#setup-cloudflared">Setup <code>cloudflared</code></a>
+<ul>
+<li><a href="#download">Download</a></li>
+<li><a href="#install">install</a></li>
+<li><a href="#authenticate">Authenticate</a></li>
+</ul>
+</li>
+<li><a href="#setup-tunnel">Setup tunnel</a>
+<ul>
+<li><a href="#create-credential-file">create credential file</a></li>
+<li><a href="#create-configyml">create config.yml</a></li>
+<li><a href="#add-dns-to-route-traffic-to-tunnel">Add DNS to route traffic to tunnel</a></li>
+<li><a href="#run-the-tunnel">run the tunnel</a></li>
+<li><a href="#verify">verify</a></li>
+</ul>
+</li>
+<li><a href="#secure-you-application">Secure you application</a>
+<ul>
+<li><a href="#create-access-group">Create Access Group</a></li>
+<li><a href="#create-access-policy">Create Access Policy</a></li>
+<li><a href="#verify-1">Verify</a></li>
+<li><a href="#security-monitoring">Security Monitoring</a></li>
+</ul>
+</li>
+<li><a href="#additional-resources">Additional Resources</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="prerequisites">Prerequisites</h2>
+<p>Before you start, make sure you:</p>
+<ul>
+<li><a href="https://developers.cloudflare.com/fundamentals/get-started/setup/add-site/">Add a website to Cloudflare</a>.</li>
+<li><a href="https://developers.cloudflare.com/fundamentals/get-started/setup/add-site/">Change your domain nameservers to Cloudflare</a></li>
+</ul>
+<h2 id="local">Local</h2>
+<ul>
+<li>in this POC i&rsquo;m running a SimpleHTTPServer to surface the Director listing of a folder</li>
+<li>python2 -m SimpleHTTPServer 65000</li>
+</ul>
+<h2 id="setup-cloudflared">Setup <code>cloudflared</code></h2>
+<h3 id="download">Download</h3>
+<p><code>wget -q https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb</code></p>
+<h3 id="install">install</h3>
+<p><code>dpkg -i cloudflared-linux-amd64.deb</code></p>
+<h3 id="authenticate">Authenticate</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">cloudflared tunnel login
+</code></pre></div><h2 id="setup-tunnel">Setup tunnel</h2>
+<h3 id="create-credential-file">create credential file</h3>
+<p><code>cloudflared tunnel create &lt;NAME&gt;</code>
+this will spit out a <code>&lt;UUID&gt;.json</code> file in your <code>~/.clouflared</code> DIR</p>
+<h3 id="create-configyml">create config.yml</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">tunnel: &lt;Tunnel-UUID&gt;
+credentials-file: /root/.cloudflared/&lt;Tunnel-UUID&gt;.json
+
+ingress:
+  - hostname: home.mydomainname.com
+    service: http://localhost:65000
+  - service: http_status:400
+</code></pre></div><h3 id="add-dns-to-route-traffic-to-tunnel">Add DNS to route traffic to tunnel</h3>
+<ul>
+<li>cloudflared tunnel route dns 856e737a-1b47-4037-9e3c-1f1c7a18eeab robinvarghese.com</li>
+<li>cloudflared tunnel run <NAME></li>
+</ul>
+<h3 id="run-the-tunnel">run the tunnel</h3>
+<p><code>cloudflared tunnel run &lt;UUID or NAME&gt;</code></p>
+<h3 id="verify">verify</h3>
+<p>visiting the URL now should route traffic to your local service</p>
+<p>Note:</p>
+<h2 id="secure-you-application">Secure you application</h2>
+<p><a href="https://developers.cloudflare.com/cloudflare-one/policies/access/">Cloudflare Access</a> determines who can reach your application by applying the Access policies you configure.</p>
+<p>Cloudflare Zero Trust integrates with your organization’s identity provider to apply Zero Trust and Secure Web Gateway policies.</p>
+<p>In this example, I&rsquo;m using As an alternative to configuring an identity provider, Cloudflare Zero Trust can send a <a href="https://developers.cloudflare.com/cloudflare-one/identity/one-time-pin/">one-time PIN (OTP)</a> to approved email addresses.</p>
+<h3 id="create-access-grouphttpsdeveloperscloudflarecomcloudflare-oneidentityusersgroups">Create <a href="https://developers.cloudflare.com/cloudflare-one/identity/users/groups/">Access Group</a></h3>
+<p>A group is a set of rules that can be configured once and then quickly applied across many Access applications</p>
+<p><img src="/img/cloudflare_tunnel/cloudflare_access_group_configuration.png" alt=""></p>
+<h3 id="create-access-policyhttpsdeveloperscloudflarecomcloudflare-onepoliciesaccesspolicy-management">Create <a href="https://developers.cloudflare.com/cloudflare-one/policies/access/policy-management/">Access Policy</a></h3>
+<p>An Access policy consists of an Action as well as rules which determine the scope of the action.</p>
+<p><img src="/img/cloudflare_tunnel/cloudflare_access_policy.png" alt=""></p>
+<h3 id="verify-1">Verify</h3>
+<p>visiting the URL now should present you with a <a href="https://developers.cloudflare.com/cloudflare-one/identity/login-page/">login page</a></p>
+<p><img src="/img/cloudflare_tunnel/cloudflare_Access_auth.png" alt=""></p>
+<h3 id="security-monitoring">Security Monitoring</h3>
+<p>You can monitor traffic in <strong>Analytics &amp; Logs</strong> from the <a href="https://dash.cloudflare.com/login">Cloudflare dashboard</a>.</p>
+<h2 id="additional-resources">Additional Resources</h2>
+<ul>
+<li>
+<p>Official Cloudflare Documentation Follow this step-by-step <a href="https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/tunnel-guide/local/">guide</a> to get your first tunnel up and running using the CLI.</p>
+</li>
+<li>
+<p><a href="https://www.makeuseof.com/use-cloudflare-tunnel-expose-local-servers-internet/">Set Up a Cloudflare Tunnel to Expose Local Servers to the Internet</a></p>
+</li>
+</ul>
+
+    
+    <ul class="tags">
+    
+      <li><a class="tag" href="/tags/cloudflare">cloudflare</a></li>
+    
+      <li><a class="tag" href="/tags/tunnel">tunnel</a></li>
+    
+      <li><a class="tag" href="/tags/server">server</a></li>
+    
+</ul>
+
+  </div>
+</section>
+
+
+    <span style="color: #999999; font-size: 60%;">Build with <a href="https://codepen.io/wbeeftink/pen/dIaDH">Hugo</a> and other OSS</span>
+    
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  
+  <script async src="/js/resume.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-51356721-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-51356721-1');
+  </script>
+  
+
+  
+</body>
+</html>

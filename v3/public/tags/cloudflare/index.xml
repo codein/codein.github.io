@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cloudflare on Robin Varghese</title>
+    <link>https://codein.github.io/tags/cloudflare/</link>
+    <description>Recent content in cloudflare on Robin Varghese</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 Mar 2023 14:09:10 +0000</lastBuildDate>
+    
+	<atom:link href="https://codein.github.io/tags/cloudflare/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Setup Cloudflare Tunnels to your home server</title>
+      <link>https://codein.github.io/blog/cloudflare-tunnels/</link>
+      <pubDate>Thu, 30 Mar 2023 14:09:10 +0000</pubDate>
+      
+      <guid>https://codein.github.io/blog/cloudflare-tunnels/</guid>
+      <description>Setup Cloudflare Tunnels to your home serve Everything you need to know to get securely connect to your locally hosted application over the internet in under 30 mins.
+At the high level, I&amp;rsquo;m running a SimpleHTTPServer locally, that i want to access over the internet from https://home.mydomainname.com
+Secondly, I&amp;rsquo;ll lock down the access to this URL to whitelisted email addresses.
+ Setup Cloudflare Tunnels to your home serve  Prerequisites Local Setup cloudflared  Download install Authenticate   Setup tunnel  create credential file create config.</description>
+    </item>
+    
+  </channel>
+</rss>

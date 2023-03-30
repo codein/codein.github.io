@@ -10,7 +10,7 @@ codein.github.io
 * cd v3
 * hugo server
 * hugo
-
+* http://127.0.0.1:1313/
 
 ## Publishing steps
 * regenerate files

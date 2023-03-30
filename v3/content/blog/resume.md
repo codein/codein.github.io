@@ -48,7 +48,7 @@ Dev team building |Javascript|[tornado](http://www.tornadoweb.org/en/stable/), |
 
 ### Experience
 
-* 15+ years of professional experience developing software, data analytics and solving business problems with technology.
+* 13+ years of professional experience developing software, data analytics and solving business problems with technology.
 
 * 8+ years of leadership experience focused on driving innovation, building and mentoring development teams.
 
@@ -61,7 +61,7 @@ Washington D.C · _Mar 2021 – Present · 2+ years_
 (GCP, docker, python, django, BigQuery, jupyter, airflow)
 + From scratch architected and shipped large services(dev airflow and jupyter docker containers, version control repos, CI/CD pipelines, Custom airflow DAG operators, qa/prod [Google composer](https://cloud.google.com/composer)airflow instances) required to bootstrap our data engineering infrastructure.
 + Consolidated data from over 10+ data sources into our enterprise datalake via airflow DAGs.
-+ Developed prototypes to establish company best patterns of pipelines in and out of the datalake. Alos mentored and trained team members to develop data using these patterns
++ Developed prototypes to establish company best patterns of pipelines in and out of the datalake. Also mentored and trained team members to develop data using these patterns
 + Recognized as a prolific contributor to core and side projects.
 + Consistently able to act as a force multiplier, by reducing complexity, guiding technical discussions to reach consensus and aligning the team around Objective and Key Results.
 
@@ -91,7 +91,7 @@ Washington D.C · _Mar 2021 – Present · 2+ years_
 Elmira, New York · _Apr 2015 – Mar 2021 · 6 years_
 #### 2020
 (AWS, SQL, python, jupyter, pandas, plotly, scikit-learn etc.)
-+ Serving as the Principal Software Developer in Information Services(IS) department.
++ Served as the Principal Software Developer in Information Services(IS) department.
 + Performed rigorous analyses on large, complex data sets for strategic initiatives(marketing, grant proposals etc.)
 + Provided strategic insights, hypotheses, and conclusions based upon findings to leaders at all levels using ipython notebooks, sql, pandas and plotly.
 + Developed an analytics team which excels at problem-framing, problem solving and can change direction quickly.
@@ -179,7 +179,7 @@ Care coordination is essential to improving patient satisfaction and healthcare 
 
 #### Software Consultant
 
-New York, New York · _May 2013 – Present · 7+ years_
+New York, New York · _May 2013 – Oct 2018 · 5+ years_
 
 + Employee #5 in this 7+ year old start-up.
 + Deployed several core services to process credit card transactions [Braintree](https://www.braintreepayments.com/), package tracking with [Glympse](https://glympse.com/).
@@ -227,7 +227,7 @@ The NaviCloud® platform sets the standard for enterprise-class infrastructure a
 ### State University of New York
 Research Assistant at United Health Services(UHS)
 
-Binghamton NY · _May 2010 – Aug 2011 · 1+ year_
+Binghamton NY · _May 2009 – Aug 2011 · 2+ year_
 
 #### 2011
 + Worked with a clinical team to understand various facets and causes of readmissions, further developed a probabilistic scoring model(LACE tool) from research to project patient's readmission likelihood.
@@ -237,6 +237,7 @@ Binghamton NY · _May 2010 – Aug 2011 · 1+ year_
 
 
 #### 2010
++ Internship at Katalytik Inc
 + Android App development (Android(Client), JSON(web services) & Spring, hibernate, mongoDB)
 + Co-designed and developed our core web services, desktop and mobile app for Clinical Physician Order Entry(CPOE).
 + Designed & developed statistical, data mining models in SQL Server Analysis Services.
