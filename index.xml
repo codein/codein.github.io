@@ -24,17 +24,6 @@ Secondly, I&amp;rsquo;ll lock down the access to this URL to whitelisted email a
     </item>
     
     <item>
-      <title>Resume</title>
-      <link>https://codein.github.io/blog/resume/</link>
-      <pubDate>Thu, 16 Mar 2023 14:09:10 +0000</pubDate>
-      
-      <guid>https://codein.github.io/blog/resume/</guid>
-      <description>Robin Varghese Whatever the problem, I want to be part of the solution. I enjoy developing software and empowering others in my knowledge space. I bring 10+ years of Full-Stack Developer experience and 5+ years of Leadership experience.
-I thrive in an environment of uncertainty which requires constant learning.
-Reach Me    Github LinkedIn Email Say Hello     . . . .    Knowledge space Tech stack             Interests Languages Tools Databases Platforms   Full-stack Development Python Jupyter BigQuery Google Cloud Platform   Data Science, Analytics SQL django AWS Athena docker   Machine learning  pandas plotly mySQL Airflow   Generative AI  React.</description>
-    </item>
-    
-    <item>
       <title>i love adirondacks</title>
       <link>https://codein.github.io/blog/i-love-adirondacks/</link>
       <pubDate>Thu, 26 Aug 2021 14:09:10 +0000</pubDate>
@@ -118,6 +107,17 @@ A Jupyter notebook is a document that supports mixing executable code, equations
       
       <guid>https://codein.github.io/blog/maestro/</guid>
       <description>Maestro Job Engine Architecture +---------------------------------------------------------------------------------------------------------------------------------------------------------------+ | | | | | Maestro Job Engine Architecture | | | | | | | | +---------------------------+ | | | | | | | execute 1 | | | | | | | +---------------------------+ | | | | +---------------------------+ +------+----------+--------+--------------------------------------+-------------+ | | | | push logs to Database | date | job_name | status | tags | debug_data | | | | logging 2 | +---------------------&amp;gt; +-------------------------------------------------------------------------------+ | | | | | | | | | | | | +---------------------------+ | | | | #frequency #type #priority #author | | | | | | | | examples | | | | +---------------------------+ | | | | #daily #etl #critical #robin | | | | | | analyze logs | | | | #weekly #test #minor #bart | | | | | monitoring 3 | &amp;lt;---------------------+ | | | | #hourly #API #monitoring #dev #paul | | | | | | | | | | | | | | +----------+----------------+ +------+----------+--------+--------------------------------------+-------------+ | | | | | | | | | | | | notification | | | | | v | | +----------+----------------+ | | | | | | | Errors | | | | critical: 0 | | | | minor: 1 | | | | warning: 12 | | | | test: 1 | | | | dev: 5 | | | | success: 150 | | | | | | | +---------------------------+ | | | | | | | +---------------------------------------------------------------------------------------------------------------------------------------------------------------+ </description>
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>https://codein.github.io/blog/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://codein.github.io/blog/resume/</guid>
+      <description>Robin Varghese Whatever the problem, I want to be part of the solution. I enjoy developing software and empowering others in my knowledge space. I bring 10+ years of Full-Stack Developer experience and 5+ years of Leadership experience.
+I thrive in an environment of uncertainty which requires constant learning.
+Reach Me    Github LinkedIn Email Say Hello     . . . .    Knowledge space Tech stack             Interests Languages Tools Databases Platforms   Full-stack Development Python Jupyter BigQuery Google Cloud Platform   Data Science, Analytics SQL django AWS Athena docker   Machine learning  pandas plotly mySQL Airflow   Generative AI  React.</description>
     </item>
     
     <item>
