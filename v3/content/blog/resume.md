@@ -48,9 +48,9 @@ Dev team building |Javascript|[tornado](http://www.tornadoweb.org/en/stable/), |
 
 ### Experience
 
-* 13+ years of professional experience developing software, data analytics and solving business problems with technology.
+* 16+ years of professional experience developing software, data analytics and solving business problems with technology.
 
-* 8+ years of leadership experience focused on driving innovation, building and mentoring development teams.
+* 9+ years of leadership experience focused on driving innovation, building and mentoring development teams.
 
 ###  Industry Dive
 #### Senior Software Engineer II
@@ -68,7 +68,7 @@ Washington D.C · _Mar 2021 – March 2023 · 2 years_
 #### 2023
 (GCP, docker, python, django, BigQuery, jupyter, airflow)
 + Showcased my engineering leadership skills by guiding a team of Python developers in creating a new [product](https://divenewsletters.com/) using React.js(Next.js).
-+ Break down complex problems into potential solutions, knowns, and unknowns, in order to get to solid resolutions faster(ex. partner data pipelines setup).
++ Broke down complex problems into potential solutions, knowns, and unknowns, in order to get to solid resolutions faster(ex. partner data pipelines setup).
 + From scratch architected and shipped large services(dev airflow and jupyter docker containers, version control repos, CI/CD pipelines, Custom airflow DAG operators, qa/prod [Google composer](https://cloud.google.com/composer)airflow instances) required to bootstrap our data engineering infrastructure.
 + Consolidated data from over 10+ data sources into our enterprise datalake via airflow DAGs.
 + Developed prototypes to establish company best patterns of pipelines in and out of the datalake. Also mentored and trained team members to develop data using these patterns.
