@@ -1,6 +1,6 @@
 ---
 title: 'Resume'
-date: Wed, 16 Mar 2023 14:09:10 +0000
+date: Wed, 1 Jun 2024 14:09:10 +0000
 draft: false
 tags: [resume]
 pubtype: "Talk"
