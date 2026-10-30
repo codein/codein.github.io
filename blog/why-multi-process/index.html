@@ -30,7 +30,7 @@
     <noscript><link rel="stylesheet" href="https://codein.github.io/css/tweaks.css"></noscript>
   <link rel="preload" href="https://codein.github.io/css/resume-override.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://codein.github.io/css/resume-override.css"></noscript>
-  <meta name="generator" content="Hugo 0.69.2" />
+  <meta name="generator" content="Hugo 0.123.7">
   
    
   
@@ -118,173 +118,172 @@
 </ul>
 <p>We will try to run a few simulated processes to understand the performance difference between Single-threaded, Multi-threading and Multi-processing in Python.</p>
 <p>We will learn about GIL - Alternative Python interpreters - by counting to 255 million and downloading few webpages</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#f92672">import</span> concurrent.futures
-<span style="color:#f92672">import</span> requests
-<span style="color:#f92672">import</span> threading
-<span style="color:#f92672">import</span> time
-<span style="color:#f92672">import</span> math
-<span style="color:#f92672">import</span> random
-<span style="color:#f92672">from</span> multiprocessing <span style="color:#f92672">import</span> Pool
-
-<span style="color:#75715e"># Reference and Credits</span>
-<span style="color:#75715e"># https://realpython.com/python-concurrency</span>
-
-thread_local <span style="color:#f92672">=</span> threading<span style="color:#f92672">.</span>local()
-
-<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">get_session</span>():
-    <span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> hasattr(thread_local, <span style="color:#e6db74">&#34;session&#34;</span>):
-        thread_local<span style="color:#f92672">.</span>session <span style="color:#f92672">=</span> requests<span style="color:#f92672">.</span>Session()
-    <span style="color:#66d9ef">return</span> thread_local<span style="color:#f92672">.</span>session
-
-
-<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">download_site</span>(url):
-    <span style="color:#e6db74">&#34;&#34;&#34;Function to simulate a high IO operation&#34;&#34;&#34;</span>
-    start_time <span style="color:#f92672">=</span> time<span style="color:#f92672">.</span>time()
-    session <span style="color:#f92672">=</span> get_session()
-    log <span style="color:#f92672">=</span> None
-    <span style="color:#66d9ef">with</span> session<span style="color:#f92672">.</span>get(url) <span style="color:#66d9ef">as</span> response:
-        log <span style="color:#f92672">=</span> f<span style="color:#e6db74">&#34;Read {len(response.content)} from {url}&#34;</span>
-    duration <span style="color:#f92672">=</span> time<span style="color:#f92672">.</span>time() <span style="color:#f92672">-</span> start_time
-    <span style="color:#66d9ef">return</span> {
-        <span style="color:#e6db74">&#39;work_start_time&#39;</span>: start_time,
-        <span style="color:#e6db74">&#39;work_duration&#39;</span>: duration,
-        <span style="color:#e6db74">&#39;work_output&#39;</span>: log,
-        <span style="color:#e6db74">&#39;work_type&#39;</span>: <span style="color:#e6db74">&#39;IO&#39;</span>,
-
-    }
-
-<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">countdown</span>(n):
-    <span style="color:#e6db74">&#34;&#34;&#34;Function to simulate a CPU-bound operation&#34;&#34;&#34;</span>
-    start_time <span style="color:#f92672">=</span> time<span style="color:#f92672">.</span>time()
-    <span style="color:#66d9ef">while</span> n<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">0</span>:
-        n <span style="color:#f92672">-=</span> <span style="color:#ae81ff">1</span>
-    duration <span style="color:#f92672">=</span> time<span style="color:#f92672">.</span>time() <span style="color:#f92672">-</span> start_time
-    <span style="color:#66d9ef">return</span> {
-        <span style="color:#e6db74">&#39;work_start_time&#39;</span>: start_time,
-        <span style="color:#e6db74">&#39;work_duration&#39;</span>: duration,
-        <span style="color:#e6db74">&#39;work_output&#39;</span>: n,
-        <span style="color:#e6db74">&#39;work_type&#39;</span>: <span style="color:#e6db74">&#39;CPU&#39;</span>,
-    }
-
-
-<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">download_all_sites_threaded</span>(sites):
-    <span style="color:#66d9ef">with</span> concurrent<span style="color:#f92672">.</span>futures<span style="color:#f92672">.</span>ThreadPoolExecutor(max_workers<span style="color:#f92672">=</span><span style="color:#ae81ff">5</span>) <span style="color:#66d9ef">as</span> executor:
-        <span style="color:#66d9ef">return</span> executor<span style="color:#f92672">.</span>map(download_site, sites)
-
-<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">process_work</span>(args):
-    (work_func, work_item) <span style="color:#f92672">=</span> args
-    <span style="color:#66d9ef">return</span> work_func(work_item)
-
-<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">process_with_thread_pool_executor</span>(work_load, max_workers<span style="color:#f92672">=</span><span style="color:#ae81ff">5</span>):
-    <span style="color:#66d9ef">with</span> concurrent<span style="color:#f92672">.</span>futures<span style="color:#f92672">.</span>ThreadPoolExecutor(max_workers<span style="color:#f92672">=</span>max_workers) <span style="color:#66d9ef">as</span> executor:
-        result_list <span style="color:#f92672">=</span> list(executor<span style="color:#f92672">.</span>map(process_work, work_load))
-    <span style="color:#66d9ef">return</span> result_list
-
-
-<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">process_with_multiprocessing_pool</span>(work_load, max_workers<span style="color:#f92672">=</span><span style="color:#ae81ff">5</span>):
-    <span style="color:#66d9ef">with</span> Pool(max_workers) <span style="color:#66d9ef">as</span> executor:
-        result_list <span style="color:#f92672">=</span> list(executor<span style="color:#f92672">.</span>map(process_work, work_load))
-    <span style="color:#66d9ef">return</span> result_list
-
-<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">get_runtime</span>(work_load, multithreading<span style="color:#f92672">=</span>False, multiprocessing<span style="color:#f92672">=</span>False, max_workers<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>):
-    start_time <span style="color:#f92672">=</span> time<span style="color:#f92672">.</span>time()
-    <span style="color:#66d9ef">if</span> multithreading:
-        results <span style="color:#f92672">=</span> process_with_thread_pool_executor(work_load, max_workers<span style="color:#f92672">=</span>max_workers)
-    <span style="color:#66d9ef">if</span> multiprocessing:
-        results <span style="color:#f92672">=</span> process_with_multiprocessing_pool(work_load, max_workers<span style="color:#f92672">=</span>max_workers)
-    duration <span style="color:#f92672">=</span> time<span style="color:#f92672">.</span>time() <span style="color:#f92672">-</span> start_time
-    <span style="color:#66d9ef">return</span> {
-        <span style="color:#e6db74">&#39;work_load_size&#39;</span>: len(work_load),
-        <span style="color:#e6db74">&#39;process_start_time&#39;</span>: start_time,
-        <span style="color:#e6db74">&#39;process_duration&#39;</span>: duration,
-        <span style="color:#e6db74">&#39;results&#39;</span>: results
-    }
-
-<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">get_cpu_work_load</span>(load_size<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>):
-    <span style="color:#66d9ef">return</span> [(countdown, <span style="color:#ae81ff">850000</span>) <span style="color:#66d9ef">for</span> n <span style="color:#f92672">in</span> range(load_size)]
-
-<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">get_io_work_load</span>(load_size<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>):
-    <span style="color:#e6db74">&#34;&#34;&#34;
-</span><span style="color:#e6db74">    A work is defined as tuple with the function and arg pair.
-</span><span style="color:#e6db74">    This function returns a work_load of requested load_size
-</span><span style="color:#e6db74">    &#34;&#34;&#34;</span>
-    seed_sites <span style="color:#f92672">=</span> [
-        <span style="color:#e6db74">&#34;https://www.jython.org&#34;</span>,
-        <span style="color:#e6db74">&#34;http://olympus.realpython.org/dice&#34;</span>,
-    ]
-
-    arg_sites <span style="color:#f92672">=</span> seed_sites <span style="color:#f92672">*</span> math<span style="color:#f92672">.</span>ceil(load_size<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>)
-    arg_sites <span style="color:#f92672">=</span> arg_sites[<span style="color:#ae81ff">0</span>:load_size]
-    work_load <span style="color:#f92672">=</span> [(download_site, site) <span style="color:#66d9ef">for</span> site <span style="color:#f92672">in</span> arg_sites]
-    <span style="color:#66d9ef">return</span> work_load
-
-<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">run_simulated_work_load</span>():
-    runtimes <span style="color:#f92672">=</span> []
-    load_size <span style="color:#f92672">=</span> <span style="color:#ae81ff">300</span>
-    <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Load Size:{0}&#39;</span><span style="color:#f92672">.</span>format(load_size))
-    io_work_load <span style="color:#f92672">=</span> get_io_work_load(load_size<span style="color:#f92672">=</span>load_size)
-    cpu_work_load <span style="color:#f92672">=</span> get_cpu_work_load(load_size<span style="color:#f92672">=</span>load_size)
-    io_and_cpu_work_load <span style="color:#f92672">=</span> io_work_load<span style="color:#f92672">+</span>cpu_work_load
-    random<span style="color:#f92672">.</span>shuffle(io_and_cpu_work_load)
-
-    work_load_label <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;io_work_load single thread&#39;</span>
-    runtime <span style="color:#f92672">=</span> get_runtime(io_work_load, multithreading<span style="color:#f92672">=</span>True, multiprocessing<span style="color:#f92672">=</span>False, max_workers<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>)
-    runtime[<span style="color:#e6db74">&#39;work_load_label&#39;</span>] <span style="color:#f92672">=</span> work_load_label
-    <span style="color:#66d9ef">print</span>(work_load_label)
-    runtimes<span style="color:#f92672">.</span>append(runtime)
-
-    work_load_label <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;io_work_load 5 threads&#39;</span>
-    runtime <span style="color:#f92672">=</span> get_runtime(io_work_load, multithreading<span style="color:#f92672">=</span>True, multiprocessing<span style="color:#f92672">=</span>False, max_workers<span style="color:#f92672">=</span><span style="color:#ae81ff">5</span>)
-    runtime[<span style="color:#e6db74">&#39;work_load_label&#39;</span>] <span style="color:#f92672">=</span> work_load_label
-    <span style="color:#66d9ef">print</span>(work_load_label)
-    runtimes<span style="color:#f92672">.</span>append(runtime)
-
-    work_load_label <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;io_work_load 5 process&#39;</span>
-    runtime <span style="color:#f92672">=</span> get_runtime(io_work_load, multithreading<span style="color:#f92672">=</span>False, multiprocessing<span style="color:#f92672">=</span>True, max_workers<span style="color:#f92672">=</span><span style="color:#ae81ff">5</span>)
-    runtime[<span style="color:#e6db74">&#39;work_load_label&#39;</span>] <span style="color:#f92672">=</span> work_load_label
-    <span style="color:#66d9ef">print</span>(work_load_label)
-    runtimes<span style="color:#f92672">.</span>append(runtime)
-
-    work_load_label <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;cpu_work_load single thread&#39;</span>
-    runtime <span style="color:#f92672">=</span> get_runtime(cpu_work_load, multithreading<span style="color:#f92672">=</span>True, multiprocessing<span style="color:#f92672">=</span>False, max_workers<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>)
-    runtime[<span style="color:#e6db74">&#39;work_load_label&#39;</span>] <span style="color:#f92672">=</span> work_load_label
-    <span style="color:#66d9ef">print</span>(work_load_label)
-    runtimes<span style="color:#f92672">.</span>append(runtime)
-
-    work_load_label <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;cpu_work_load 5 threads&#39;</span>
-    runtime <span style="color:#f92672">=</span> get_runtime(cpu_work_load, multithreading<span style="color:#f92672">=</span>True, multiprocessing<span style="color:#f92672">=</span>False, max_workers<span style="color:#f92672">=</span><span style="color:#ae81ff">5</span>)
-    runtime[<span style="color:#e6db74">&#39;work_load_label&#39;</span>] <span style="color:#f92672">=</span> work_load_label
-    <span style="color:#66d9ef">print</span>(work_load_label)
-    runtimes<span style="color:#f92672">.</span>append(runtime)
-
-    work_load_label <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;cpu_work_load 5 process&#39;</span>
-    runtime <span style="color:#f92672">=</span> get_runtime(cpu_work_load, multithreading<span style="color:#f92672">=</span>False, multiprocessing<span style="color:#f92672">=</span>True, max_workers<span style="color:#f92672">=</span><span style="color:#ae81ff">5</span>)
-    runtime[<span style="color:#e6db74">&#39;work_load_label&#39;</span>] <span style="color:#f92672">=</span> work_load_label
-    <span style="color:#66d9ef">print</span>(work_load_label)
-    runtimes<span style="color:#f92672">.</span>append(runtime)
-
-    work_load_label <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;io_and_cpu_work_load single thread&#39;</span>
-    runtime <span style="color:#f92672">=</span> get_runtime(io_and_cpu_work_load, multithreading<span style="color:#f92672">=</span>True, multiprocessing<span style="color:#f92672">=</span>False, max_workers<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>)
-    runtime[<span style="color:#e6db74">&#39;work_load_label&#39;</span>] <span style="color:#f92672">=</span> work_load_label
-    <span style="color:#66d9ef">print</span>(work_load_label)
-    runtimes<span style="color:#f92672">.</span>append(runtime)
-
-
-    work_load_label <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;io_and_cpu_work_load 5 threads&#39;</span>
-    runtime <span style="color:#f92672">=</span> get_runtime(io_and_cpu_work_load, multithreading<span style="color:#f92672">=</span>True, multiprocessing<span style="color:#f92672">=</span>False, max_workers<span style="color:#f92672">=</span><span style="color:#ae81ff">5</span>)
-    runtime[<span style="color:#e6db74">&#39;work_load_label&#39;</span>] <span style="color:#f92672">=</span> work_load_label
-    <span style="color:#66d9ef">print</span>(work_load_label)
-    runtimes<span style="color:#f92672">.</span>append(runtime)
-
-    work_load_label <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;io_and_cpu_work_load 5 process&#39;</span>
-    runtime <span style="color:#f92672">=</span> get_runtime(io_and_cpu_work_load, multithreading<span style="color:#f92672">=</span>False, multiprocessing<span style="color:#f92672">=</span>True, max_workers<span style="color:#f92672">=</span><span style="color:#ae81ff">5</span>)
-    runtime[<span style="color:#e6db74">&#39;work_load_label&#39;</span>] <span style="color:#f92672">=</span> work_load_label
-    <span style="color:#66d9ef">print</span>(work_load_label)
-    runtimes<span style="color:#f92672">.</span>append(runtime)
-
-    <span style="color:#66d9ef">return</span> runtimes
-
-</code></pre></div><div style="position: relative; padding-bottom: 360%; height: 0; overflow: hidden;">
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#f92672">import</span> concurrent.futures
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> requests
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> threading
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> time
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> math
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> random
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> multiprocessing <span style="color:#f92672">import</span> Pool
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Reference and Credits</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># https://realpython.com/python-concurrency</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>thread_local <span style="color:#f92672">=</span> threading<span style="color:#f92672">.</span>local()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">get_session</span>():
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> hasattr(thread_local, <span style="color:#e6db74">&#34;session&#34;</span>):
+</span></span><span style="display:flex;"><span>        thread_local<span style="color:#f92672">.</span>session <span style="color:#f92672">=</span> requests<span style="color:#f92672">.</span>Session()
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> thread_local<span style="color:#f92672">.</span>session
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">download_site</span>(url):
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;&#34;&#34;Function to simulate a high IO operation&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    start_time <span style="color:#f92672">=</span> time<span style="color:#f92672">.</span>time()
+</span></span><span style="display:flex;"><span>    session <span style="color:#f92672">=</span> get_session()
+</span></span><span style="display:flex;"><span>    log <span style="color:#f92672">=</span> <span style="color:#66d9ef">None</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">with</span> session<span style="color:#f92672">.</span>get(url) <span style="color:#66d9ef">as</span> response:
+</span></span><span style="display:flex;"><span>        log <span style="color:#f92672">=</span> <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Read </span><span style="color:#e6db74">{</span>len(response<span style="color:#f92672">.</span>content)<span style="color:#e6db74">}</span><span style="color:#e6db74"> from </span><span style="color:#e6db74">{</span>url<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>    duration <span style="color:#f92672">=</span> time<span style="color:#f92672">.</span>time() <span style="color:#f92672">-</span> start_time
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;work_start_time&#39;</span>: start_time,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;work_duration&#39;</span>: duration,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;work_output&#39;</span>: log,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;work_type&#39;</span>: <span style="color:#e6db74">&#39;IO&#39;</span>,
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">countdown</span>(n):
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;&#34;&#34;Function to simulate a CPU-bound operation&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    start_time <span style="color:#f92672">=</span> time<span style="color:#f92672">.</span>time()
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> n<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span>        n <span style="color:#f92672">-=</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    duration <span style="color:#f92672">=</span> time<span style="color:#f92672">.</span>time() <span style="color:#f92672">-</span> start_time
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;work_start_time&#39;</span>: start_time,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;work_duration&#39;</span>: duration,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;work_output&#39;</span>: n,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;work_type&#39;</span>: <span style="color:#e6db74">&#39;CPU&#39;</span>,
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">download_all_sites_threaded</span>(sites):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">with</span> concurrent<span style="color:#f92672">.</span>futures<span style="color:#f92672">.</span>ThreadPoolExecutor(max_workers<span style="color:#f92672">=</span><span style="color:#ae81ff">5</span>) <span style="color:#66d9ef">as</span> executor:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> executor<span style="color:#f92672">.</span>map(download_site, sites)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">process_work</span>(args):
+</span></span><span style="display:flex;"><span>    (work_func, work_item) <span style="color:#f92672">=</span> args
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> work_func(work_item)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">process_with_thread_pool_executor</span>(work_load, max_workers<span style="color:#f92672">=</span><span style="color:#ae81ff">5</span>):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">with</span> concurrent<span style="color:#f92672">.</span>futures<span style="color:#f92672">.</span>ThreadPoolExecutor(max_workers<span style="color:#f92672">=</span>max_workers) <span style="color:#66d9ef">as</span> executor:
+</span></span><span style="display:flex;"><span>        result_list <span style="color:#f92672">=</span> list(executor<span style="color:#f92672">.</span>map(process_work, work_load))
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> result_list
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">process_with_multiprocessing_pool</span>(work_load, max_workers<span style="color:#f92672">=</span><span style="color:#ae81ff">5</span>):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">with</span> Pool(max_workers) <span style="color:#66d9ef">as</span> executor:
+</span></span><span style="display:flex;"><span>        result_list <span style="color:#f92672">=</span> list(executor<span style="color:#f92672">.</span>map(process_work, work_load))
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> result_list
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">get_runtime</span>(work_load, multithreading<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>, multiprocessing<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>, max_workers<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>):
+</span></span><span style="display:flex;"><span>    start_time <span style="color:#f92672">=</span> time<span style="color:#f92672">.</span>time()
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> multithreading:
+</span></span><span style="display:flex;"><span>        results <span style="color:#f92672">=</span> process_with_thread_pool_executor(work_load, max_workers<span style="color:#f92672">=</span>max_workers)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> multiprocessing:
+</span></span><span style="display:flex;"><span>        results <span style="color:#f92672">=</span> process_with_multiprocessing_pool(work_load, max_workers<span style="color:#f92672">=</span>max_workers)
+</span></span><span style="display:flex;"><span>    duration <span style="color:#f92672">=</span> time<span style="color:#f92672">.</span>time() <span style="color:#f92672">-</span> start_time
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;work_load_size&#39;</span>: len(work_load),
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;process_start_time&#39;</span>: start_time,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;process_duration&#39;</span>: duration,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;results&#39;</span>: results
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">get_cpu_work_load</span>(load_size<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> [(countdown, <span style="color:#ae81ff">850000</span>) <span style="color:#66d9ef">for</span> n <span style="color:#f92672">in</span> range(load_size)]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">get_io_work_load</span>(load_size<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>):
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    A work is defined as tuple with the function and arg pair.
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    This function returns a work_load of requested load_size
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    seed_sites <span style="color:#f92672">=</span> [
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;https://www.jython.org&#34;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;http://olympus.realpython.org/dice&#34;</span>,
+</span></span><span style="display:flex;"><span>    ]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    arg_sites <span style="color:#f92672">=</span> seed_sites <span style="color:#f92672">*</span> math<span style="color:#f92672">.</span>ceil(load_size<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>)
+</span></span><span style="display:flex;"><span>    arg_sites <span style="color:#f92672">=</span> arg_sites[<span style="color:#ae81ff">0</span>:load_size]
+</span></span><span style="display:flex;"><span>    work_load <span style="color:#f92672">=</span> [(download_site, site) <span style="color:#66d9ef">for</span> site <span style="color:#f92672">in</span> arg_sites]
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> work_load
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">run_simulated_work_load</span>():
+</span></span><span style="display:flex;"><span>    runtimes <span style="color:#f92672">=</span> []
+</span></span><span style="display:flex;"><span>    load_size <span style="color:#f92672">=</span> <span style="color:#ae81ff">300</span>
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#39;Load Size:</span><span style="color:#e6db74">{0}</span><span style="color:#e6db74">&#39;</span><span style="color:#f92672">.</span>format(load_size))
+</span></span><span style="display:flex;"><span>    io_work_load <span style="color:#f92672">=</span> get_io_work_load(load_size<span style="color:#f92672">=</span>load_size)
+</span></span><span style="display:flex;"><span>    cpu_work_load <span style="color:#f92672">=</span> get_cpu_work_load(load_size<span style="color:#f92672">=</span>load_size)
+</span></span><span style="display:flex;"><span>    io_and_cpu_work_load <span style="color:#f92672">=</span> io_work_load<span style="color:#f92672">+</span>cpu_work_load
+</span></span><span style="display:flex;"><span>    random<span style="color:#f92672">.</span>shuffle(io_and_cpu_work_load)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    work_load_label <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;io_work_load single thread&#39;</span>
+</span></span><span style="display:flex;"><span>    runtime <span style="color:#f92672">=</span> get_runtime(io_work_load, multithreading<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>, multiprocessing<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>, max_workers<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span>    runtime[<span style="color:#e6db74">&#39;work_load_label&#39;</span>] <span style="color:#f92672">=</span> work_load_label
+</span></span><span style="display:flex;"><span>    print(work_load_label)
+</span></span><span style="display:flex;"><span>    runtimes<span style="color:#f92672">.</span>append(runtime)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    work_load_label <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;io_work_load 5 threads&#39;</span>
+</span></span><span style="display:flex;"><span>    runtime <span style="color:#f92672">=</span> get_runtime(io_work_load, multithreading<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>, multiprocessing<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>, max_workers<span style="color:#f92672">=</span><span style="color:#ae81ff">5</span>)
+</span></span><span style="display:flex;"><span>    runtime[<span style="color:#e6db74">&#39;work_load_label&#39;</span>] <span style="color:#f92672">=</span> work_load_label
+</span></span><span style="display:flex;"><span>    print(work_load_label)
+</span></span><span style="display:flex;"><span>    runtimes<span style="color:#f92672">.</span>append(runtime)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    work_load_label <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;io_work_load 5 process&#39;</span>
+</span></span><span style="display:flex;"><span>    runtime <span style="color:#f92672">=</span> get_runtime(io_work_load, multithreading<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>, multiprocessing<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>, max_workers<span style="color:#f92672">=</span><span style="color:#ae81ff">5</span>)
+</span></span><span style="display:flex;"><span>    runtime[<span style="color:#e6db74">&#39;work_load_label&#39;</span>] <span style="color:#f92672">=</span> work_load_label
+</span></span><span style="display:flex;"><span>    print(work_load_label)
+</span></span><span style="display:flex;"><span>    runtimes<span style="color:#f92672">.</span>append(runtime)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    work_load_label <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;cpu_work_load single thread&#39;</span>
+</span></span><span style="display:flex;"><span>    runtime <span style="color:#f92672">=</span> get_runtime(cpu_work_load, multithreading<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>, multiprocessing<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>, max_workers<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span>    runtime[<span style="color:#e6db74">&#39;work_load_label&#39;</span>] <span style="color:#f92672">=</span> work_load_label
+</span></span><span style="display:flex;"><span>    print(work_load_label)
+</span></span><span style="display:flex;"><span>    runtimes<span style="color:#f92672">.</span>append(runtime)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    work_load_label <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;cpu_work_load 5 threads&#39;</span>
+</span></span><span style="display:flex;"><span>    runtime <span style="color:#f92672">=</span> get_runtime(cpu_work_load, multithreading<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>, multiprocessing<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>, max_workers<span style="color:#f92672">=</span><span style="color:#ae81ff">5</span>)
+</span></span><span style="display:flex;"><span>    runtime[<span style="color:#e6db74">&#39;work_load_label&#39;</span>] <span style="color:#f92672">=</span> work_load_label
+</span></span><span style="display:flex;"><span>    print(work_load_label)
+</span></span><span style="display:flex;"><span>    runtimes<span style="color:#f92672">.</span>append(runtime)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    work_load_label <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;cpu_work_load 5 process&#39;</span>
+</span></span><span style="display:flex;"><span>    runtime <span style="color:#f92672">=</span> get_runtime(cpu_work_load, multithreading<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>, multiprocessing<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>, max_workers<span style="color:#f92672">=</span><span style="color:#ae81ff">5</span>)
+</span></span><span style="display:flex;"><span>    runtime[<span style="color:#e6db74">&#39;work_load_label&#39;</span>] <span style="color:#f92672">=</span> work_load_label
+</span></span><span style="display:flex;"><span>    print(work_load_label)
+</span></span><span style="display:flex;"><span>    runtimes<span style="color:#f92672">.</span>append(runtime)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    work_load_label <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;io_and_cpu_work_load single thread&#39;</span>
+</span></span><span style="display:flex;"><span>    runtime <span style="color:#f92672">=</span> get_runtime(io_and_cpu_work_load, multithreading<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>, multiprocessing<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>, max_workers<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span>    runtime[<span style="color:#e6db74">&#39;work_load_label&#39;</span>] <span style="color:#f92672">=</span> work_load_label
+</span></span><span style="display:flex;"><span>    print(work_load_label)
+</span></span><span style="display:flex;"><span>    runtimes<span style="color:#f92672">.</span>append(runtime)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    work_load_label <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;io_and_cpu_work_load 5 threads&#39;</span>
+</span></span><span style="display:flex;"><span>    runtime <span style="color:#f92672">=</span> get_runtime(io_and_cpu_work_load, multithreading<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>, multiprocessing<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>, max_workers<span style="color:#f92672">=</span><span style="color:#ae81ff">5</span>)
+</span></span><span style="display:flex;"><span>    runtime[<span style="color:#e6db74">&#39;work_load_label&#39;</span>] <span style="color:#f92672">=</span> work_load_label
+</span></span><span style="display:flex;"><span>    print(work_load_label)
+</span></span><span style="display:flex;"><span>    runtimes<span style="color:#f92672">.</span>append(runtime)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    work_load_label <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;io_and_cpu_work_load 5 process&#39;</span>
+</span></span><span style="display:flex;"><span>    runtime <span style="color:#f92672">=</span> get_runtime(io_and_cpu_work_load, multithreading<span style="color:#f92672">=</span><span style="color:#66d9ef">False</span>, multiprocessing<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>, max_workers<span style="color:#f92672">=</span><span style="color:#ae81ff">5</span>)
+</span></span><span style="display:flex;"><span>    runtime[<span style="color:#e6db74">&#39;work_load_label&#39;</span>] <span style="color:#f92672">=</span> work_load_label
+</span></span><span style="display:flex;"><span>    print(work_load_label)
+</span></span><span style="display:flex;"><span>    runtimes<span style="color:#f92672">.</span>append(runtime)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> runtimes
+</span></span></code></pre></div><div style="position: relative; padding-bottom: 360%; height: 0; overflow: hidden;">
   <iframe src="/jupyter_notebooks/why-multi-process.html" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="Level up on Functional Programming by Rebuilding LINQ with Cameron Presley"></iframe>
 </div>
 
