@@ -1,9 +1,21 @@
 [
     {
+        "role":"Staff Engineer",
+        "company":"[Industry Dive](https://industrydive.tech/)",
+        "summary":"* Brought planning, context gathering, and development into one agentic workflow so engineers debug and ship from the same information. [more...](blog/resume/#2026)",
+        "range":"March 2026 - Present"
+    },
+    {
+        "role":"Senior Software Engineer II",
+        "company":"[Industry Dive](https://industrydive.tech/)",
+        "summary":"* Designed and built the Trial Subscriber Matching Pipeline and led publication mergers. [more...](blog/resume/#2025)",
+        "range":"March 2023 - March 2026"
+    },
+    {
         "role":"Senior Software Engineer I",
         "company":"[Industry Dive](https://industrydive.tech/)",
-        "summary":"* Given a nebulous project, appropriately scope it, find a solution, implement and launch that solution. [more...](blog/resume/#2023)",
-        "range":"March 2021 - Present"
+        "summary":"* Guided a team of Python developers in creating a new product and bootstrapped the data engineering infrastructure. [more...](blog/resume/#2023)",
+        "range":"March 2021 - March 2023"
     },
     {
         "role":"Manager, Business Analytics - Innovation",
@@ -21,7 +33,7 @@
         "role":"Software Developer - Innovation",
         "company":"[Thirstie](https://thirstie.com/)",
         "summary":"R&D for inventory management, business intelligence and software development in general [more...](blog/resume/#thirstie)",
-        "range":"Aug 2013 – Present"
+        "range":"Aug 2013 – Nov 2015"
     },
     {
         "role":"Software Engineer - Cloud Computing R&D",
