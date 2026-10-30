@@ -1,0 +1,41 @@
+[
+    {
+        "grouping":"Languages",
+        "skills":[ "Python", "SQL", "bash", "javascript"]
+    },
+    {
+        "grouping":"Tools",
+        "skills":[ "pandas", "scikit-learn", "django", "react.js", "plotly.js"]
+    },
+    {
+        "grouping":"Architecture",
+        "skills":[ "CMS", "Data Lake", "Data Warehouse", "Cloud Functions","RESTful APIs","SaaS/PaaS/IaaS"]
+    },
+    {
+        "grouping":"Platforms",
+        "skills":[ "Jupyter", "Airflow", "git", "Tableau", "gitlab","github"]
+    },
+    {
+        "grouping":"Data Management",
+        "skills":[
+            {"name":"BigQuery","icon":"database"},
+            {"name":"Microsoft SQL Server","icon":"msql_server"},
+            {"name":"AWS Athena","icon":"database"},
+            "MongoDB",
+            "RabbitMQ",
+            "redis"
+        ]
+    },
+    {
+        "grouping":"Containers & Cloud",
+        "skills":[
+            {"name":"Google Cloud Platform","link":"https://cloud.google.com"},
+            {"name":"Docker","link":"https://docker.com"},
+            {"name":"AWS","link":"https://aws.amazon.com"}
+        ]
+    },
+    {
+        "grouping":"Operating Systems",
+        "skills":[ "Ubuntu", {"name":"macOS","icon":"Apple"}, "Windows"]
+    }
+]

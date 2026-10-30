@@ -1,0 +1,11 @@
+# pack-refs with: peeled fully-peeled sorted 
+c4ce5a6d80d356b80f0616ebe11717e9337650fe refs/remotes/origin/blog
+0d69cc5d3528aa6558b1261b44c671f71e1bcc4f refs/remotes/origin/buildkite
+950f2f1588727d037c3df71700dd0049271a29b4 refs/remotes/origin/ci-patch
+2609e04ed28385e84871769187e23d4aa8c0e250 refs/remotes/origin/cms
+3ce0eee12ba33ee7c52ce416772e4f0fed28e4a5 refs/remotes/origin/cms-force
+da7caa88da35c98269cf4ef28bf5ba9b3d58394f refs/remotes/origin/examples
+3515b755e3042f6f2d2fc100d56381d7ac06a4b0 refs/remotes/origin/fix/issue-29
+163be10a0630e32baccafd8b79cf7490cef5a6be refs/remotes/origin/flexible-names
+39f0927b6172be857a611e379e784bdae406ba23 refs/remotes/origin/master
+264c4b935159614f1ecd2d2320f7e015465fd725 refs/remotes/origin/optimize

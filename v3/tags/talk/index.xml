@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>talk on Robin Varghese</title>
+    <link>http://codein.github.io/tags/talk/</link>
+    <description>Recent content in talk on Robin Varghese</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Nov 2020 14:09:10 +0000</lastBuildDate>
+    
+	<atom:link href="http://codein.github.io/tags/talk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Analytics Commons</title>
+      <link>http://codein.github.io/blog/top-5-tools-analytics-uses/</link>
+      <pubDate>Thu, 05 Nov 2020 14:09:10 +0000</pubDate>
+      
+      <guid>http://codein.github.io/blog/top-5-tools-analytics-uses/</guid>
+      <description>Analytics Commons Talk This talk looked at few tools that our department relies heavily on. This talk was part of our IS department&amp;rsquo;s commons session to give employees the chance to share their skills with examples to set and follow.
+Top 5 tools Analytics uses Introduction We are hoping to give an insight into 5 tools that we rely heavily to make our life easy in Analytics department.
+In this document we cover below 5 tools</description>
+    </item>
+    
+  </channel>
+</rss>
