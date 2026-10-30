@@ -21,7 +21,7 @@ sitemap:
 
 Whatever the problem, I want to be part of the solution.
 I enjoy developing software and empowering others in my [knowledge space](https://github.com/codein/codein.github.io/blob/master/files/resume.md#knowledge-space).
-I bring 10+ years of Full-Stack Developer experience and 5+ years of Leadership experience.
+I bring 17+ years of Full-Stack Developer experience and 11+ years of Leadership experience.
 
 I thrive in an environment of uncertainty which requires constant learning.
 
@@ -45,19 +45,42 @@ Machine learning |  |**pandas** plotly |**mySQL**| Airflow
 Generative AI ||**React.js**, bootstrap| MongoDB  | Amazon Web Services
 Dev team building |Javascript|[tornado](http://www.tornadoweb.org/en/stable/), |redis|
 || HTML | scikit-learn | postgreSQL |
+| | | **Gemini** | | **Kubernetes** |
 
 ### Experience
 
-* 16+ years of professional experience developing software, data analytics and solving business problems with technology.
+* 17+ years of professional experience developing software, data analytics and solving business problems with technology.
 
-* 9+ years of leadership experience focused on driving innovation, building and mentoring development teams.
+* 11+ years of leadership experience focused on driving innovation, building and mentoring development teams.
 
 ###  Industry Dive
+#### Staff Engineer
+Washington D.C · _Mar 2026 – Present · 8 months_
+
+#### 2026
+(Kubernetes, Docker, Python, BigQuery, Gemini, GCP)
++ Brought planning, context gathering, and development into one agentic workflow, with shared skills and live incident context so engineers debug and ship from the same information.
++ Designed an engineering operating model to raise throughput across four teams without adding headcount, shifting measurement from activity to milestone hit rate, deployment frequency, and change failure rate.
++ Led key parts of the Kubernetes migration, proving the new platform was viable and giving other engineers the knowledge to support it.
++ Planned and implemented the full data-broker workflow for Industry Dive records on the DROP project, and raised the questions that shaped current and future parts of the process.
++ Built the Trial Subscriber Pipeline and evolved it through three generations of semantic feature representations, combining Gemini text embeddings, BigQuery pipelines, and ensemble models to rank target publications.
++ Deployed the V2 Trial Subscriber Pipeline to production with Docker, daily scheduling, regression testing, and Google Cloud Logging, and implemented SailThru controls that kept hard bounces under 1% and opt-outs between 3–7%.
+
 #### Senior Software Engineer II
-Washington D.C · _Mar 2021 – Present · 3+ years_
+Washington D.C · _Mar 2023 – Mar 2026 · 3 years_
+
+#### 2025
+(GCP, docker, python, django, react, BigQuery, jupyter, airflow, GAM, Cloudflare)
++ Designed and built the end-to-end V1 Trial Subscriber Matching Pipeline across ingestion, enrichment, BigQuery, Looker, and SailThru, with flattened views so Product and Audience teams could self-serve the data.
++ Authored over 70% of project tickets and completed ~35% of the engineering work for the WardsAuto and Automotive Dive merger, including Cloudflare cutover, content migration into DiveSite and BigQuery, and the GA4 measurement framework.
++ Authored over 85% of migration tickets and delivered ~40% of the sprint work to migrate American City and County into Smart Cities Dive, including schema mapping, import scripts, SEO redirects, and content QA.
++ Prototyped and deployed Google Ad Manager prestitial forecasting to turn prestitials off when ad inventory was unavailable and back on when inventory was imminent, including the poller and failsafe analytics later reused across site-wide rollouts.
++ Developed core functionality for Apple News and Yahoo News integrations.
 
 #### 2024
 (GCP, docker, python, django, react, BigQuery, jupyter, airflow)
++ Established and maintained the full Google Analytics infrastructure, including client-side data layer, server-side tagging (Google App Engine), and GTM containers, ensuring robust first-party data collection.
++ Identified bottlenecks and Improved team velocity by 25%
 + Discovered, scoped, found solutions, implemented and launch several nebulous projects(ex. GA4 migration, Recommendation Engine, caching layer).
 + Architecture solutions that enables many potential futures without knowing exactly what the future is(ex Ad spot Fallback, Data Governance).
 + Set long term technical direction to ensure our company always stays ahead of the curve.(ex. leverage our CDP to better serve our readers)
